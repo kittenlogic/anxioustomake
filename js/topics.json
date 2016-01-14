@@ -1,0 +1,369 @@
+var topicList = {
+"topics" : [
+    {
+      "topic": "capitalism",
+      "url": "",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "fish",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "xenofeminism",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "salt",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "cypress trees",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "deer",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "art",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "propaganda",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "love",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "romance",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "loneliness",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "death",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "funerals",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "dogs",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "zebras",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "barley",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "collaboration",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "forecasting",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "the weather",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "the stock market",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "intimacy",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "queerness",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "sex",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "topping",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "cooking",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "procreating",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "beaches",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "alone time",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "donald trump dancing",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "veganism",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "elections",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "the sharing economy",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "socialism",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "social impact",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "disruption",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "wilderness",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "nature",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "family",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "algorithms",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "friendships",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "war",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "politics",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "empire",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "colonialism",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "gentrification",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "empathy",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "patriarchy",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "hollywood",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "china",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "ukraine",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "darth vader",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "pirate bay",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "wikileaks",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "surveillance",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "sousveillance",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "berlin",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "cold war",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "cuba",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "biopolitics",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "privacy",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "apple",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "technology",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "the internet",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "selfies",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "justice",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "labor",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "equality",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "guns",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "emoji",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "water",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "horse",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "pile",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "topic": "holes",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    }
+  ]
+}

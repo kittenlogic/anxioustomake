@@ -1,0 +1,277 @@
+body {
+    font-family: sans-serif; 
+    background-color: transparent;
+    font-weight: 300;
+    background-image: url('../img/makeyourself-k.png');
+}
+
+img {margin: 0 auto; }
+a {color: #adadad; } 
+a:hover {color: magenta; }
+
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.img-responsive {
+    max-width: 100%;
+}
+
+.center {
+    text-align:center;
+    width:100%;
+    position: relative;
+    top: 60px;
+}
+.block {
+    display: block;
+}
+
+.vip {
+    background: url('../img/velvet2.jpg') no-repeat top center;
+    background-size: cover;
+}
+.task {
+    top: 60px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: magenta;
+    background-color: yellow;
+    width: 180px;
+    display: inline-block;
+    position: absolute;
+}
+
+.do { left: 0; }
+.doing {left: 340px;}
+.done {left: 680px;}
+.magick{left: 1020px;}
+
+.container {
+  position:relative;
+}
+
+.box {
+  position:absolute;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+  color: black;
+  background-color: #fff;
+  border-radius:0;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+#research{
+  top: 60px;
+  left: 190px;  
+}
+#critical-texts{
+  top: 90px;
+  left: 220px;   
+}
+#making-you {   
+  top: 120px;
+  left: 250px;
+}
+#commissioning-body {
+  top: 150px;
+  left: 280px;
+}
+#labor {
+  top: 180px;
+  left: 310px;  
+  background-image: url('https://media.giphy.com/media/IM90SMwLsdJfO/giphy.gif'); 
+  background-size: 90%;
+}
+#internet-empire {
+  top:210px;
+  left: 340px;
+  background-image: url('http://media.giphy.com/media/IcStLavfAdhoQ/giphy.gif'); 
+  background-position: -100px 0;
+}
+#featured {
+  top:210px;
+  left: 680px;
+}
+
+.highlight {
+  border: 2px solid black;
+  width: 300px;
+  height: 400px;
+}
+
+.new {
+    position: absolute;
+    top:2px;
+    right:2px;
+}
+
+.marquee {
+    position: fixed;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 1.3em;
+    background-color: magenta;
+    color: yellow;
+    font-size: 20px;
+}  
+
+#info{
+    position: fixed;
+    bottom:0;
+    right:0;
+    height:40px;
+    width:40px;
+    background-color: magenta;
+    text-align: center;
+    z-index: 9999;
+}
+#info img {
+    max-height: 40px;
+    max-width: 40px;
+    overflow: hidden;
+}
+
+#love-me {
+    top:0;
+    left:0;
+    position:fixed;
+    z-index:-9999;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+
+}
+
+/*******************************
+state
+********************************/
+
+a#openPopUp:hover{
+  cursor: pointer;
+}
+
+.popup{
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  z-index: 9999999;
+  background: rgba(0,0,0, 0.45);
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+
+    -webkit-transition: opacity  0.35s ease;
+    -moz-transition: opacity 0.35s ease;
+    -o-transition: opacity 0.35s ease;
+    transition: opacity 0.35s ease;
+}
+.popup .popUpContainer{
+  width: 100%;
+  max-width: 500px;
+  position: fixed; /* To avoid scroll to target */
+  left: 50%;
+  top: -100vh;
+    -webkit-transition: top  0.35s ease;
+    -moz-transition: top 0.35s ease;
+    -o-transition: top 0.35s ease;
+    transition: top 0.35s ease;
+
+  /* Trick to properly center the element by using negative 
+  1/2 length of element as margin left and top */
+  margin-left: -250px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  border-radius: 2px;
+  z-index: 9999999; 
+}
+.popup h2{
+  padding: 0.5em;
+  text-align: center;
+  color: magenta;
+  margin: 0;
+  background-color: yellow;
+  font-weight: lighter;
+}
+.popup img{
+  width: 100%;
+  display: block;
+}
+.popup article{  
+  background-color: #fff;
+  padding: 30px;
+}
+/* The cancel button on popup dialog */
+.popup a.closePopUp{
+  font-family: verdana;
+  color: magenta;
+  position: absolute;
+  top: 0.2em;
+  right: 0.375em;
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+/* The cancel button on popup dialog */
+.popup a:hover{
+  color: magenta;
+}
+/* When popup is targeted, by clicking on link with #popup in HTML */
+.popup:target{
+  opacity: 1;
+  top: 0;
+}
+.popup .closePopUpOutSide{
+  position: absolute;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999991; 
+}
+.popup:target .popUpContainer{
+  top: 50px;
+    -webkit-transition: top  0.35s ease;
+    -moz-transition: top 0.35s ease;
+    -o-transition: top 0.35s ease;
+    transition: top 0.35s ease;
+}
+
+
+@media  (max-width: 796px) {
+  .popup .popUpContainer{
+    width: 90%;
+    max-width: none;
+    left: 5%;
+    margin-left: 0;
+  }
+  .popup ul{
+    padding: 0 1em 0 1em;
+  }
+  .popup:target .popUpContainer{
+    top: 25px;
+    -webkit-transition: top  0.35s ease;
+    -moz-transition: top 0.35s ease;
+    -o-transition: top 0.35s ease;
+    transition: top 0.35s ease;
+  }
+  .popup article{
+    font-size: 0.75em;
+  }
+  .popup h2,
+  .popup a.closePopUp{
+    font-size: 1em;
+  }
+}
+    

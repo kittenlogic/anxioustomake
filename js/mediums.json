@@ -1,0 +1,269 @@
+var mediumList = {
+  "mediums" : [
+    {
+      "medium": "drawing",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "painting",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "photograph",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "sketch",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "collage",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "line drawing",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "blind contour",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "selfie",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "screen print",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "sculpture",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "lino cut",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "lino print",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "monoprint",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "crayon drawing",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "stamp",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "watercolor",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "coin",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "necklace",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "mandala",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "shell art",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "sand castle",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "frosted cake",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "watermelon",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "coconut",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "fruit",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "pickup stick sculpture",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "surprise",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "joke",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "love poem",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "erotic story",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "gay erotic story",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "haikus",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "radish message",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "mug",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "rug",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "horse performance",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "video",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "performance",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "short story",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "email",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "scent",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "website",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "engraved piece",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "3D printed piece",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "human pyramid",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "custom aerobics routine",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "song",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "rap",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "testimonial",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "billboard",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "emoji",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "animated gif",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "medium": "inflatable",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    }
+  ]
+}

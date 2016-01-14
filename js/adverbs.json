@@ -1,0 +1,149 @@
+var adverbList = {
+  "adverbs": [  
+    {
+      "adverb": "quickly",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "sloppily",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "precisely",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "dialectically",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "oppositionally",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "remotely",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "interactively",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "stupidly",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "hastily",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "in a motherly fashion",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "wastefully",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "smootheringly",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "impossibly",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "cheaply",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "passionately",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "didactically",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "performatively",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "professionally",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "unprofessionally",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "like a teenager",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "like a school teacher",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "like an astronaut",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "like a trash man",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "like Lady Gaga",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "like David Bowie",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "absentmindedly",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "repeatedly",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "anxiously",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "gently",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    }
+  ]
+}

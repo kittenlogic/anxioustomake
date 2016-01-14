@@ -1,0 +1,269 @@
+var adjectiveList = {
+  "adjectives": [  
+    {
+      "adj": "a soft",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a quiet",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a kitschy",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a cute",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a blue",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a pink",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a yellow",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a neon",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an irridescent",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a gold",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a shiny",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a mean",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an angry",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a didactic",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an erotic",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an oppositional",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a feminist",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a combative",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a kind",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an intuitive",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a futuristic",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a black and white",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a realistic",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an unrealistic",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a sloppy",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a remote",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a piecemeal",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a popular",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "hand made",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a cordless",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a transparent",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a gay",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a hot",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a hard",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a dreamlike",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a worry-free",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an anxious",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a furry",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a fuzzy",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a bedazzled",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a pixelated",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a smothering",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an awkward",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a jittery",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an agonizing",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an overcoded",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a minimal",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an invisible",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a smooth",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a shifting",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "an excitable",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a slppery",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adj": "a tyrannical",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    }
+  ]
+}
