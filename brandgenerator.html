@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
     <title>Brand Generator</title>
@@ -10,14 +10,24 @@
     <meta name='description' content='Brand Generator'>
     <link rel="shortcut icon" type="img/ico" href="img/favicon.ico" />
 		<style>
-			body {
-				background: url(img/product-models.png) no-repeat center bottom fixed;
-			}
+			/*body {
+        background: url(img/sky.gif) no-repeat;
+        background-size: cover;
+			}*/
+      .models{
+        bottom:0;
+        left:0;
+        position: fixed;
+        background: url(img/product-models.png) no-repeat center bottom fixed;
+        width: 100%;
+        height: 100%;
+      }
 			.clickme {
 				position: relative;
 				top: 30px;
 				height: 300px;
 				width: 100%;
+        z-index: 999;
 			}
 			.clickme img:hover {
 				cursor:pointer !important;
@@ -29,6 +39,7 @@
 		<script type="text/javascript" src="js/analytics.js"></script>
 	</head>	
 	<body>
+    <div class="models"></div>
 		<marquee class="clickme"><img src="img/product-56.png"></marquee>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script type="text/javascript" src="js/fall.js"></script>
