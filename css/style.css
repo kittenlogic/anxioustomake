@@ -17,21 +17,16 @@ a:hover {color: magenta; }
 .img-responsive {
     max-width: 100%;
 }
-
 .center {
     text-align:center;
-    width:100%;
-    position: relative;
-    top: 60px;
 }
 .block {
     display: block;
 }
-
-.vip {
-    background: url('../img/velvet2.jpg') no-repeat top center;
-    background-size: cover;
+.anxiouscontainer {
+  position:relative;
 }
+
 .task {
     top: 60px;
     font-size: 40px;
@@ -43,20 +38,10 @@ a:hover {color: magenta; }
     position: absolute;
 }
 
-.do { left: 0; }
-.doing {left: 340px;}
-.done {left: 680px;}
-.magick{left: 1020px;}
-
-.container {
-  position:relative;
-}
-
 .box {
   position:absolute;
   width: 300px;
   height: 400px;
-  text-align: center;
   line-height: 20px;
   font-size: 20px;
   color: black;
@@ -66,37 +51,50 @@ a:hover {color: magenta; }
   padding: 10px;
 }
 
-#research{
+#card1.research{
   top: 60px;
   left: 190px;  
 }
-#critical-texts{
+#card2.critical-texts{
   top: 90px;
   left: 220px;   
 }
-#making-you {   
+#card3.news {   
   top: 120px;
   left: 250px;
 }
-#commissioning-body {
+#card4.internet-empire {
   top: 150px;
   left: 280px;
 }
-#labor {
+#card5.labor {
   top: 180px;
   left: 310px;  
+}
+#card6.making-others {
+  top:210px;
+  left: 340px;
+}
+#card7.making-you {   
+  top: 240px;
+  left: 370px;
+}
+#card8.commissioning-body {
+  top: 240px;
+  left: 710px;
+}
+
+.labor {
   background-image: url('https://media.giphy.com/media/IM90SMwLsdJfO/giphy.gif'); 
   background-size: 90%;
 }
-#internet-empire {
-  top:210px;
-  left: 340px;
+.internet-empire {
   background-image: url('http://media.giphy.com/media/IcStLavfAdhoQ/giphy.gif'); 
   background-position: -100px 0;
 }
-#featured {
-  top:210px;
-  left: 680px;
+.vip {
+    background: url('../img/velvet2.jpg') no-repeat top center;
+    background-size: cover;
 }
 
 .highlight {
