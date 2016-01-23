@@ -1,367 +1,377 @@
-var mediumList = {
-  "mediums" : [
+var adjectiveListB = {
+  "adjectives": [  
     {
-      "medium": "drawing",
+      "adj": "soft",
       "url": "",
       "store": ""
     },
     {
-      "medium": "painting",
+      "adj": "quiet",
       "url": "",
       "store": ""
     },
     {
-      "medium": "photograph",
+      "adj": "kitschy",
       "url": "",
       "store": ""
     },
     {
-      "medium": "sketch",
+      "adj": "cute",
       "url": "",
       "store": ""
     },
     {
-      "medium": "collage",
+      "adj": "blue",
       "url": "",
       "store": ""
     },
     {
-      "medium": "line drawing",
+      "adj": "pink",
       "url": "",
       "store": ""
     },
     {
-      "medium": "blind contour",
+      "adj": "yellow",
       "url": "",
       "store": ""
     },
     {
-      "medium": "selfie",
+      "adj": "neon",
       "url": "",
       "store": ""
     },
     {
-      "medium": "screen print",
+      "adj": "irridescent",
       "url": "",
       "store": ""
     },
     {
-      "medium": "sculpture",
+      "adj": "gold",
       "url": "",
       "store": ""
     },
     {
-      "medium": "lino cut",
+      "adj": "shiny",
       "url": "",
       "store": ""
     },
     {
-      "medium": "lino print",
+      "adj": "mean",
       "url": "",
       "store": ""
     },
     {
-      "medium": "monoprint",
+      "adj": "angry",
       "url": "",
       "store": ""
     },
     {
-      "medium": "crayon drawing",
+      "adj": "didactic",
       "url": "",
       "store": ""
     },
     {
-      "medium": "stamp",
+      "adj": "erotic",
       "url": "",
       "store": ""
     },
     {
-      "medium": "watercolor",
+      "adj": "oppositional",
       "url": "",
       "store": ""
     },
     {
-      "medium": "coin",
+      "adj": "feminist",
       "url": "",
       "store": ""
     },
     {
-      "medium": "necklace",
+      "adj": "combative",
       "url": "",
       "store": ""
     },
     {
-      "medium": "mandala",
+      "adj": "kind",
       "url": "",
       "store": ""
     },
     {
-      "medium": "shell art",
+      "adj": "intuitive",
       "url": "",
       "store": ""
     },
     {
-      "medium": "sand castle",
+      "adj": "futuristic",
       "url": "",
       "store": ""
     },
     {
-      "medium": "frosted cake",
+      "adj": "black and white",
       "url": "",
       "store": ""
     },
     {
-      "medium": "watermelon",
+      "adj": "realistic",
       "url": "",
       "store": ""
     },
     {
-      "medium": "coconut",
+      "adj": "unrealistic",
       "url": "",
       "store": ""
     },
     {
-      "medium": "fruit",
+      "adj": "sloppy",
       "url": "",
       "store": ""
     },
     {
-      "medium": "pickup stick sculpture",
+      "adj": "remote",
       "url": "",
       "store": ""
     },
     {
-      "medium": "surprise",
+      "adj": "piecemeal",
       "url": "",
       "store": ""
     },
     {
-      "medium": "joke",
+      "adj": "popular",
       "url": "",
       "store": ""
     },
     {
-      "medium": "love poem",
+      "adj": "hand made",
       "url": "",
       "store": ""
     },
     {
-      "medium": "erotic story",
+      "adj": "cordless",
       "url": "",
       "store": ""
     },
     {
-      "medium": "gay erotic story",
+      "adj": "transparent",
       "url": "",
       "store": ""
     },
     {
-      "medium": "haiku",
+      "adj": "gay",
       "url": "",
       "store": ""
     },
     {
-      "medium": "radish message",
+      "adj": "hot",
       "url": "",
       "store": ""
     },
     {
-      "medium": "mug",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "adj": "hard",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "dreamlike",
+      "url": "",
+      "store": ""
     },
     {
-      "medium": "rug",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "adj": "worry-free",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "anxious",
+      "url": "",
+      "store": ""
     },
     {
-      "medium": "horse performance",
+      "adj": "furry",
       "url": "",
       "store": ""
     },
     {
-      "medium": "video",
+      "adj": "fuzzy",
       "url": "",
       "store": ""
     },
     {
-      "medium": "performance",
+      "adj": "bedazzled",
       "url": "",
       "store": ""
     },
     {
-      "medium": "short story",
+      "adj": "pixelated",
       "url": "",
       "store": ""
     },
     {
-      "medium": "email",
+      "adj": "smothering",
       "url": "",
       "store": ""
     },
     {
-      "medium": "scent",
+      "adj": "awkward",
       "url": "",
       "store": ""
     },
     {
-      "medium": "website",
+      "adj": "jittery",
       "url": "",
       "store": ""
     },
     {
-      "medium": "engraved piece",
+      "adj": "agonizing",
       "url": "",
       "store": ""
     },
     {
-      "medium": "3D printed piece",
+      "adj": "overcoded",
       "url": "",
       "store": ""
     },
     {
-      "medium": "human pyramid",
+      "adj": "minimal",
       "url": "",
       "store": ""
     },
     {
-      "medium": "custom aerobics routine",
+      "adj": "invisible",
       "url": "",
       "store": ""
     },
     {
-      "medium": "song",
+      "adj": "smooth",
       "url": "",
       "store": ""
     },
     {
-      "medium": "rap",
+      "adj": "shifting",
       "url": "",
       "store": ""
     },
     {
-      "medium": "testimonial",
+      "adj": "excitable",
       "url": "",
       "store": ""
     },
     {
-      "medium": "billboard",
+      "adj": "slippery",
       "url": "",
       "store": ""
     },
     {
-      "medium": "emoji",
+      "adj": "tyrannical",
       "url": "",
       "store": ""
     },
     {
-      "medium": "animated gif",
+      "adj": "immersive",
       "url": "",
       "store": ""
     },
     {
-      "medium": "inflatable",
+      "adj": "normcore",
       "url": "",
       "store": ""
     },
     {
-      "medium": "kinetic sculpture",
+      "adj": "flighty",
       "url": "",
       "store": ""
     },
     {
-      "medium": "virtual reality environment",
+      "adj": "spectral",
       "url": "",
       "store": ""
     },
     {
-      "medium": "singing plant",
+      "adj": "artificial",
       "url": "",
       "store": ""
     },
     {
-      "medium": "mantra",
+      "adj": "natural",
       "url": "",
       "store": ""
     },
     {
-      "medium": "drone",
+      "adj": "electronic",
       "url": "",
       "store": ""
     },
     {
-      "medium": "bot",
+      "adj": "moody",
       "url": "",
       "store": ""
     },
     {
-      "medium": "psychic reading",
+      "adj": "responsive",
       "url": "",
       "store": ""
     },
     {
-      "medium": "holograph",
+      "adj": "interactive",
       "url": "",
       "store": ""
     },
     {
-      "medium": "book",
+      "adj": "multi-touch",
       "url": "",
       "store": ""
     },
     {
-      "medium": "net art piece",
+      "adj": "wearable",
       "url": "",
       "store": ""
     },
     {
-      "medium": "print-on-demand book",
+      "adj": "fleshy",
       "url": "",
       "store": ""
     },
     {
-      "medium": "sound installation",
+      "adj": "logical",
       "url": "",
       "store": ""
     },
     {
-      "medium": "text",
+      "adj": "irrational",
       "url": "",
       "store": ""
     },
     {
-      "medium": "interactive fiction script",
+      "adj": "suspended",
       "url": "",
       "store": ""
     },
     {
-      "medium": "game",
+      "adj": "gloppy",
       "url": "",
       "store": ""
     },
     {
-      "medium": "treatment",
+      "adj": "concrete",
       "url": "",
       "store": ""
     },
     {
-      "medium": "hypnotherapy session",
+      "adj": "hissing",
       "url": "",
       "store": ""
     },
     {
-      "medium": "genetically modified potato",
+      "adj": "post-digital",
       "url": "",
       "store": ""
     },
     {
-      "medium": "audio tour",
+      "adj": "synthetic",
       "url": "",
       "store": ""
     },
     {
-      "medium": "locotive media project",
+      "adj": "drippy",
       "url": "",
       "store": ""
     }
