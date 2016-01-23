@@ -1,6 +1,6 @@
 //see http://www.greensock.com/draggable/ for more details.
 
-var droppables = $(".box");
+var droppables = $(".card");
 
 //the overlapThreshold can be a percentage ("50%", for example, would only trigger when 50% or more of the surface area of either element overlaps) or a number of pixels (20 would only trigger when 20 pixels or more overlap), or 0 will trigger when any part of the two elements overlap.
 var overlapThreshold = "50%"; 
@@ -11,7 +11,6 @@ function onDrop(dragged, dropped) {
 }
 
 Draggable.create(droppables, {
-  bounds:window,
   onDrag: function(e) {
     var i = droppables.length;
      while (--i > -1) {

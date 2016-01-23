@@ -2,93 +2,118 @@ var gerundList = {
   "gerunds": [ 
     {
       "gerund": "researching",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
-      "gerund": "over thinking",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "gerund": "overthinking",
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "playing",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "digging",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "facebooking",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "crushing",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "laughing",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "sneezing",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "texting",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "sexting",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "praying",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "wishing",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "divining",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "copying",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "remixing",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "refining",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "fabricating",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
     },
     {
       "gerund": "outsourcing",
-      "url": "http://anxioustomake.ga/mugrug.html",
-      "store": "Mug Rug"
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "scraping the internet",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "interviewing people on the street",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "talking to your therapist",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "using a brain computer interface",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "screaming in public",
+      "url": "",
+      "store": ""
     }
   ]
 }
