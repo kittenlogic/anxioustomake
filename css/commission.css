@@ -1,3 +1,16 @@
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+            margin: 0;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background: -webkit-linear-gradient(180deg, #e5f7f8, #f3f3f3 49%, #dcdfdf) fixed;
+            background: -o-linear-gradient(180deg, #e5f7f8, #f3f3f3 49%, #dcdfdf) fixed;
+            background: linear-gradient(180deg, #e5f7f8, #f3f3f3 49%, #dcdfdf) fixed;
+        }
+
         a,
         a:visited {
           color: black;
@@ -19,7 +32,7 @@
         .pageheading {
             display: block;
             text-align: center;
-            font-size: 3em;
+            font-size: 2.5em;
             font-family: sans-serif;
             font-weight: bold;
             padding: 0;
@@ -32,14 +45,13 @@
             margin-top: 0;
             text-transform: uppercase;
             color: #FF0179;
-/*            background-color: yellow;
-            padding: 5px;*/
         }
         .script {
             font-family: monospace;
         }
         .credit{
-            font-size: 1em;
+            font-size: .9em;
+            font-weight: bold;
         }
         .recommendation{
             text-transform: uppercase;
@@ -65,20 +77,21 @@
             width: 100%;
         }
         .logo{
-            position: absolute;
-            bottom:0;
-            right:20px;
+            position: relative;
+            margin: 0 auto;
+            bottom: 0;
+            right: 0;
             max-width:220px;
+            display: none;
         }
         @media screen and (max-width: 768px) {
-            .pageheading{font-size: 2.5em;}
+            .pageheading{font-size: 2em;}
             .push{
                 position: relative;
                 height: 100px;
                 width: 100%;
             }
             .logo{
-                position: relative;
-                margin: 0 auto;
+                display: block;
             }
         }
