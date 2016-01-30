@@ -191,7 +191,7 @@ var topicList = {
       "store": ""
     },
     {
-      "topic": "algorithm",
+      "topic": "algorithms",
       "url": "",
       "store": ""
     },
@@ -371,7 +371,7 @@ var topicList = {
       "store": ""
     },
     {
-      "topic": "anthropocene",
+      "topic": "the anthropocene",
       "url": "",
       "store": ""
     },
@@ -396,7 +396,242 @@ var topicList = {
       "store": ""
     },
     {
-      "topic": "lovers",
+      "topic": "bad art",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "migration",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "white supremacy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "white fragility",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "revolution",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "aging",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "intergenerational trauma",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "the prison industrial complex",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "memes",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "illness",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "systemic collapse",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "the singularity",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "the industrialization of life",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "the industrialization of death",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "exploitation",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "debt",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "masculinity",
+      "url": "https://www.fiverr.com/piercedoblivion/cast-a-spell-to-make-you-more-masculine",
+      "store": "I will cast a spell to make you more Masculine"
+    },
+    {
+      "topic": "femininity",
+      "url": "https://www.fiverr.com/piercedoblivion/cast-a-spell-to-make-you-more-feminine",
+      "store": "I will cast a spell to make you more Feminine"
+    },
+    {
+      "topic": "immaterial labor",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "borders",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "the deep web",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "pyramid schemes",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "liquidity",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "the art market",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "the black market",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "democracy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "human trafficking",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "neoliberalism",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "life in a police state",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "public agency",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "new-age tropes",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "failure",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "chance",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "ruins",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "cybernetic systems",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "systemic violence",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "healing",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "terror",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "aesthetics and politics",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "theory and practice",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "race",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "class",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "sexuality",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "difference",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "second chances",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "civilization",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "madness",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "kindness",
       "url": "",
       "store": ""
     }

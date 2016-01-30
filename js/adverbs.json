@@ -176,7 +176,12 @@ var adverbList = {
       "store": "Mug Rug"
     },
     {
-      "adverb": "anxiously",
+      "adverb": "like a quiet storm",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "conservatively",
       "url": "http://anxioustomake.ga/mugrug.html",
       "store": "Mug Rug"
     },
@@ -186,7 +191,17 @@ var adverbList = {
       "store": "Mug Rug"
     },
     {
-      "adverb": "like a quiet storm",
+      "adverb": "precariously",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "generously",
+      "url": "http://anxioustomake.ga/mugrug.html",
+      "store": "Mug Rug"
+    },
+    {
+      "adverb": "seductively",
       "url": "http://anxioustomake.ga/mugrug.html",
       "store": "Mug Rug"
     }

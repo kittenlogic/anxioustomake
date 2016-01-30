@@ -114,6 +114,12 @@ var gerundList = {
       "gerund": "screaming in public",
       "url": "",
       "store": ""
+    },
+    {
+      "gerund": "reading the wrong books",
+      "url": "",
+      "store": ""
     }
+
   ]
 }

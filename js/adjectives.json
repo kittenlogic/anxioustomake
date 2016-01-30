@@ -141,7 +141,7 @@ var adjectiveList = {
       "store": ""
     },
     {
-      "adj": "hand made",
+      "adj": "a handmade",
       "url": "",
       "store": ""
     },
@@ -271,11 +271,6 @@ var adjectiveList = {
       "store": ""
     },
     {
-      "adj": "a normcore",
-      "url": "",
-      "store": ""
-    },
-    {
       "adj": "a flighty",
       "url": "",
       "store": ""
@@ -372,6 +367,221 @@ var adjectiveList = {
     },
     {
       "adj": "a drippy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a post-apocalyptic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a reflective",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an entrepreneurial",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an ethical",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an abstract",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a modernist",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a theoretical",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a recursive",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a heavy-handed",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a crass",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a delicate",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a slow",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a decaying",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a decomposing",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a fetishized",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an anachronistic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a non-linear",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an analog",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an ironic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a hostile",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a violet",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a violent",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a utopian",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a dystopian",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an opaque",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a transluscent",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a cloudy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a flashy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a pastel",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a gothic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a baroque",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a rococo",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a trashy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a romantic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a satirical",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a dreamy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an unhinged",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a generous",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a generative",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a normcore",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a vaporwave-like",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a hardcore",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a glitchy",
       "url": "",
       "store": ""
     }

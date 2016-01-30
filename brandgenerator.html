@@ -9,38 +9,42 @@
     <meta name='keywords' content='share, sharing economy, desiring-production, desiring-machine,commissions, authorship, identity, DIY culture, entrepreneurship, artist-as-entrepreneur, sourcing, labor, Industry 4.0, economies of scale, artist-as-curator, artist-as-commissioner, on-demand economy, collaborative consumption, collaborative economy'>
     <meta name='description' content='Brand Generator'>
     <link rel="shortcut icon" type="img/ico" href="img/favicon.ico" />
-		<style>
-			/*body {
-        background: url(img/sky.gif) no-repeat;
-        background-size: cover;
-			}*/
-      .models{
-        bottom:0;
-        left:0;
-        position: fixed;
-        background: url(img/product-models.png) no-repeat center bottom fixed;
-        width: 100%;
-        height: 100%;
-      }
-			.clickme {
-				position: relative;
-				top: 30px;
-				height: 300px;
-				width: 100%;
-        z-index: 999;
-			}
-			.clickme img:hover {
-				cursor:pointer !important;
-			}
-			.clickme img {
-				max-height:300px;
-			}
-		</style>
-		<script type="text/javascript" src="js/analytics.js"></script>
+	<style>
+		
+        .models{
+            bottom:0;
+            left:0;
+            position: fixed;
+            background: url(img/product-models.png) no-repeat center bottom fixed;
+            width: 100%;
+            height: 100%;
+        }
+        .clickme {
+            position: relative;
+            top: 30px;
+            height: 300px;
+            width: 100%;
+            z-index: 1;
+        }
+        .clickme img:hover {
+            cursor:pointer !important;
+        }
+        .clickme img {
+            max-height:300px;
+        }
+
+        .clickme .button{
+            margin-left: -140px;
+            padding-bottom: 40px; 
+            display: inline-block;
+            z-index: 2;
+        } 
+	</style>
+	<script type="text/javascript" src="js/analytics.js"></script>
 	</head>	
 	<body>
     <div class="models"></div>
-		<marquee class="clickme"><img src="img/product-56.png"></marquee>
+		<marquee class="clickme"><img src="img/product-56.png"><img class="button" src="img/clickhere.gif"></marquee>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script type="text/javascript" src="js/fall.js"></script>
 	</body>

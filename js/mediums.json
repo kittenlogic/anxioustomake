@@ -96,7 +96,7 @@ var mediumList = {
       "store": ""
     },
     {
-      "medium": "shell art",
+      "medium": "shell art piece",
       "url": "",
       "store": ""
     },
@@ -331,7 +331,7 @@ var mediumList = {
       "store": ""
     },
     {
-      "medium": "interactive fiction script",
+      "medium": "interactive fiction text",
       "url": "",
       "store": ""
     },
@@ -361,7 +361,62 @@ var mediumList = {
       "store": ""
     },
     {
-      "medium": "locotive media project",
+      "medium": "locative media project",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "manifesto",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "script",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "performative lecture",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "dance",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "choreographed performance",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "documentary",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "wallpaper",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "fabric",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "video game",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "map",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "comedy skit",
       "url": "",
       "store": ""
     }
