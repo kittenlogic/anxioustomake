@@ -25,7 +25,7 @@ newObject("img/product-26.png",40,40,"https://www.zazzle.com/bbq_chicken_legs_no
 newObject("img/product-27.png",70,70,"https://www.zazzle.com/custom_flameless_candle-256286024511540665");
 newObject("img/product-28.png",40,40,"https://www.zazzle.com/my_custom_large_3_inch_round_button_pin-145126647248680888");
 newObject("img/product-31.png",40,40,"https://www.zazzle.com/spicy_gold_brown_ombre_bathroom_scale-256963892744614965");
-newObject("img/product-32.png",40,40,"https://www.zazzle.com/custom_value_mug-168672479626669548");
+newObject("img/product-32.png",40,40,"http://anxioustomake.ga/mugruggenerator.html");
 newObject("img/product-33.png",40,40,"https://www.zazzle.com/custom_rectangular_key_ring_double_sided_double_sided_rectangular_acrylic_keychain-256782683764385530");
 newObject("img/product-34.png",40,40,"https://www.zazzle.com/create_your_own_belt-256932893774713504");
 newObject("img/product-37.png",40,40,"https://www.zazzle.com/custom_wedding_stainless_steel_15oz_travel_mug-168127469971615870");

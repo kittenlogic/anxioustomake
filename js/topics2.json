@@ -1,587 +1,637 @@
-var adjectiveListB = {
-  "adjectives": [  
+var topicListB = {
+"topics" : [
     {
-      "adj": "soft",
+      "topic": "capitalism",
       "url": "",
       "store": ""
     },
     {
-      "adj": "quiet",
+      "topic": "fish",
       "url": "",
       "store": ""
     },
     {
-      "adj": "kitschy",
+      "topic": "xenofeminism",
       "url": "",
       "store": ""
     },
     {
-      "adj": "cute",
+      "topic": "salt",
       "url": "",
       "store": ""
     },
     {
-      "adj": "blue",
+      "topic": "cypress trees",
       "url": "",
       "store": ""
     },
     {
-      "adj": "pink",
+      "topic": "deer",
       "url": "",
       "store": ""
     },
     {
-      "adj": "yellow",
+      "topic": "art",
       "url": "",
       "store": ""
     },
     {
-      "adj": "neon",
+      "topic": "propaganda",
       "url": "",
       "store": ""
     },
     {
-      "adj": "irridescent",
+      "topic": "love",
       "url": "",
       "store": ""
     },
     {
-      "adj": "gold",
+      "topic": "romance",
       "url": "",
       "store": ""
     },
     {
-      "adj": "shiny",
+      "topic": "loneliness",
       "url": "",
       "store": ""
     },
     {
-      "adj": "mean",
+      "topic": "death",
       "url": "",
       "store": ""
     },
     {
-      "adj": "angry",
+      "topic": "funerals",
       "url": "",
       "store": ""
     },
     {
-      "adj": "didactic",
+      "topic": "dogs",
       "url": "",
       "store": ""
     },
     {
-      "adj": "erotic",
+      "topic": "zebras",
       "url": "",
       "store": ""
     },
     {
-      "adj": "oppositional",
+      "topic": "barley",
       "url": "",
       "store": ""
     },
     {
-      "adj": "feminist",
+      "topic": "collaboration",
       "url": "",
       "store": ""
     },
     {
-      "adj": "combative",
+      "topic": "forecasting",
       "url": "",
       "store": ""
     },
     {
-      "adj": "kind",
+      "topic": "the weather",
       "url": "",
       "store": ""
     },
     {
-      "adj": "intuitive",
+      "topic": "stock market",
       "url": "",
       "store": ""
     },
     {
-      "adj": "futuristic",
+      "topic": "intimacy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "black and white",
+      "topic": "queerness",
       "url": "",
       "store": ""
     },
     {
-      "adj": "realistic",
+      "topic": "sex",
       "url": "",
       "store": ""
     },
     {
-      "adj": "unrealistic",
+      "topic": "topping",
       "url": "",
       "store": ""
     },
     {
-      "adj": "sloppy",
+      "topic": "cooking",
       "url": "",
       "store": ""
     },
     {
-      "adj": "remote",
+      "topic": "procreating",
       "url": "",
       "store": ""
     },
     {
-      "adj": "piecemeal",
+      "topic": "beaches",
       "url": "",
       "store": ""
     },
     {
-      "adj": "popular",
+      "topic": "alone time",
       "url": "",
       "store": ""
     },
     {
-      "adj": "handmade",
+      "topic": "donald trump dancing",
       "url": "",
       "store": ""
     },
     {
-      "adj": "cordless",
+      "topic": "veganism",
       "url": "",
       "store": ""
     },
     {
-      "adj": "transparent",
+      "topic": "elections",
       "url": "",
       "store": ""
     },
     {
-      "adj": "gay",
+      "topic": "sharing economy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "hot",
+      "topic": "socialism",
       "url": "",
       "store": ""
     },
     {
-      "adj": "hard",
+      "topic": "social impact",
       "url": "",
       "store": ""
     },
     {
-      "adj": "dreamlike",
+      "topic": "disruption",
       "url": "",
       "store": ""
     },
     {
-      "adj": "worry-free",
+      "topic": "wilderness",
       "url": "",
       "store": ""
     },
     {
-      "adj": "anxious",
+      "topic": "nature",
       "url": "",
       "store": ""
     },
     {
-      "adj": "furry",
+      "topic": "family",
       "url": "",
       "store": ""
     },
     {
-      "adj": "fuzzy",
+      "topic": "algorithms",
       "url": "",
       "store": ""
     },
     {
-      "adj": "bedazzled",
+      "topic": "friendship",
       "url": "",
       "store": ""
     },
     {
-      "adj": "pixelated",
+      "topic": "war",
       "url": "",
       "store": ""
     },
     {
-      "adj": "smothering",
+      "topic": "politics",
       "url": "",
       "store": ""
     },
     {
-      "adj": "awkward",
+      "topic": "empire",
       "url": "",
       "store": ""
     },
     {
-      "adj": "jittery",
+      "topic": "colonialism",
       "url": "",
       "store": ""
     },
     {
-      "adj": "agonizing",
+      "topic": "gentrification",
       "url": "",
       "store": ""
     },
     {
-      "adj": "overcoded",
+      "topic": "empathy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "minimal",
+      "topic": "patriarchy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "invisible",
+      "topic": "hollywood",
       "url": "",
       "store": ""
     },
     {
-      "adj": "smooth",
+      "topic": "china",
       "url": "",
       "store": ""
     },
     {
-      "adj": "shifting",
+      "topic": "ukraine",
       "url": "",
       "store": ""
     },
     {
-      "adj": "excitable",
+      "topic": "darth vader",
       "url": "",
       "store": ""
     },
     {
-      "adj": "slippery",
+      "topic": "pirate bay",
       "url": "",
       "store": ""
     },
     {
-      "adj": "tyrannical",
+      "topic": "wikileaks",
       "url": "",
       "store": ""
     },
     {
-      "adj": "immersive",
+      "topic": "surveillance",
       "url": "",
       "store": ""
     },
     {
-      "adj": "flighty",
+      "topic": "sousveillance",
       "url": "",
       "store": ""
     },
     {
-      "adj": "spectral",
+      "topic": "berlin",
       "url": "",
       "store": ""
     },
     {
-      "adj": "artificial",
+      "topic": "cold war",
       "url": "",
       "store": ""
     },
     {
-      "adj": "natural",
+      "topic": "cuba",
       "url": "",
       "store": ""
     },
     {
-      "adj": "electronic",
+      "topic": "biopolitics",
       "url": "",
       "store": ""
     },
     {
-      "adj": "moody",
+      "topic": "privacy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "responsive",
+      "topic": "apple",
       "url": "",
       "store": ""
     },
     {
-      "adj": "interactive",
+      "topic": "technology",
       "url": "",
       "store": ""
     },
     {
-      "adj": "multi-touch",
+      "topic": "internet",
       "url": "",
       "store": ""
     },
     {
-      "adj": "wearable",
+      "topic": "selfies",
       "url": "",
       "store": ""
     },
     {
-      "adj": "fleshy",
+      "topic": "justice",
       "url": "",
       "store": ""
     },
     {
-      "adj": "logical",
+      "topic": "labor",
       "url": "",
       "store": ""
     },
     {
-      "adj": "irrational",
+      "topic": "equality",
       "url": "",
       "store": ""
     },
     {
-      "adj": "suspended",
+      "topic": "guns",
       "url": "",
       "store": ""
     },
     {
-      "adj": "gloppy",
+      "topic": "emoji",
       "url": "",
       "store": ""
     },
     {
-      "adj": "concrete",
+      "topic": "water",
       "url": "",
       "store": ""
     },
     {
-      "adj": "hissing",
+      "topic": "horse",
       "url": "",
       "store": ""
     },
     {
-      "adj": "post-digital",
+      "topic": "piles",
       "url": "",
       "store": ""
     },
     {
-      "adj": "synthetic",
+      "topic": "holes",
       "url": "",
       "store": ""
     },
     {
-      "adj": "drippy",
+      "topic": "accelerationism",
       "url": "",
       "store": ""
     },
     {
-      "adj": "post-apocalyptic",
+      "topic": "anthropocene",
       "url": "",
       "store": ""
     },
     {
-      "adj": "reflective",
+      "topic": "precarity",
       "url": "",
       "store": ""
     },
     {
-      "adj": "entrepreneurial",
+      "topic": "spectacle",
       "url": "",
       "store": ""
     },
     {
-      "adj": "ethical",
+      "topic": "resistance",
       "url": "",
       "store": ""
     },
     {
-      "adj": "abstract",
+      "topic": "mirror neurons",
       "url": "",
       "store": ""
     },
     {
-      "adj": "modernist",
+      "topic": "bad art",
       "url": "",
       "store": ""
     },
     {
-      "adj": "theoretical",
+      "topic": "migration",
       "url": "",
       "store": ""
     },
     {
-      "adj": "recursive",
+      "topic": "white supremacy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "heavy-handed",
+      "topic": "white fragility",
       "url": "",
       "store": ""
     },
     {
-      "adj": "crass",
+      "topic": "revolution",
       "url": "",
       "store": ""
     },
     {
-      "adj": "delicate",
+      "topic": "aging",
       "url": "",
       "store": ""
     },
     {
-      "adj": "slow",
+      "topic": "intergenerational trauma",
       "url": "",
       "store": ""
     },
     {
-      "adj": "decaying",
+      "topic": "prison industrial complex",
       "url": "",
       "store": ""
     },
     {
-      "adj": "decomposing",
+      "topic": "memes",
       "url": "",
       "store": ""
     },
     {
-      "adj": "fetishized",
+      "topic": "illness",
       "url": "",
       "store": ""
     },
     {
-      "adj": "anachronistic",
+      "topic": "systemic collapse",
       "url": "",
       "store": ""
     },
     {
-      "adj": "non-linear",
+      "topic": "singularity",
       "url": "",
       "store": ""
     },
     {
-      "adj": "analog",
+      "topic": "industrialization of life",
       "url": "",
       "store": ""
     },
     {
-      "adj": "ironic",
+      "topic": "industrialization of death",
       "url": "",
       "store": ""
     },
     {
-      "adj": "hostile",
+      "topic": "exploitation",
       "url": "",
       "store": ""
     },
     {
-      "adj": "violet",
+      "topic": "debt",
       "url": "",
       "store": ""
     },
     {
-      "adj": "violent",
+      "topic": "masculinity",
+      "url": "https://www.fiverr.com/piercedoblivion/cast-a-spell-to-make-you-more-masculine",
+      "store": "I will cast a spell to make you more Masculine"
+    },
+    {
+      "topic": "femininity",
+      "url": "https://www.fiverr.com/piercedoblivion/cast-a-spell-to-make-you-more-feminine",
+      "store": "I will cast a spell to make you more Feminine"
+    },
+    {
+      "topic": "immaterial labor",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "borders",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "deep web",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "pyramid schemes",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "liquidity",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "art market",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "black market",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "democracy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "human trafficking",
       "url": "",
       "store": ""
     },
     {
-      "adj": "utopian",
+      "topic": "neoliberalism",
       "url": "",
       "store": ""
     },
     {
-      "adj": "dystopian",
+      "topic": "life in a police state",
       "url": "",
       "store": ""
     },
     {
-      "adj": "opaque",
+      "topic": "public agency",
       "url": "",
       "store": ""
     },
     {
-      "adj": "transluscent",
+      "topic": "new-age tropes",
       "url": "",
       "store": ""
     },
     {
-      "adj": "cloudy",
+      "topic": "failure",
       "url": "",
       "store": ""
     },
     {
-      "adj": "flashy",
+      "topic": "chance",
       "url": "",
       "store": ""
     },
     {
-      "adj": "pastel",
+      "topic": "ruins",
       "url": "",
       "store": ""
     },
     {
-      "adj": "gothic",
+      "topic": "cybernetic systems",
       "url": "",
       "store": ""
     },
     {
-      "adj": "baroque",
+      "topic": "systemic violence",
       "url": "",
       "store": ""
     },
     {
-      "adj": "rococo",
+      "topic": "healing",
       "url": "",
       "store": ""
     },
     {
-      "adj": "trashy",
+      "topic": "terror",
       "url": "",
       "store": ""
     },
     {
-      "adj": "romantic",
+      "topic": "aesthetics and politics",
       "url": "",
       "store": ""
     },
     {
-      "adj": "satirical",
+      "topic": "theory and practice",
       "url": "",
       "store": ""
     },
     {
-      "adj": "dreamy",
+      "topic": "race",
       "url": "",
       "store": ""
     },
     {
-      "adj": "unhinged",
+      "topic": "class",
       "url": "",
       "store": ""
     },
     {
-      "adj": "generous",
+      "topic": "sexuality",
       "url": "",
       "store": ""
     },
     {
-      "adj": "generative",
+      "topic": "difference",
       "url": "",
       "store": ""
     },
     {
-      "adj": "normcore",
+      "topic": "second chances",
       "url": "",
       "store": ""
     },
     {
-      "adj": "vaporwave-like",
+      "topic": "civilization",
       "url": "",
       "store": ""
     },
     {
-      "adj": "hardcore",
+      "topic": "madness",
       "url": "",
       "store": ""
     },
     {
-      "adj": "glitchy",
+      "topic": "kindness",
       "url": "",
       "store": ""
     }

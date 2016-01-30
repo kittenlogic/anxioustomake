@@ -7,7 +7,7 @@ var overlapThreshold = "50%";
 
 //we'll call onDrop() when a Draggable is dropped on top of one of the "droppables", and it'll make it "flash" (blink opacity). Obviously you can do whatever you want in this function.
 function onDrop(dragged, dropped) {
-  TweenMax.fromTo(dropped, 0.1, {opacity:1}, {opacity:0, repeat:3, yoyo:true});
+  TweenMax.fromTo(dropped, 0.1, {opacity:1}, {opacity:1, repeat:0, yoyo:true});
 }
 
 Draggable.create(droppables, {
@@ -38,3 +38,5 @@ Draggable.create(droppables, {
     }
   }
 });
+
+

@@ -25,6 +25,8 @@ a:hover {color: magenta; }
 }
 .anxiouscontainer {
   position:relative;
+  height: 100%;
+  width: 100%;
 }
 
 .welcome {
@@ -117,6 +119,12 @@ a:hover {color: magenta; }
   background-image: url('../img/empire.gif'); 
   background-position: -100px 0;
 }
+.generator{
+  background: url('../img/database.jpg') no-repeat;
+  background-color: #fff;
+  background-size: 60%;
+  background-position: 66px 120px;
+} 
 .vip {
     background: url('../img/velvet2.jpg') no-repeat top center;
     background-size: cover;
@@ -270,7 +278,6 @@ a#openPopUp:hover{
     -o-transition: top 0.35s ease;
     transition: top 0.35s ease;
 }
-
 
 @media  (max-width: 796px) {
   .popup .popUpContainer{
