@@ -71,27 +71,8 @@
             max-height: 400px;
             overflow-y: scroll; 
         }
-        .push{
-            position: relative;
-            height: 0px;
-            width: 100%;
-        }
-        .logo{
-            position: relative;
-            margin: 0 auto;
-            bottom: 0;
-            right: 0;
-            max-width:220px;
-            display: none;
-        }
+
         @media screen and (max-width: 768px) {
             .pageheading{font-size: 2em;}
-            .push{
-                position: relative;
-                height: 100px;
-                width: 100%;
-            }
-            .logo{
-                display: block;
-            }
+
         }
