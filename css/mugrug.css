@@ -1,0 +1,182 @@
+body {
+  background: url("../img/clouds.gif") no-repeat;
+  background-size: cover;
+  height: 3000px;
+  width: 3000px;
+}
+
+/* mugs */
+
+#mugbox {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;   
+    text-align: center;
+    z-index: 10;
+}
+
+#mugtext{
+    line-height: 1.2em;
+    position: absolute;
+    
+    top: 110px;
+    left: 50%;
+    margin-left: -120px;
+    text-align: center;
+    width: 360px;
+    
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #000;
+    font-size: 40px;
+    z-index: 9999;
+
+    -ms-transform: scale(0.9,1); /* IE 9 */
+    -webkit-transform: scale(0.9,1); /* Safari */
+    transform: scale(0.9,1);
+}
+
+#mugtext.gold {
+    color: #90653e;
+}
+#mugtext.black {
+    color: black;
+}
+#mugtext.red {
+    color: red;
+}
+
+
+#whateveritis {
+    border: 1px solid rgba(0,0,0,0);
+    text-transform: uppercase;
+}
+
+#whateveritis:hover {
+    border: 3px dotted magenta;
+    background: yellow;
+    cursor: text;
+}
+#whateveritis:focus {
+    background: url("../img/glitter05.gif") repeat;
+    color: white;
+}
+
+#mug {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+#options {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    margin-top: 250px;
+    margin-left: 50px;
+    z-index: 9999;
+}
+
+#credit {
+    font-style: italic;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+#credit a {
+    font-style: normal;
+    text-decoration: underline;
+    color: blue;
+}
+
+
+/* rugs */
+
+.rug {
+  width: 600px;
+  height: 400px;
+  position:absolute;
+  overflow: hidden;
+  float: left;
+}
+.rug1 {
+  background: url("../img/rugs-1.gif") no-repeat;
+  top: 2%;
+  left: 20%;
+  z-index: 9;
+}
+.rug2 {
+  background: url("../img/rugs-2.gif") no-repeat;
+  top: 140%;
+  left: 30%;
+  z-index: 9;
+}
+.rug3 {
+  background:url("../img/rugs-3.gif") no-repeat;
+  z-index:2;
+  top: 30%;
+  left:110%;
+  z-index: 5;
+}
+.rug4 {
+  background: url("../img/rugs-4.gif") no-repeat;
+  top: 50%;
+  left: 0;
+  z-index: 11;       
+}
+.rug5 {
+  background: url("../img/rugs-5.gif") no-repeat;
+  top: 45%;
+  left: 80%;
+  z-index: 8;       
+}
+.rug6 {
+  background: url("../img/rugs-6.gif") no-repeat;
+  top: 0;
+  left: 0;
+  z-index: 8; 
+}
+.rug7 {
+  background: url("../img/rugs-7.gif") no-repeat;
+  top: 10%;
+  left: 20%;
+  z-index: 8; 
+}
+.rug8 {
+  background: url("../img/rugs-8.gif") no-repeat;
+  top: 60%;
+  left: 0;
+  z-index: 11; 
+}
+.rug9 {
+  background: url("../img/rugs-9.gif") no-repeat;
+  top: 20%;
+  left: 50%;
+  z-index: 11; 
+}
+
+
+
+/*@media  (max-width: 796px){
+    #mugbox {
+        width: 400px;
+        height: 400px;
+        margin-left: -200px;
+        margin-top: -200px;   
+    }
+
+
+    #mugtext{
+        line-height: 1.2em;
+        top: 90px;
+        margin-left: -100px;
+        width: 300px;
+        font-size: 30px;
+
+    }
+}*/
