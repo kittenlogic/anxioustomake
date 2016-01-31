@@ -119,7 +119,286 @@ var gerundList = {
       "gerund": "reading the wrong books",
       "url": "",
       "store": ""
+    },
+    {
+      "gerund": "dismantling",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "using black magick",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "crying",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "massaging",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "kneading",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "differentiating",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "performing micromovements",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "experimenting with sleep deprivation",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "digging a deep hole",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "loitering",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "archiving",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "aggregating",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "subsisting on a liquid diet",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "subsisting on a diet of Soylent, Adderall and microdoses of LSD for a period of 21 days",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "practicing dream yoga",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "shouting",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "rolling around on the floor ",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "sequencing",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "evoking spirits",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "spamming everyone on your contact list",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "levitating",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "hacking",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "applying light pressure",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "stroking",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "repatterning",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "instigating",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "diverting attention away from any inherent contradictions",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "decoupling",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "making no executive decisions",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "waiting",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "oscilatting",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "modulating",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "recycling",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "smearing",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "assembling",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "negotiating with someone you adore",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "negotiating with someone you detest",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "stepping out of your comfort zone",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "astral projecting",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "astral projecting with friends",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "astral projecting into someone else's body",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "dancing",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "sweating",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "sampling content from the deep web",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "sampling",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "summoning your spirit animal",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "surveying others",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "asking yes or no questions",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "walking 100 paces east of wherever you are and surveying your surroundings",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "taking a pilgrimage",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "taking a tour of Hollywood celebrity homes",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "making unreasonable requests",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "taking very careful notes",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "collecting random objects",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "retweeting Macro Rubio",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "soaking in a hot bath",
+      "url": "",
+      "store": ""
     }
-
   ]
 }
