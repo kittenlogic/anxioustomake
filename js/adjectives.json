@@ -584,6 +584,236 @@ var adjectiveList = {
       "adj": "a glitchy",
       "url": "",
       "store": ""
+    },
+    {
+      "adj": "a dadaist",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a disorderly",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a beaurocratic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a hazy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a dusty",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a meta",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a microscopic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a macroscopic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a skeptical",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a blunted",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a devastating",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a luxury",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a ghetto rigged",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an irreverent",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an inflated",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a deflated",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a structurally unsound",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a gold",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a crystal",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a prismatic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a participatory",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a solitary",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a dominant",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a submissive",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a modular",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a hacked",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a therapeutic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an unpatentable",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an evasive",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an invasive",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an obsolete",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a weak",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a strong",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a polyamorous",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a jealous",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a discrete",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a continuous",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a discreet",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a flexible",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a dying",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an accidental",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a just-in-time",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a futurist",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a hyperrealist",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "an injured",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "a volatile",
+      "url": "",
+      "store": ""
     }
   ]
 }

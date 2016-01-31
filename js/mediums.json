@@ -419,6 +419,36 @@ var mediumList = {
       "medium": "comedy skit",
       "url": "",
       "store": ""
+    },
+    {
+      "medium": "meat assemblage",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "assemblage",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "contract",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "patent",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "karaoke performance",
+      "url": "",
+      "store": ""
+    },
+    {
+      "medium": "karaoke powerpoint performance",
+      "url": "",
+      "store": ""
     }
   ]
 }

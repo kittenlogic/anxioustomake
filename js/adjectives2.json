@@ -584,6 +584,236 @@ var adjectiveListB = {
       "adj": "glitchy",
       "url": "",
       "store": ""
+    },
+    {
+      "adj": "dadaist",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "disorderly",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "beaurocratic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "hazy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "dusty",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "meta",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "microscopic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "macroscopic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "skeptical",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "blunted",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "devastating",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "luxury",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "ghetto rigged",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "irreverent",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "inflated",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "deflated",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "structurally unsound",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "gold",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "crystal",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "prismatic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "participatory",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "solitary",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "dominant",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "submissive",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "modular",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "hacked",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "therapeutic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "unpatentable",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "evasive",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "invasive",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "obsolete",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "weak",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "strong",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "polyamorous",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "jealous",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "discrete",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "continuous",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "discreet",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "flexible",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "dying",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "accidental",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "just-in-time",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "futurist",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "hyperrealist",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "injured",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "volatile",
+      "url": "",
+      "store": ""
     }
   ]
 }
