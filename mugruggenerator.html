@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mug/Rug Generator</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Liat Berdugo and Emily Martinez">
+    <meta name='keywords' content='share, sharing economy, desiring-production, desiring-machine, commissions, authorship, identity, DIY culture, entrepreneurship, artist-as-entrepreneur, sourcing, labor, Industry 4.0, economies of scale, artist-as-curator, artist-as-commissioner, on-demand economy, collaborative consumption, collaborative economy'>
+    <meta name='description' content='Mug Rug Generator'>
+    <link rel="stylesheet" href="css/mugrug.css">
+    <link rel="shortcut icon" type="img/ico" href="img/favicon.ico" />
+    <style>
+      
+
+      /*
+      ==============================================
+      floating
+      ==============================================
+      */
+
+      .adderall{
+          animation-name: floating;
+          -webkit-animation-name: floating;
+
+          animation-duration: 2s;   
+          -webkit-animation-duration: 2s;
+
+          animation-iteration-count: infinite;
+          -webkit-animation-iteration-count: infinite;
+      }
+
+      @keyframes floating {
+          0% {
+              transform: translateX(100%);  
+          }
+          10% {
+               transform: translateX(95%);  
+          }
+          20% {
+              transform: translateX(100%);  
+          }
+          30% {
+              transform: translateX(96%);  
+          }
+          40% {
+              transform: translateX(98%);  
+          }
+          50% {
+               transform: translateX(92%);  
+          }
+          60% {
+              transform: translateX(99%);  
+          }
+          70% {
+              transform: translateX(91%);  
+          }
+          80% {
+               transform: translateX(93%);  
+          }
+          90% {
+              transform: translateX(89%);  
+          }
+          100% {
+              transform: translateX(100%);  
+          }                 
+      }
+
+      @-webkit-keyframes floating {
+          0% {
+              transform: translateX(100%);  
+          }
+          10% {
+               transform: translateX(95%);  
+          }
+          20% {
+              transform: translateX(100%);  
+          }
+          30% {
+              transform: translateX(96%);  
+          }
+          40% {
+              transform: translateX(98%);  
+          }
+          50% {
+               transform: translateX(92%);  
+          }
+          60% {
+              transform: translateX(99%);  
+          }
+          70% {
+              transform: translateX(91%);  
+          }
+          80% {
+               transform: translateX(93%);  
+          }
+          90% {
+              transform: translateX(89%);  
+          }
+          100% {
+              transform: translateX(100%);  
+          }      
+      }
+
+      /* Second Version*/
+      .floating2{
+          animation-name: floating2;
+          -webkit-animation-name: floating2;
+
+          animation-duration: 12s;   
+          -webkit-animation-duration: 12s;
+
+          animation-iteration-count: infinite;
+          -webkit-animation-iteration-count: infinite;
+      }
+
+      @keyframes floating2 {
+          0% {
+              transform: translateX(0%); 
+          }
+          20% {
+               transform: translateX(90%) rotate(10deg);  
+          }
+          80% {
+              transform:translateX(100%);
+          }
+          100% {
+              transform: translateX(10%);
+          }           
+      }
+
+      @-webkit-keyframes floating2 {
+          0% {
+              -webkit-transform: translateX(0%);  
+          }
+          20% { 
+               transform: translateX(90%) rotate(10deg); 
+          }
+          80% {
+              transform: translateX(100%);  
+          }
+          100% {
+              -webkit-transform: translateX(10%);
+          }           
+      }
+
+      /* Third Version*/
+      .floating3{
+          animation-name: floating3;
+          -webkit-animation-name: floating3;
+
+          animation-duration: 18s;   
+          -webkit-animation-duration: 18s;
+
+          animation-iteration-count: infinite;
+          -webkit-animation-iteration-count: infinite;
+      }
+
+      @keyframes floating3 {
+          0% {
+              transform: translateY(300%);  
+          }
+          10% {
+              transform:translateY(0%);
+          }
+          100% {
+              transform: translateY(300%);
+          }           
+      }
+
+      @-webkit-keyframes floating3 {
+          0% {
+              transform: translateY(300%);  
+          }
+          10% {
+              transform: translateY(0%);  
+          }
+          100% {
+              transform: translateY(300%);
+          }           
+      }
+
+      /* Fourth Version*/
+      .floating4{
+          animation-name: floating4;
+          -webkit-animation-name: floating4;
+
+          animation-duration: 25s;   
+          -webkit-animation-duration: 25s;
+
+          animation-iteration-count: infinite;
+          -webkit-animation-iteration-count: infinite;
+      }
+
+      @keyframes floating4 {
+          0% {
+              transform: translateX(0%);  
+          }
+          50% {
+              transform:translateX(100%)
+          }
+          100% {
+              transform: translateX(0%);
+          }           
+      }
+
+      @-webkit-keyframes floating4 {
+          0% {
+              -webkit-transform: translateX(0%);  
+          }
+          50% { 
+               transform: translateX(50%);  
+          }
+          100% {
+              -webkit-transform: translateX(0%);
+          }           
+      }
+
+      /* Five Version*/
+      .floating5{
+          animation-name: floating5;
+          -webkit-animation-name: floating5;
+
+          animation-duration: 22s;   
+          -webkit-animation-duration: 22s;
+
+          animation-iteration-count: infinite;
+          -webkit-animation-iteration-count: infinite;
+      }
+
+      @keyframes floating5 {
+          0% {
+              transform: translateY(0%);  
+          }
+          10% {
+               transform: translateY(20%);  
+          }
+          70% {
+              transform: translateY(90%);
+          }
+          100% {
+              transform: translateY(0%);
+          }         
+      }
+
+      @-webkit-keyframes floating5 {
+          0% {
+              transform: translateY(0%);  
+          }
+          10% {
+              transform: translateY(20%);  
+          }
+          70% {
+              transform: translateY(90%);
+          }
+          100% {
+              transform: translateY(0%);
+          }         
+      }
+
+      /* Sixth Version*/
+      .floating6{
+          animation-name: floating6;
+          -webkit-animation-name: floating6;
+
+          animation-duration: 44s;   
+          -webkit-animation-duration: 44s;
+
+          animation-iteration-count: infinite;
+          -webkit-animation-iteration-count: infinite;
+      }
+
+      @keyframes floating6 {
+          0% {
+              transform: translateX(0%);  
+          }
+          60% {
+              transform:translateX(40%);
+          }
+          100% {
+              transform: translateX(0%);
+          }         
+      }
+
+      @-webkit-keyframes floating6 {
+          0% {
+              transform: translateX(0%);  
+          }
+          60% {
+              transform:translateX(40%);
+          }
+          100% {
+              transform: translateX(0%);
+          }          
+      }
+
+      /* Seventh Version*/
+      .floating7{
+          animation-name: floating7;
+          -webkit-animation-name: floating7;
+
+          animation-duration: 30s;   
+          -webkit-animation-duration: 30s;
+
+          animation-iteration-count: infinite;
+          -webkit-animation-iteration-count: infinite;
+      }
+
+      @keyframes floating7 {
+          0% {
+              transform: translateX(0%); 
+          }
+          10% {
+               transform: translateX(90%) rotate(20deg);  
+          }
+          80% {
+              transform:translateX(100%);
+          }
+          100% {
+              transform: translateX(10%);
+          }           
+      }
+
+      @-webkit-keyframes floating7 {
+          0% {
+              -webkit-transform: translateX(0%);  
+          }
+          10% { 
+               transform: translateX(90%) rotate(20deg); 
+          }
+          80% {
+              transform: translateX(100%);  
+          }
+          100% {
+              -webkit-transform: translateX(10%);
+          }           
+      }
+
+      /* Eighth Version*/
+      .floating8{
+          animation-name: floating8;
+          -webkit-animation-name: floating8;
+
+          animation-duration: 18s;   
+          -webkit-animation-duration: 18s;
+
+          animation-iteration-count: infinite;
+          -webkit-animation-iteration-count: infinite;
+      }
+
+      @keyframes floating8 {
+          0% {
+              transform: translateY(0%);  
+          }
+          10% {
+              transform:translateY(100%)
+          }
+          100% {
+              transform: translateY(0%);
+          }           
+      }
+
+      @-webkit-keyframes floating8 {
+          0% {
+              transform: translateY(0%);  
+          }
+          10% {
+              transform: translateY(100%);  
+          }
+          100% {
+              transform: translateY(0%);
+          }           
+      }
+
+      /* Ninth Version*/
+      .floating9{
+          animation-name: floating9;
+          -webkit-animation-name: floating9;
+
+          animation-duration: 30s;   
+          -webkit-animation-duration: 30s;
+
+          animation-iteration-count: infinite;
+          -webkit-animation-iteration-count: infinite;
+      }
+
+      @keyframes floating9 {
+          0% {
+              transform: translateY(400%) translateX(300%);  
+          }
+          20% {
+              transform: translateY(0%) translateX(0%) rotate(-20deg);   
+          }
+          50% {
+              transform: translateY(50%) translateX(50%); 
+          } 
+          70% {
+              transform: translateY(0%) translateX(300%);   
+          }
+          100% {
+              transform: translateY(400%) translateX(300%); 
+          }           
+      }
+
+      @-webkit-keyframes floating9 {
+          0% {
+              transform: translateY(400%) translateX(300%);  
+          }
+          20% {
+              transform: translateY(0%) translateX(0%) rotate(-20deg);   
+          }
+          50% {
+              transform: translateY(50%) translateX(50%); 
+          } 
+          70% {
+              transform: translateY(0%) translateX(300%);   
+          }
+          100% {
+              transform: translateY(400%) translateX(300%); 
+          }           
+      }
+    </style>
+    <script type="text/javascript" src="js/analytics.js"></script>
+  </head>
+
+  <body>
+
+  <div id="mugbox">
+    <img src="img/mug2.png" id="mug">
+    <div id="mugtext"><span id="uneditabletext">THE COLOR OF MY FREEDOM IS </span><span id="whateveritis" contenteditable>___________</span><br></div>
+  </div>
+
+  <div id="options">
+      <label for="mugtype"></label>
+      <select name="mugtype" id="mugtype">
+          <option value="freedommug">Freedom Mug</option>
+          <option value="breakup">I Broke Up With My Artistic Practice Mug</option>
+          <option value="tonguetied">Never Talk About Your Work Again Mug</option>
+          <option value="revolution">Revolution Mug</option>
+          <option value="distrust">Externalize Distrust Mug (set of 5)</option>
+          <!-- <option value="freedomrug">Freedom Rug</option>  -->    
+      </select>
+
+      <div id="credit">
+      Stolen from <a href="http://diskcact.us">💾🌵</a> with love.
+      </div>
+
+  </div>
+      
+  <div class="rug rug1 adderall"></div> 
+  <div class="rug rug2 floating3"></div>
+  <div class="rug rug3 floating4"></div>
+  <div class="rug rug4 floating2"></div>
+  <!-- <div class="rug rug5 floating5"></div> -->
+  <div class="rug rug6 floating6"></div>
+  <!-- <div class="rug rug7 floating9"></div> -->
+  <div class="rug rug8 floating8"></div>
+  <!-- <div class="rug rug9 floating7"></div> -->
+
+  <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+  <script src="js/mugs.js" type="text/javascript"></script>
+
+  </body>
+</html>
+
+
+
+
+
