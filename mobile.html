@@ -114,7 +114,8 @@
         width: 0;
       }
         
-      .wrapper:hover .tooltip {
+      .wrapper:hover .tooltip,
+      .wrapper > .tipClick:focus + .tooltip {
         opacity: 1;
         pointer-events: auto;
         -webkit-transform: translateY(0px);
@@ -136,8 +137,6 @@
             display:none;
         }
 
-        .tip:hover > .tooltipT,
-        .tip:hover > .tooltip, /* This shows the tooltip when an elements with the .tip class is hovered over */
         .tipClick > a:focus + .tooltipT,
         .tipClick > a:focus + .tooltip{ /* This shows the tooltip once an element with the .tipClick class is clicked */
             display:block;
@@ -215,7 +214,7 @@
             bottom:-20px;
         }
 
-        
+
 
       @media (max-width: 768px) {
         .makeart{
@@ -235,11 +234,20 @@
     <div class="newproject"></div>
     <button class="makeart">GENERATE A NEW PROJECT</button>   
 
-    Commission a <span class="tipClick"><a href="#">a performance</a><div class="tooltipT"> We recommend <a href="#">I will do a custom performance!</a></div></span>
+    Commission a <span class="tipClick">
+                    <a href="#">a performance</a>
+                    <div class="tooltipT"> We recommend 
+                      <a href="#">I will do a custom performance!</a>
+                    </div>
+                </span>
 
 
-<div class="wrapper"><sup><span class="glyphicon glyphicon-shopping-cart tipClick" aria-hidden="true"></span></sup><div class="tooltip">We recommend <a href="' + mediumUrl + '" target="_blank">' + mediumSource + '</a></div></div>
-
+<h1> click here
+<div class="wrapper">
+  <sup><span class="glyphicon glyphicon-shopping-cart tipClick" aria-hidden="true"></span></sup>
+  <div class="tooltip">We recommend <a href="' + mediumUrl + '" target="_blank">' + mediumSource + '</a></div>
+</div>
+</h1>
 
 
 
