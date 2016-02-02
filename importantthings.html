@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Anxious to Make Meaningful Work</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Liat Berdugo and Emily Martinez">
+    <meta name='description' content='New Project Generator'>
+    <meta name='keywords' content='share, sharing economy, desiring-production, desiring-machine, commissions, authorship, identity, DIY culture, entrepreneurship, artist as entrepreneur, sourcing, labor, Industry 4.0, economies of scale, artist as curator, artist as commissioner, on-demand economy, collaborative consumption, collaborative economy, gig-economy'>
+
+    <link rel="shortcut icon" type="img/ico" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+      a, a:visited, a:focus {color: #FF0179; text-decoration: none;}
+      a:hover {color: #FF0179; text-decoration: underline;}
+      a:focus {outline: 0;} 
+      h1{font-size: 3em; color: #FF0179;}
+      h2 {font-size: 2em;}
+      .makeart {
+        width: 80%;
+        height: 100px;
+        background-color: yellow;
+        color:#FF0179;
+        display: block;
+        margin: 50px auto;
+        font-family: sans-serif;
+        font-size: 2em;
+        font-weight: bold;
+      }
+      .newproject {
+        display: block;
+        font-size: 3em;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding: 0;
+        margin: 0 auto;
+        width: 80%;
+      }
+      .whatdoyoucareabout {
+        margin: 50px auto;
+        width: 80%;
+      }
+
+      button {
+        border: 0;
+      }
+      button:focus {
+        outline: -webkit-focus-ring-color auto 0px;
+      }
+      sup {
+        top: -0.8em;
+        left: 2px;
+        font-size: 40%;
+        color: #FF0179;
+      }
+
+      /*****************TOOLTIP*****************/
+
+      .wrapper {
+        cursor: help;
+        position: relative;
+        display: inline;
+        text-align: center;
+        -webkit-transform: translateZ(0); /* webkit flicker fix */
+        -webkit-font-smoothing: antialiased; /* webkit text rendering fix */
+      }
+
+      .wrapper .tooltip {
+        background: yellow;
+        bottom: 100%;
+        color: #000;
+        display: block;
+        left: -108px;
+        margin-bottom: 15px;
+        opacity: 0;
+        padding: 20px;
+        pointer-events: none;
+        position: absolute;
+        width: 250px;
+        -webkit-transform: translateY(10px);
+           -moz-transform: translateY(10px);
+            -ms-transform: translateY(10px);
+             -o-transform: translateY(10px);
+                transform: translateY(10px);
+        -webkit-transition: all .25s ease-out;
+           -moz-transition: all .25s ease-out;
+            -ms-transition: all .25s ease-out;
+             -o-transition: all .25s ease-out;
+                transition: all .25s ease-out;
+        
+      }
+
+      /* This bridges the gap so you can mouse into the tooltip without it disappearing */
+      .wrapper .tooltip:before {
+        bottom: -20px;
+        content: " ";
+        display: block;
+        height: 20px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+      }  
+
+      /* CSS Triangles - see Trevor's post */
+      .wrapper .tooltip:after {
+        border-left: solid transparent 10px;
+        border-right: solid transparent 10px;
+        border-top: solid yellow 10px;
+        bottom: -10px;
+        content: " ";
+        height: 0;
+        left: 50%;
+        margin-left: -13px;
+        position: absolute;
+        width: 0;
+      }
+        
+      .wrapper:hover .tooltip {
+        opacity: 1;
+        pointer-events: auto;
+        -webkit-transform: translateY(0px);
+           -moz-transform: translateY(0px);
+            -ms-transform: translateY(0px);
+             -o-transform: translateY(0px);
+                transform: translateY(0px);
+      }
+
+      input[type=text]
+      {
+          display: block;
+          width: 100%;
+          height: auto;
+          padding: 10px;
+          margin-bottom:20px;
+          font-size: 1.3em;
+          line-height: 1.5;
+          color: #555;
+          vertical-align: middle;
+          background-color: #fff;
+          background-image: none;
+          border: 2px solid #FF0179;
+          border-radius: 4px;
+          position: relative;
+          -webkit-box-sizing: border-box;
+             -moz-box-sizing: border-box;
+                  box-sizing: border-box;
+          -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+                  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+          -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+                  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+      }
+
+      ::-webkit-input-placeholder { color:#FF0179; text-transform: uppercase; }
+      ::-moz-placeholder { color:#FF0179; text-transform: uppercase;} /* firefox 19+ */
+      :-ms-input-placeholder { color:#FF0179; text-transform: uppercase;} /* ie */
+      input:-moz-placeholder { color:#FF0179; text-transform: uppercase;}
+
+
+
+      @media (max-width: 768px) {
+        .makeart{
+          font-size: 1.2em;
+        }
+        .newproject{
+          font-size: 2em;
+        }
+      }
+    </style>
+    <script type="text/javascript" src="js/analytics.js"></script>
+
+  </head>
+
+  <body>
+    <div class="whatdoyoucareabout">
+      <h1>What is most important to you?</h1> 
+      <h2>Choose one.</h2>
+      <form id="importantThings">
+        <input type="radio" name="important" class="thing" value="family" /> family 
+        <input type="radio" name="important" class="thing" value="love" /> love 
+        <input type="radio" name="important" class="thing" value="travel" /> travel 
+        <input type="radio" name="important" class="thing" value="new feelings" /> new feelings 
+        <input type="radio" name="important" class="thing" value="new thoughts" /> new thoughts 
+        <input type="radio" name="important" class="thing" value="power" /> power 
+        <input type="radio" name="important" class="thing" value="fame" /> fame 
+        <input type="radio" name="important" class="thing" value="money" /> money 
+        <input type="radio" name="important" class="thing" value="friendship" /> friendship 
+        <input type="radio" name="important" class="thing" value="beauty" /> beauty 
+        <input type="radio" name="important" class="thing" value="making babies" /> making babies 
+        <input type="radio" name="important" class="thing" value="getting by" /> getting by 
+        <input type="radio" name="important" class="thing" value="not dying" /> not dying 
+        <input type="radio" name="important" class="thing" value="meeting my idols" /> meeting my idols 
+        <input type="radio" name="important" class="thing" value="feeling interesting" /> feeling interesting 
+        <input type="radio" name="important" class="thing" value="feeling worthy" /> feeling worthy 
+        <input type="radio" name="important" class="thing" value="dogs" /> dogs 
+        <input type="radio" name="important" class="thing" value="gold" /> gold 
+      </form>
+      <h2>Or choose your own.</h2>
+      <form id="anythingyouwant">
+        <input type="text" placeholder="important thing goes here" name="important" />
+      </form>
+    </div>
+
+    <div class="newproject"></div>
+    <button class="makeart">GENERATE A NEW PROJECT</button>   
+
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/mediums.json"></script>
+    <script type="text/javascript" src="js/topics.json"></script>
+    <script type="text/javascript" src="js/topics2.json"></script>
+    <script type="text/javascript" src="js/adjectives.json"></script>
+    <script type="text/javascript" src="js/adjectives2.json"></script>
+    <script type="text/javascript" src="js/adverbs.json"></script>
+    <script type="text/javascript" src="js/gerunds.json"></script>
+    
+    <script type="text/javascript" src="js/valuegenerator.js"></script>
+
+  </body>
+</html>
