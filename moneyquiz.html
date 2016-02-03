@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Anxious to Succeed</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Liat Berdugo and Emily Martinez">
+    <meta name='description' content=''>
+    <meta name='keywords' content='share, sharing economy, desiring-production, desiring-machine, commissions, authorship, identity, DIY culture, entrepreneurship, artist as entrepreneur, sourcing, labor, Industry 4.0, economies of scale, artist as curator, artist as commissioner, on-demand economy, collaborative consumption, collaborative economy, gig-economy'>
+    
+    <link rel="shortcut icon" type="img/ico" href="img/favicon.ico" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro|Open+Sans' rel='stylesheet' type='text/css'>
+
+    <style>
+        html, body {
+            background-color: transparent;
+            color: #222;
+            font-family: sans-serif;
+            margin: 0;
+
+        }
+        h2 {
+          font-weight: bold;
+          font-size: 2.5em;
+        }
+        p{
+          font-size: 1.2em;
+          width: 90%;
+          margin: 0 auto 50px auto;
+        }
+        a{
+          color: magenta;
+          text-decoration: none;
+        }
+        a:hover{
+          color: yellow;
+          background-color: magenta;
+        }
+        iframe{
+          margin: 20px 0;
+        }
+        #ci {
+          background: #fff;
+          padding: 20px 30px; }
+
+        /* Prevent flicker while loading - start with everything hidden. */
+        #ci .ci-slide {
+          display: none;
+          text-align: center; }
+
+        #ci .ci-nav {
+          background: yellow;
+          border: none;
+          color: magenta;
+          cursor: pointer;
+          font-size: 1.2em;
+          width: 90%;
+          padding: 10px 15px;
+          margin-bottom: 5px; }
+
+        #ci .ci-nav:hover {
+          background: magenta;
+          color: yellow;
+        }
+
+        #ci .left {
+          float: left; }
+
+        #ci .right {
+          float: right; }
+
+        #ci .clear {
+          clear: both; }
+
+        #ci .prev {
+          color: yellow;
+          background-color: magenta; 
+          margin-top: 10px;
+        }  
+
+        #ci .prev::after {
+          content: "How did I get here?";
+        }
+
+        #ci .prev:hover {
+          color: magenta;
+          background-color: yellow;
+        }
+
+        #ci .ci-nav.smallbutton {
+          max-width: 40%;
+        }
+
+        .push {
+          position: relative;
+          width: 100%;
+          height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="main">
+
+    <div id="ci-wrap">
+        <div id="ci">
+
+            <div id="slide-1" class="ci-slide">
+                <h2>Would money be all that I need to succeed?</h2>
+                <p>Love money? Want money? Fear money? Don't worry, we can help!</p>
+                <button class="ci-nav smallbutton" path="slide-2">Take the Quiz!</button>
+            </div>
+
+            <div id="slide-2" class="ci-slide">
+                <h2 class="clear">How much money do you have?</h2>
+                <button class="ci-nav" path="slide-3">Enough</button>
+                <button class="ci-nav" path="slide-4">Never Enough</button>
+                <button class="ci-nav prev" path="slide-1 "></button>
+            </div>
+
+            <div id="slide-3" class="ci-slide">
+                <h2>Congrats! How did you get all that money?</h2>
+                <button class="ci-nav" path="slide-5">Never worked a day in my life!</button>
+                <button class="ci-nav" path="slide-6">Hard honest work. Sacrifice. 100% legit retired.</button>
+                <button class="ci-nav" path="slide-7">Gaming the system.</button>
+                <button class="ci-nav prev" path="slide-2"></button>
+            </div>
+
+            <div id="slide-4" class="ci-slide">
+                <h2>What is your current relationship to money?</h2>
+                <button class="ci-nav" path="slide-8">Living the entrepreneurial dream!</button>
+                <button class="ci-nav" path="slide-9">I'll probably work til I die.</button>
+                <button class="ci-nav" path="slide-10">Dreaming of it. Lotto scratch off tickets everyday.</button>
+                <button class="ci-nav" path="slide-11">I get panic attacks just thinking about it.</button>
+                <button class="ci-nav" path="slide-12">FUCK money! We need a revolution!</button>
+                <button class="ci-nav prev" path="slide-2"></button>
+            </div>
+
+            <!--NEVER WORKED A DAY IN MY LIFE-->
+            <div id="slide-5" class="ci-slide">
+                <h2>What best describes your situation?</h2>
+                <button class="ci-nav" path="slide-13">Born into wealth. Trust funds, estates, private islands, whatever. God loves me. The well is never dry.</button>
+                <button class="ci-nav" path="slide-23">Okay, so I don't have a lot of money. But I'm not worried. Someone else takes care of me!</button>
+                <button class="ci-nav prev" path="slide-3"></button>
+            </div>
+
+            <div id="slide-13" class="ci-slide">
+                <h2>Hmmm, that sounds fun. But do you ever feel out of touch with real people, real struggle?</h2>
+                <button class="ci-nav" path="slide-14">Yes.</button>
+                <button class="ci-nav" path="slide-15">No.</button>
+                <button class="ci-nav prev" path="slide-5"></button>
+            </div>
+
+            <div id="slide-14" class="ci-slide">
+                <h2>What bothers you most about this? How does it influence your work? </h2>
+                <button class="ci-nav" path="slide-16">I make fabulous ______. But my work feels empty, meaningless, boring. There's nothing to push back against.</button>
+                <button class="ci-nav" path="slide-19">I don't know what to make that will matter to anyone. I don't even know who I want my work to matter to. Who will remember me after I'm dead?</button>
+                <button class="ci-nav" path="slide-20">How can I even think about making art when so many people are suffering?</button>
+                <button class="ci-nav prev" path="slide-13"></button>
+            </div>
+
+            <div id="slide-15" class="ci-slide">
+                <h2>I'm sorry, we can't help you.</h2>
+                <p>But you should probably reach out to this guy, ASAP:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5y_8DWg5W0w?rel=0" frameborder="0" allowfullscreen></iframe>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-16" class="ci-slide">
+                <h2>Would you most like to . . .</h2>
+                <button class="ci-nav" path="slide-17">Find meaning.</button>
+                <button class="ci-nav" path="slide-18">Understand struggle.</button>
+                <button class="ci-nav prev" path="slide-14"></button>
+            </div>
+
+            <div id="slide-17" class="ci-slide">
+                <h2>You need to do some serious soul searching.</h2>
+                <p>Some digging. Some deep diving. Maybe it's time to dig a well.</p> 
+                <p>Or go to page 45 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-16"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-18" class="ci-slide">
+                <h2>You've led a sheltered life.</h2>
+                <p>It's okay. Maybe you just need to connect more with people who are really going through it, develop some empathy, step out of your comfort zone.</p> 
+                <p>Go to page 10 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-16"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-19" class="ci-slide">
+                <h2>Hey, get it together. Your legacy is not what you need to be focusing on right now.</h2>
+                <p>You need to listen very carefully. We're going to do an ego cleanse. Go to page 92 in the workbook. After you've cried a little bit, go to page 31, figure out who it is you're making art for/about, and make some art for god's sake.</p>
+                <button class="ci-nav prev" path="slide-14"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-20" class="ci-slide">
+                <h2>Are struggling with feelings of . . .</h2>
+                <button class="ci-nav" path="slide-21">Guilt?</button>
+                <button class="ci-nav" path="slide-22">Disempowerment?</button>
+                <button class="ci-nav prev" path="slide-14"></button>
+            </div>
+
+            <div id="slide-21" class="ci-slide">
+                <h2>You're privileged.</h2>
+                <p>It's hard, I get it. Now, get over it.</p>
+                <p>Go to page 92 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-20"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-22" class="ci-slide">
+                <h2>You've lost faith in yourself and the people around you.</h2>
+                <p>You must learn to trust again.</p>
+                <p>Go to page 28 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-20"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-23" class="ci-slide">
+                <h2>Okay, but how certain are you that this person will always be there?</h2>
+                <button class="ci-nav" path="slide-24">Very certain. We're life partners, twin souls. I'm their favorite person.</button>
+                <button class="ci-nav" path="slide-31">Not sure, but not worried. My mom would never abandon me.</button>
+                <button class="ci-nav" path="slide-36">Not sure, a little worried. The welfare state is on its last leg.</button>
+                <button class="ci-nav prev" path="slide-5"></button>
+            </div>
+
+            <div id="slide-24" class="ci-slide">
+                <h2>How suppportive is your partner of your art practice?</h2>
+                <button class="ci-nav" path="slide-25">Very! We make work together, so much so that sometimes I forget who I am. It's almost as if we have become one person, one body.</button>
+                <button class="ci-nav" path="slide-28">We don't really talk about work. My love life and my art life have nothing in common.</button>
+                <button class="ci-nav" path="slide-29">My partner gets super jealous when I pay more attention to my work than to her. And don't even get me started on what she thinks about my "collaborating" with others.</button>
+                <button class="ci-nav" path="slide-30">She's not very into my work. I don't think she "gets it".</button>
+                <button class="ci-nav prev" path="slide-23"></button>
+            </div>
+
+            <div id="slide-25" class="ci-slide">
+                <h2>That sounds intense.</h2>
+                <p>Do you ever miss making the kind of work you made before you forgot who you were, before you met your partner?</p>
+                <button class="ci-nav" path="slide-26">Yes</button>
+                <button class="ci-nav" path="slide-27">No</button>
+                <button class="ci-nav prev" path="slide-24"></button>
+            </div>
+
+            <div id="slide-26" class="ci-slide">
+                <h2>You need to reconnect with your discrete former self.</h2>
+                <p>Go <a href="http://anxioustomake.ga/media/RitualsForRemovingCreativeBlocks.pdf" target="_blank">here</a> Read #10.</p>
+                <button class="ci-nav prev" path="slide-25"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-27" class="ci-slide">
+                <h2>Money, art <em>and</em> love! Sounds like you're living the dream!</h2>
+                <p>Our work here is done. You may close your Internet browser and go home.</p>
+                <button class="ci-nav prev" path="slide-25"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-28" class="ci-slide">
+                <h2>Are you cool with that?</h2>
+                <p>Go to page 45 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-24"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-29" class="ci-slide">
+                <h2>I'm sorry, your partner sucks.</h2>
+                <p>Go to page 5 in the workbook, make a new persona. Then, go to page 12. You are to commission a healing and/or seductive performance by your new self, to be acted out by <a rehf="https://www.fiverr.com/cleopatrabionda/be-crazy-in-love-with-you-in-a-prank-video?funnel=b7bd987c-9ae7-47d1-ad7f-10b9436adc1b" target="_blank">her</a>. Address it to your old self. Watch it everyday for 21 days, or until your partner breaks up with you.</p>
+                <button class="ci-nav prev" path="slide-24"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-30" class="ci-slide">
+                <h2>Maybe you just need a new language.</h2>
+                <p>Go to page 38 in the workbook, then to page 90 to reconnect.</p>
+                <button class="ci-nav prev" path="slide-24"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-31" class="ci-slide">
+                <h2>How suppportive is your mom of your art practice?</h2>
+                <button class="ci-nav" path="slide-32">Very! My mom is an artist/scholar herself.</button>
+                <button class="ci-nav" path="slide-33">Mom's not really into art. But she makes the best sandwiches!</button>
+                <button class="ci-nav" path="slide-34">There have been family feuds because of my art.</button>
+                <button class="ci-nav prev" path="slide-23"></button>
+            </div>
+  
+            <div id="slide-32" class="ci-slide">
+                <h2>Sounds like a dream! This must be very comforting.</h2>
+                <p>Our work here is done. You may close your Internet browser and go home.</p>
+                <button class="ci-nav prev" path="slide-31"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-33" class="ci-slide">
+                <h2>Sandwiches?</h2>
+                <p>We're sorry, we know what that means. You're going to be eating sandwiches for twenty years if you don't figure things out fast. Go to page 92 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-31"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-34" class="ci-slide">
+                <h2>Oh no, what happened?</h2>
+                <button class="ci-nav" path="slide-35">Too much sex. Like, I'm not supposed to have a body? I didn't ask to be born?!</button>
+                <button class="ci-nav" path="slide-35">They think I'm going to end up in prison. It's not easy trying to bring down governments with internet memes and ellaborate art pranks.</button>
+                <button class="ci-nav" path="slide-35">Art is life. i.e. I share way too much personal information. They think it reflects poorly on them. Holiday gatherings are the worst.</button>
+                <button class="ci-nav prev" path="slide-31"></button>
+            </div>
+
+            <div id="slide-35" class="ci-slide">
+                <h2>You're going about this all wrong.</h2>
+                <p>Stop oversharing. Go to page 5 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-34"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-36" class="ci-slide">
+                <h2>You've lost faith in the system.</h2>
+                <p>Go to page 85 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-34"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div> 
+
+            <div id="slide-6" class="ci-slide">
+            <h2>Whoa, that must feel great?! But now what?</h2>   
+                <button class="ci-nav" path="slide-38">I have too much free time. Too much freedom scares me.</button>
+                <button class="ci-nav" path="slide-42">What I did to earn a living has nothing to do with art. I've been out of the game for too long. I feel lost.</button>
+                <button class="ci-nav" path="slide-46">What do you mean, what do I do? I'm free! Now, I make art!</button>
+                <button class="ci-nav prev" path="slide-3"></button>
+            </div>
+
+            <!-- HARDWORK 1 (too much freedom) -->  
+            <div id="slide-38" class="ci-slide">
+            <h2>Flip a Coin</h2>   
+                <button class="ci-nav" path="slide-39">Heads</button>
+                <button class="ci-nav" path="slide-40">Tails</button>
+                <button class="ci-nav prev" path="slide-6"></button>
+            </div>
+
+            <div id="slide-39" class="ci-slide">
+            <h2>You need help getting on task.</h2>   
+                <p>Go to page 23 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-38"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-40" class="ci-slide">
+            <h2>You need to relax.</h2>   
+                <p>Go to page 54 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-38"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <!-- HARDWORK 2 (out of touch) -->  
+            <div id="slide-42" class="ci-slide">
+            <h2>Are you longing for...</h2>   
+                <button class="ci-nav" path="slide-43">Community?</button>
+                <button class="ci-nav" path="slide-44">An audience?</button>
+                <button class="ci-nav" path="slide-45">Reconnecting with your practice?</button>
+                <button class="ci-nav prev" path="slide-6"></button>
+            </div>
+
+            <div id="slide-43" class="ci-slide">
+                <h2>Meeting people is easy.</h2>   
+                <p>Go to page page 50 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-42"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-44" class="ci-slide">
+                <h2>You need to find your audience.</h2>   
+                <p>Go to page 31 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-42"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-45" class="ci-slide">
+                <h2>You need to find yourself.</h2>   
+                <p>Go to page 26 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-42"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <!-- HARDWORK 3 (aging) -->  
+            <div id="slide-46" class="ci-slide">
+            <h2>That's great! But... You're old.</h2>
+            <p>I mean, no offense, but you can't exactly "emerge" at retirement age. The art world doesn't work that way.</p>   
+                <button class="ci-nav" path="slide-47">Fuck the art world! I'll do my own thing.</button>
+                <button class="ci-nav" path="slide-48">Oh...</button>
+                <button class="ci-nav prev" path="slide-6"></button>
+            </div>
+
+            <div id="slide-47" class="ci-slide">
+            <h2>You mean, by yourself or with other people?</h2>   
+                <button class="ci-nav" path="slide-49">I am enough audience for me.</button>
+                <button class="ci-nav" path="slide-50">I need feedback, encouragement, attention, support.</button>
+                <button class="ci-nav prev" path="slide-46"></button>
+            </div>
+
+            <div id="slide-48" class="ci-slide">
+            <h2>Yeah, the cutoff is 35. Can you believe it?!</h2>
+            <p>Odds of making it after that plummet times a zillion. You're not cute anymore either, so you know...</p>   
+                <button class="ci-nav" path="slide-51">You're totally killing my buzz.</button>
+                <button class="ci-nav" path="slide-52">Look, I'm mad talented. If Susan Boyle can do it, so can I?</button>
+                <button class="ci-nav" path="slide-53">I don't have time for this. Just tell me who I need to impress.</button>
+                <button class="ci-nav prev" path="slide-46"></button>
+            </div>
+
+            <div id="slide-49" class="ci-slide">
+                <h2>You are to commission a project for yourself.</h2>
+                <p>Go to page 90.</p>
+                <button class="ci-nav prev" path="slide-47"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-50" class="ci-slide">
+                <h2>Meeting people is easy.</h2>   
+                <p>Go to page 50 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-47"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-51" class="ci-slide">
+            <h2>Flip a coin.</h2>   
+                <button class="ci-nav" path="slide-54">Heads</button>
+                <button class="ci-nav" path="slide-55">Tails</button>
+                <button class="ci-nav prev" path="slide-48"></button>
+            </div>
+
+            <div id="slide-52" class="ci-slide">
+            <h2>So, you want to be a celebrity too?</h2>   
+                <button class="ci-nav" path="slide-56">I just want everyone to love me.</button>
+                <button class="ci-nav" path="slide-57">I just want to realize my potenial in the eyes of the world.</button>
+                <button class="ci-nav prev" path="slide-48"></button>
+            </div>
+
+            <div id="slide-53" class="ci-slide">
+            <h2>We're sorry, we can't do that for you.</h2>   
+                <p>Go to page 15 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-48"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-54" class="ci-slide">
+                <h2>Quit while you're ahead...</h2>   
+                <p><a href="http://anxioustomake.ga/mugruggenerator.html#my%20never-to-be-realized%20ARTISTIC%20PRACTICE,breakup" target="_blank">CLICK HERE</a></p>
+                <button class="ci-nav prev" path="slide-51"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-55" class="ci-slide">
+                <h2>You might be too late for this too.</h2>   
+                <p>(Or not, if Ray Kurzweil has anything to say about it.)<br/>Go to page 9 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-51"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-56" class="ci-slide">
+            <h2>Good luck! You have a lot of work to do.</h2>   
+                <p>Good thing you're dripping in mature cash money. Go to page 88 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-52"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-57" class="ci-slide">
+            <h2>You're really stubborn.</h2>   
+                <p>Do you really think you're going to make it on your "merits"? Where do you live???</p>
+                <button class="ci-nav" path="slide-58">Great art is universal, timeless! It shouldn't matter how old I am... the work should stand on its own.</button>
+                <button class="ci-nav" path="slide-59">Look, it's not about that. I just want to make interesting things that I can share with interesting people. A <em>lot</em> of interesting people.</button>
+                <button class="ci-nav prev" path="slide-52"></button>
+            </div>
+
+            <div id="slide-58" class="ci-slide">
+            <h2>We're sorry, we can't help you.</h2>   
+                <p>This is too exhausting. We have to stop now. Stop, not as in pause, but as in, <a href="http://anxioustomake.ga/mugruggenerator.html#anxious%20to%20make,breakup" target="_blank">never again.</a></p>
+                <button class="ci-nav prev" path="slide-57"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-59" class="ci-slide">
+                <h2>Quantity seems to be important to you.</h2>   
+                <p>Go to page 76 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-57"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <!-- GAMING THE SYSTEM 1 (do the right thing)-->
+            <div id="slide-7" class="ci-slide">
+                <h2>How did you do that?!</h2>
+                <button class="ci-nav" path="slide-60">I tried to do the right thing, but quickly learned that there are different rules for different people. I'm not male enough, white enough or rich enough - so fuck it, I went rogue!</button>
+                <button class="ci-nav" path="slide-74">I built an Internet empire, duh.</button>
+                <button class="ci-nav prev" path="slide-3"></button>
+            </div>
+
+            <div id="slide-60" class="ci-slide">
+            <h2>Oh, we understand...</h2>   
+                <p>Does this make you angry?</p>
+                <button class="ci-nav" path="slide-61">All the time.</button>
+                <button class="ci-nav" path="slide-62">Nah, you forget why you're angry after the $$$ starts pouring in.</button>
+                <button class="ci-nav prev" path="slide-7"></button>
+            </div>  
+
+            <div id="slide-61" class="ci-slide">
+            <h2>How does this affect your art pratice?</h2>   
+                <p></p>
+                <button class="ci-nav" path="slide-63">I can't make art when I'm angry.</button>
+                <button class="ci-nav" path="slide-64">Anger is a barometer for injustice. It motivates me.</button>
+                <button class="ci-nav prev" path="slide-60"></button>
+            </div>  
+
+            <div id="slide-63" class="ci-slide">
+            <h2>Neither can we.</h2>   
+                <p>Go to page 3 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-61"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-64" class="ci-slide">
+            <h2>Endless struggle...</h2>   
+                <p>It's ugly out there. Do you ever lose hope?</p>
+                <button class="ci-nav" path="slide-65">Yes</button>
+                <button class="ci-nav" path="slide-66">No</button>
+                <button class="ci-nav prev" path="slide-61"></button>
+            </div>
+
+            <div id="slide-65" class="ci-slide">
+            <h2>Us too.</h2>   
+                <p>Go to page 85 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-64"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-66" class="ci-slide">
+            <h2>What's your secret?</h2>   
+                <p>Please <a href="mailto:anxioustomake@gmail.com?subject=Hope and despair">email us</a>. We need to talk.</p>
+                <button class="ci-nav prev" path="slide-64"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-62" class="ci-slide">
+            <h2>Money's a great anesthetic, huh?</h2>   
+                <p>Still, it's gotta be stressful? Do you have any regrets?</p>
+                <button class="ci-nav" path="slide-67">Yes, disappointing my mother, children, all of my partners. That part is hard.</button>
+                <button class="ci-nav" path="slide-68">No, but I lament the fact that we live under conditions that force people who would have otherwise made better choices to have to make these moral compromises in the first place.</button>
+                <button class="ci-nav" path="slide-69">No, and I don't feel the need to explain.</button>
+                <button class="ci-nav prev" path="slide-60"></button>
+            </div>
+
+            <div id="slide-67" class="ci-slide">
+            <h2>Does your creative practice help with this at all?</h2>   
+                <p>You know, with processing, healing, or communicating with the people you've disappointed, the people you care about?</p>
+                <button class="ci-nav" path="slide-70">Yes, very much.</button>
+                <button class="ci-nav" path="slide-71">No.</button>
+                <button class="ci-nav prev" path="slide-62"></button>
+            </div>
+
+            <div id="slide-68" class="ci-slide">
+            <h2>That's the trap we're all falling into it seems...</h2>   
+                <p>Go to page 85 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-62"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-69" class="ci-slide">
+                <h2>Sounds complicated.</h2>   
+                <p>This quiz is probably not very helpful to you. Apologies.</p>
+                <button class="ci-nav prev" path="slide-62"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-70" class="ci-slide">
+            <h2>Commission something for someone you've disappointed.</h2>   
+                <p>Go to page 90 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-67"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-71" class="ci-slide">
+            <h2>Would you like it to?</h2>   
+                <p></p>
+                <button class="ci-nav" path="slide-72">Yes</button>
+                <button class="ci-nav" path="slide-73">No</button>
+                <button class="ci-nav prev" path="slide-67"></button>
+            </div>
+
+            <div id="slide-72" class="ci-slide">
+            <h2>Commission something for someone you've disappointed.</h2>   
+                <p>Go to page 90 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-71"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-73" class="ci-slide">
+            <h2>Hmmm...</h2>   
+                <p>This quiz is probably not very helpful to you. Apologies.</p>
+                <button class="ci-nav prev" path="slide-71"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <!-- GAMING THE SYSTEM 2 (internet empire)-->
+            <div id="slide-74" class="ci-slide">
+            <h2>OMG!</h2>   
+                <p><img src="http://www.incomeinday.com/wp-content/uploads/2015/03/make-money-online1.png"><br/>Please <a href="mailto:anxioustomake@gmail.com?subject=How to Make Money Online">email us</a> ASAP. We need to talk.</p>
+                <button class="ci-nav prev" path="slide-7"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <!--NEVER ENOUGH 1 (entrepreneurial dream)-->
+            <div id="slide-8" class="ci-slide">
+            <h2>Great! Then you are probably already super amaxxxxing at branding, publicity, outsourcing, etc.</h2>   
+                <p>Our work here is done. You may close your Internet browser and go home.</p>
+                <button class="ci-nav prev" path="slide-4"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <!--NEVER ENOUGH 2 (work til i die)-->
+            <div id="slide-9" class="ci-slide">
+                <h2>You mean, literally?</h2>
+                <button class="ci-nav" path="slide-75">Yes, like a heart attack.</button>
+                <button class="ci-nav" path="slide-76">No, devastatingly. A spiritual death.</button>
+                <!-- <button class="ci-nav" path="slide-77">Only if the suicide net "fails".</button> -->
+                <button class="ci-nav" path="slide-78">No, I mean not being able-bodied enough to work for the duration of my lifetime, while at the same time having no other resources with which to sustain my disabled or aging body's existence.</button>
+                <button class="ci-nav prev" path="slide-4"></button>
+            </div>
+
+            <div id="slide-75" class="ci-slide">
+            <h2>Sounds stressful.</h2>   
+                <p>You need to relax. Go to page 54 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-9"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-76" class="ci-slide">
+            <h2>Have you made any art about this?</h2>   
+                <p></p>
+                <button class="ci-nav" path="slide-79">Yes, all the time!</button>
+                <button class="ci-nav" path="slide-80">Who can make art at a time like this?</button>
+                <button class="ci-nav prev" path="slide-9"></button>
+            </div>
+
+            <div id="slide-79" class="ci-slide">
+            <h2>Looks like you're on target for 2016.</h2>   
+                <p>If Trump gets elected, your career is going to blow up<a href="http://makeitgreatagain.horse/" target="_blank">!</a></p>
+                <button class="ci-nav prev" path="slide-76"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-80" class="ci-slide">
+                <h2>You've lost faith in the system, and yourself.</h2>   
+                <p>Go to page 85 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-76"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <div id="slide-78" class="ci-slide">
+            <h2>What worries you the most about this?</h2>   
+                <p></p>
+                <button class="ci-nav" path="slide-81">Dying alone, poor, possibly homelessness.</button>
+                <button class="ci-nav" path="slide-82">Dying because I can't afford decent health insurance, or because the care is rationed in such as way so as to maximize profits / minimize risk to fictitious entities, resulting in the accelerated decline of my mental and physical health (i.e. a carefully calculated death, the kind you can plug into an excel formula).</button>
+                <button class="ci-nav prev" path="slide-9"></button>
+            </div>
+
+            <div id="slide-81" class="ci-slide">
+                <h2>You've lost faith, but you're not alone.</h2>   
+                <p>Go to page 85 in the workbook.</p>
+                <button class="ci-nav prev" path="slide-78"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>  
+
+            <div id="slide-82" class="ci-slide">
+                <h2>You must be American.</h2>   
+                <p>You need to get the fuck out of there.</p>
+                <button class="ci-nav prev" path="slide-78"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>  
+
+            <!--NEVER ENOUGH 3 (lotto)-->
+            <div id="slide-10" class="ci-slide">
+                <h2>Here you go.</h2>
+                <a href="http://mysteryprize.biz" target="_blank"><img src="http://mysteryprize.biz/img/gift.gif"><br/><br/></a>
+                <button class="ci-nav prev" path="slide-4"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <!--NEVER ENOUGH 4 (panic attacks)-->
+            <div id="slide-11" class="ci-slide">
+                <h2>We have just the thing for this!</h2>
+                <p>Go <a href="http://anxioustomake.ga/media/RitualsForRemovingCreativeBlocks.pdf" target="_blank">here</a>. Read #15.</p>
+                <button class="ci-nav prev" path="slide-4"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div>
+
+            <!--NEVER ENOUGH 5 (revolution)-->
+            <div id="slide-12" class="ci-slide">
+                <h2>Zapatista style of Accelerationist style?</h2>   
+                <p></p>
+                <button class="ci-nav" path="slide-83">Zapatista</button>
+                <button class="ci-nav" path="slide-84">Accelerationist</button>
+                <button class="ci-nav prev" path="slide-4"></button>
+            </div>
+
+            <div id="slide-83" class="ci-slide">
+                <h2>Write your manifesto on a...</h2>   
+                <p><a href="http://anxioustomake.ga/mugruggenerator.html#MANIFESTO%20GOES%20HERE,revolution" target="_blank">CLICK HERE</a></p>
+                <button class="ci-nav prev" path="slide-12"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div> 
+
+            <div id="slide-84" class="ci-slide">
+                <h2>Write your manifesto on a...</h2>   
+                <p><a href="http://anxioustomake.ga/mugruggenerator.html#MANIFESTO%20GOES%20HERE,revolution" target="_blank">CLICK HERE</a></p>
+                <button class="ci-nav prev" path="slide-12"></button>
+                <a href="moneyquiz.html"><button class="ci-nav">Take the Quiz Again</button></a>
+            </div> 
+
+        </div><!--end ci-->
+    </div><!--end ci-wrap-->
+</div><!--end main-->
+
+<script src="js/moneyquiz.js"></script>
+
+<script>
+    jQuery(document).ready(function() {
+        jQuery('#ci').chooseIt();
+    });
+</script>    
+</body>
+</html>            
