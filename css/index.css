@@ -17,6 +17,9 @@ a:hover {color: magenta; }
 .img-responsive {
     max-width: 100%;
 }
+.img-height {
+    max-height: 360px;
+}
 .center {
     text-align:center;
 }
