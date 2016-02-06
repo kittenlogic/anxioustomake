@@ -421,6 +421,154 @@
               transform: translateY(400%) translateX(300%); 
           }           
       }
+      body, html { font-family: sans-serif;}
+      .orderform{
+        width: 400px;
+        height: 300px;
+        background-color: white;
+        z-index: 99999;
+        position: relative;
+        font-family: sans-serif;
+        margin: 0 auto;
+      }
+      #openpopup{
+        position: relative;
+        z-index: 99999;
+      }
+      .orderform * {
+        text-align: center;
+        margin: 0 auto;
+      }
+      .orderform {
+        color: #FF0179;
+        font-family: sans-serif;
+        font-weight: bold;
+      }
+      .spacer{
+        padding-top: 20px;
+      }
+      .orderform textarea.customtext{
+        text-align: left;
+      }
+
+      a#openPopUp:hover{
+        cursor: pointer;
+      }
+  
+      .popup{
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        z-index: 9999999;
+        background: rgba(0,0,0, 0.45);
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+
+          -webkit-transition: opacity  0.35s ease;
+          -moz-transition: opacity 0.35s ease;
+          -o-transition: opacity 0.35s ease;
+          transition: opacity 0.35s ease;
+      }
+      .popup .popUpContainer{
+        width: 100%;
+        max-width: 500px;
+        position: fixed; /* To avoid scroll to target */
+        left: 50%;
+        top: -100vh;
+          -webkit-transition: top  0.35s ease;
+          -moz-transition: top 0.35s ease;
+          -o-transition: top 0.35s ease;
+          transition: top 0.35s ease;
+
+        /* Trick to properly center the element by using negative 
+        1/2 length of element as margin left and top */
+        margin-left: -250px;
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        border-radius: 2px;
+        z-index: 9999999; 
+      }
+      .popup h2{
+        padding: 0.5em;
+        text-align: center;
+        color: magenta;
+        margin: 0;
+        background-color: yellow;
+        font-weight: lighter;
+      }
+      .popup img{
+        width: 100%;
+        display: block;
+      }
+      .popup article{  
+        background-color: #fff;
+        padding: 30px;
+      }
+      /* The cancel button on popup dialog */
+      .popup a.closePopUp{
+        font-family: verdana;
+        color: magenta;
+        position: absolute;
+        top: 0.2em;
+        right: 0.375em;
+        margin: 0;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 1.5em;
+        text-decoration: none;
+      }
+      /* The cancel button on popup dialog */
+      .popup a:hover{
+        color: magenta;
+      }
+      /* When popup is targeted, by clicking on link with #popup in HTML */
+      .popup:target{
+        opacity: 1;
+        top: 0;
+      }
+      .popup .closePopUpOutSide{
+        position: absolute;
+        left:0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999991; 
+      }
+      .popup:target .popUpContainer{
+        top: 50px;
+          -webkit-transition: top  0.35s ease;
+          -moz-transition: top 0.35s ease;
+          -o-transition: top 0.35s ease;
+          transition: top 0.35s ease;
+      }
+
+      @media  (max-width: 796px) {
+        .popup .popUpContainer{
+          width: 90%;
+          max-width: none;
+          left: 5%;
+          margin-left: 0;
+        }
+        .popup ul{
+          padding: 0 1em 0 1em;
+        }
+        .popup:target .popUpContainer{
+          top: 25px;
+          -webkit-transition: top  0.35s ease;
+          -moz-transition: top 0.35s ease;
+          -o-transition: top 0.35s ease;
+          transition: top 0.35s ease;
+        }
+        .popup article{
+          font-size: 0.75em;
+        }
+        .popup h2,
+        .popup a.closePopUp{
+          font-size: 1em;
+        }
+      }
     </style>
     <script type="text/javascript" src="js/analytics.js"></script>
   </head>
@@ -442,7 +590,8 @@
           <option value="distrust">Externalize Distrust Mug (set of 5)</option>
           <!-- <option value="freedomrug">Freedom Rug</option>  -->    
       </select>
-
+      <br/><br/>
+      <a href="#buy" id="openpopup"><img src="img/buy.gif"/></a>
       <div id="credit">
       Stolen from <a href="http://diskcact.us">💾🌵</a> with love.
       </div>
@@ -458,6 +607,39 @@
   <!-- <div class="rug rug7 floating9"></div> -->
   <div class="rug rug8 floating8"></div>
   <!-- <div class="rug rug9 floating7"></div> -->
+
+<!-- POP UP -->
+
+
+<aside id="buy" class="popup">
+    <div class="popUpContainer">
+       <header>
+        <a href="#!" class="closePopUp">X</a>
+        <h2>Order Your Mug</h2>
+       </header>
+       <img class="spacer" src="img/mugs2.jpg">
+        <div class="orderform">
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="3A22365EFFF2L">
+          <table>
+          <tr><td class="spacer"><input type="hidden" name="on0" value="Mugs">Mugs</td></tr><tr><td><select name="os0">
+            <option value="Freedom Mug">Freedom Mug </option>
+            <option value="I Broke Up With My Artistic Practice Mug">I Broke Up With My Artistic Practice Mug </option>
+            <option value="Never Talk About Your Work Again Mug">Never Talk About Your Work Again Mug </option>
+            <option value="Externalize Distrust Mug">Externalize Distrust Mug </option>
+            <option value="Revolution Mug">Revolution Mug </option>
+            <option value="Custom Mug">Custom Mug </option>
+          </select> </td></tr>
+          <tr><td class="spacer"><input type="hidden" name="on1" value="Text to be printed on mug">Text to be printed on mug<br/><small>(200 char max)</small></td></tr><tr><td><!-- <input type="text" name="os1" maxlength="1000"> --><textarea class="customtext" name="os1" rows="10" cols="50" maxlength="200"></textarea></td></tr>
+          </table>
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+   </div>        
+   <a href="#!" class="closePopUpOutSide"></a>    
+</aside>
 
   <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
   <script src="js/mugs.js" type="text/javascript"></script>
