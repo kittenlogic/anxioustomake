@@ -342,8 +342,8 @@ var topicListB = {
     },
     {
       "topic": "emoji",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/asadabbas44/illustrate-creative-emoji-for-you",
+      "store": "I will illustrate creative emoji for you"
     },
     {
       "topic": "water",
@@ -826,7 +826,42 @@ var topicListB = {
       "store": ""
     },
     {
-      "topic": "green tourism",
+      "topic": "philosophy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "Mark Zuckerberg's baby",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "George W Bush's paintings",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "ancestors",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "exile",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "mothers",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "fathers",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "Miami",
       "url": "",
       "store": ""
     }
