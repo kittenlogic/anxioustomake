@@ -2,3 +2,6 @@
 config.yml
 history.lock
 /node_modules
+mobile.html
+video-example.html
+template.html
