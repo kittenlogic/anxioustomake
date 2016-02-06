@@ -462,13 +462,23 @@ var mediumList = {
     },
     {
       "medium": "karaoke powerpoint performance",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/deanstokes/create-a-beautiful-minimalistic-master-slide-set",
+      "store": "I will design a beautifully minimalistic PowerPoint template"
     },
     {
       "medium": "phone call",
       "url": "https://www.fiverr.com/trustbutverify/make-one-phone-call-on-your-behalf",
       "store": "I will make one phone call on your behalf"
+    },
+    {
+      "medium": "monument",
+      "url": "https://www.fiverr.com/arjunrocks/record-a-video-at-an-indian-historical-monument",
+      "store": "I will record a video at an indian historical monument"
+    },
+    {
+      "medium": "museum",
+      "url": "",
+      "store": ""
     }
   ]
 }

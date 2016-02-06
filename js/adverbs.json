@@ -319,6 +319,11 @@ var adverbList = {
       "adverb": "feverishly",
       "url": "",
       "store": ""
+    },
+    {
+      "adverb": "shamelessly",
+      "url": "",
+      "store": ""
     }
   ]
 }
