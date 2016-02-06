@@ -47,8 +47,8 @@ var gerundList = {
     },
     {
       "gerund": "sexting",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/saucychic/talk-dirty-to-you-about-any-subject",
+      "store": "I will talk dirty to you about any subject"
     },
     {
       "gerund": "praying",
@@ -82,13 +82,13 @@ var gerundList = {
     },
     {
       "gerund": "fabricating",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/yodazhang/find-a-supplier-in-china-for-the-product-equipment-or-machine-you-want",
+      "store": "I will find a supplier in China for a product you want"
     },
     {
       "gerund": "outsourcing",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/yodazhang/find-a-supplier-in-china-for-the-product-equipment-or-machine-you-want",
+      "store": "I will find a supplier in China for a product you want"
     },
     {
       "gerund": "scraping the internet",
@@ -112,8 +112,8 @@ var gerundList = {
     },
     {
       "gerund": "screaming in public",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/luismarc/sing-or-shout-anything-out-loud-in-a-packed-bus",
+      "store": "I will sing or shout anything out loud in a packed bus"
     },
     {
       "gerund": "reading the wrong books",
@@ -132,8 +132,8 @@ var gerundList = {
     },
     {
       "gerund": "crying",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/krazyretarded/make-a-30-second-video-crying-about-anything-you-want",
+      "store": "I will make a 30 second video crying about anything you want"
     },
     {
       "gerund": "massaging",
@@ -312,18 +312,18 @@ var gerundList = {
     },
     {
       "gerund": "astral projecting",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/utahsky/teach-you-how-to-astral-travel-bb9e867d-6355-4124-b2ed-19a8d80f7022",
+      "store": "I will teach you how to Astral Project"
     },
     {
       "gerund": "astral projecting with friends",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/utahsky/teach-you-how-to-astral-travel-bb9e867d-6355-4124-b2ed-19a8d80f7022",
+      "store": "I will teach you how to Astral Project"
     },
     {
       "gerund": "astral projecting into someone else's body",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/utahsky/teach-you-how-to-astral-travel-bb9e867d-6355-4124-b2ed-19a8d80f7022",
+      "store": "I will teach you how to Astral Project"
     },
     {
       "gerund": "dancing",
@@ -397,6 +397,36 @@ var gerundList = {
     },
     {
       "gerund": "soaking in a hot bath",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "making affirmations",
+      "url": "https://www.fiverr.com/lifepositive/tell-5-mantras-to-better-life-based-on-your-views",
+      "store": "I will voice your daily affirmations"
+    },
+    {
+      "gerund": "setting intentions",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "drinking",
+      "url": "https://www.fiverr.com/mr_marcus/be-drunk-at-the-bar-and-relay-your-message",
+      "store": "I will be drunk at the bar and relay your message"
+    },
+    {
+      "gerund": "planting thoughts",
+      "url": "https://www.fiverr.com/melissajeanne/plant-a-dream-or-nightmare-into-anyone-you-wish",
+      "store": "I will plant a DREAM or Nightmare using my Psychic Power"
+    },
+    {
+      "gerund": "cultivating",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "withdrawing from social activity",
       "url": "",
       "store": ""
     }

@@ -2,13 +2,13 @@ var mediumList = {
   "mediums" : [
     {
       "medium": "drawing",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/elettra90/draw-whatever-you-want-in-my-style--125",
+      "store": "I will draw whatever you want in my style"
     },
     {
       "medium": "painting",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/sanjicka/draw-or-paint-anything-you-want",
+      "store": "I will draw or paint anything you want"
     },
     {
       "medium": "photograph",
@@ -17,18 +17,18 @@ var mediumList = {
     },
     {
       "medium": "sketch",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/ruxandradraws/hand-draw-anything-you-want-in-my-style",
+      "store": "I will create a hand drawn illustration"
     },
     {
       "medium": "collage",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/whimsworld/make-you-a-super-weird-mini-collage-of-a-word-of-your-choice",
+      "store": "I will make you a super weird mini collage of a word of your choice"
     },
     {
       "medium": "line drawing",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/dipalidutta/draw-line-drawing-on-any-subject",
+      "store": "I will draw line drawing for coloring book on any subject"
     },
     {
       "medium": "blind contour",
@@ -37,8 +37,13 @@ var mediumList = {
     },
     {
       "medium": "selfie",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/shahbazkahn/make-tom-cruise-take-selfie-with-anything-you-want",
+      "store": "I will make Tom Cruise Take Selfie With Anything you want"
+    },
+    {
+      "medium": "portrait",
+      "url": "https://www.fiverr.com/gentansk/make-your-photo-look-like-a-digital-painting-gift",
+      "store": "I will make Yourself into my Painting style"
     },
     {
       "medium": "screen print",
@@ -47,18 +52,18 @@ var mediumList = {
     },
     {
       "medium": "sculpture",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/yodazhang/find-a-supplier-in-china-for-the-product-equipment-or-machine-you-want",
+      "store": "I will find a supplier in China for a product you want"
     },
     {
-      "medium": "lino cut",
-      "url": "",
-      "store": ""
+      "medium": "linocut",
+      "url": "https://www.etsy.com/listing/91365264/made-to-order-custom-two-toned-woodcut",
+      "store": "Made to Order Custom Two Toned Woodcut Linocut Portrait from Your Photo"
     },
     {
       "medium": "lino print",
-      "url": "",
-      "store": ""
+      "url": "https://www.etsy.com/listing/88027374/custom-minouette-linocut-portrait",
+      "store": "Custom minouette Linocut Portrait, Personalized Custom Printed Portrait on Paper or Fabric for Pillow"
     },
     {
       "medium": "monoprint",
@@ -67,23 +72,23 @@ var mediumList = {
     },
     {
       "medium": "crayon drawing",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/enahodzic/make-unique-hand-drawn-illustrations",
+      "store": "I will make hand drawn illustrations for childrens books"
     },
     {
       "medium": "stamp",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/pastelrainbow/create-a-customized-vintage-retro-stamp-and-logo",
+      "store": "I will create a customized vintage retro stamp and logo"
     },
     {
       "medium": "watercolor",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/febyanacu/paint-your-portrait-in-watercolor-style",
+      "store": "I will paint your portrait in watercolor style"
     },
     {
       "medium": "coin",
-      "url": "",
-      "store": ""
+      "url": "http://www.coinsandpins.com/custom-engraving/any-occasion-engraving/any-occasion-blank-coin-gold-1-5-inch",
+      "store": "coinsandpins.com"
     },
     {
       "medium": "necklace",
@@ -92,8 +97,8 @@ var mediumList = {
     },
     {
       "medium": "mandala",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/surabhikuthiala/create-a-beautiful-mandala-to-bring-you-peace-and-joy",
+      "store": "I will create a beautiful mandala"
     },
     {
       "medium": "shell art piece",
@@ -102,28 +107,28 @@ var mediumList = {
     },
     {
       "medium": "sand castle",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/jaymeah26/write-custom-message-on-an-amazing-sand-castle",
+      "store": "I will write custom message on an amazing Sand Castle"
     },
     {
       "medium": "frosted cake",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/beckyboo1985/send-you-over-50-cake-in-a-mug-recipes",
+      "store": "I will send You Over 50 Cake In A Mug Recipes"
     },
     {
       "medium": "watermelon",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/funnymad/find-your-message-in-watermelon-fruit",
+      "store": "I will find your message in Watermelon fruit"
     },
     {
       "medium": "coconut",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/piuluc/climb-a-coconut-tree-and-find-your-message-there--2",
+      "store": "I will climb a coconut tree and find your message there"
     },
     {
       "medium": "fruit",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/varun_karkhanis/say-whatever-you-want-with-my-fruitman-costume",
+      "store": "I will say whatever you want with my Fruitman costume"
     },
     {
       "medium": "pickup stick sculpture",
@@ -137,48 +142,48 @@ var mediumList = {
     },
     {
       "medium": "joke",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/jonkohan/write-you-jokes-to-for-any-use",
+      "store": "I will write you jokes, memes, funny articles"
     },
     {
       "medium": "love poem",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/jimmylorunning/write-a-poem-for-you-on-any-topic",
+      "store": "I will write a poem for you on any topic"
     },
     {
       "medium": "erotic story",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/holledolce/write-an-erotica-story-with-you-as-a-character",
+      "store": "I will ghostwrite an erotica story for you"
     },
     {
       "medium": "gay erotic story",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/jayishere/write-a-gay-erotic-story-about-you-and-your-crush",
+      "store": "I will write a gay erotic story based on your fantasy"
     },
     {
       "medium": "haiku",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/kendramerrill/write-you-10-haiku-poems-about-anything",
+      "store": "I will write you 10 haiku poems about anything"
     },
     {
       "medium": "radish message",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/adiebrown/scratch-your-text-on-a-large-radish",
+      "store": "I will scratch your text on a large radish"
     },
     {
       "medium": "mug",
-      "url": "http://anxioustomake.ga/mugrug.html",
+      "url": "http://anxioustomake.ga/mugruggenerator.html",
       "store": "Mug Rug"
     },
     {
       "medium": "rug",
-      "url": "http://anxioustomake.ga/mugrug.html",
+      "url": "http://anxioustomake.ga/mugruggenerator.html",
       "store": "Mug Rug"
     },
     {
       "medium": "horse performance",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/arnyaustralia/record-a-mock-horse-race-call-for-you-and-your-friends",
+      "store": "I will record nearly anything you want as a horse race"
     },
     {
       "medium": "video",
@@ -186,19 +191,24 @@ var mediumList = {
       "store": ""
     },
     {
+      "medium": "video featuring twins",
+      "url": "https://www.fiverr.com/theadtwins/create-a-promotional-video-featuring-twins",
+      "store": "I will create a promotional video featuring twins"
+    },
+    {
       "medium": "performance",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/milkveins/make-a-performance-art-video-for-you",
+      "store": "I will make a performance art video for you"
     },
     {
       "medium": "short story",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/elementowriter/write-a-captivating-short-story",
+      "store": "I will write a captivating short story"
     },
     {
       "medium": "email",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/fastcopywriter/write-an-email-in-3-days-or-less",
+      "store": "I will write an EMAIL in 3 days or less"
     },
     {
       "medium": "scent",
@@ -207,18 +217,18 @@ var mediumList = {
     },
     {
       "medium": "website",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/aneelasyed/design-and-develop-fully-responsive-website",
+      "store": "I will design and develop fully responsive website"
     },
     {
       "medium": "engraved piece",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/underlaser/engrave-your-message-on-a-cup-coaster-which-looks-like-a-floppy-disk--2",
+      "store": "I will laser cut a floppy disk with your message"
     },
     {
       "medium": "3D printed piece",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/designhubb/do-3d-modeling-for-various-shape-object-using-auto-cad-and-solid-work",
+      "store": "I will do 3D modeling for various shape object using auto cad and solid work"
     },
     {
       "medium": "human pyramid",
@@ -232,33 +242,33 @@ var mediumList = {
     },
     {
       "medium": "song",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/ceneworksmedia/sing-on-your-edm-song",
+      "store": "I will sing on your EDM song"
     },
     {
       "medium": "rap",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/mfphotographygu/create-a-beat-and-rap-a-16-line-verse-song-about-anything-you-want",
+      "store": "I will create your lyrics and rap about anything you want"
     },
     {
       "medium": "testimonial",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/lawrenceiscool/record-a-sloppy-unprofessional-testimonial",
+      "store": "I will record a sloppy UNprofessional TESTIMONIAL"
     },
     {
       "medium": "billboard",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/yoonus_ynf/put-your-logo-or-photo-on-25-billboards-at-famous-places-virtually",
+      "store": "I will put your logo or photo on 30 BILLBOARDS at famous places virtually"
     },
     {
       "medium": "emoji",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/asadabbas44/illustrate-creative-emoji-for-you",
+      "store": "I will illustrate creative emoji for you"
     },
     {
       "medium": "animated gif",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/stephhoward/create-a-gif-for-you",
+      "store": "I will create an animated GIF for you"
     },
     {
       "medium": "inflatable",
@@ -282,23 +292,23 @@ var mediumList = {
     },
     {
       "medium": "mantra",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/lifepositive/tell-5-mantras-to-better-life-based-on-your-views",
+      "store": "I will tell 5 powerful healing Mantras to solve your problems"
     },
     {
       "medium": "drone",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/nerdoworld/fly-my-drone-with-your-message-in-video",
+      "store": "I will fly my Drone with your Message in Video"
     },
     {
       "medium": "bot",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/majinux/program-a-bot-to-automate-any-webtask",
+      "store": "I will program a Bot to automate any webTask"
     },
     {
       "medium": "psychic reading",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/psychicthe/provide-a-truthful-answer-to-your-question",
+      "store": "I will provide a truthful audio answer to your question"
     },
     {
       "medium": "holograph",
@@ -317,8 +327,8 @@ var mediumList = {
     },
     {
       "medium": "print-on-demand book",
-      "url": "",
-      "store": ""
+      "url": "http://www.lulu.com/create",
+      "store": "lulu.com"
     },
     {
       "medium": "sound installation",
@@ -347,8 +357,8 @@ var mediumList = {
     },
     {
       "medium": "hypnotherapy session",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/bbmagic/record-a-personalized-self-hypnosis-mp3-for-you",
+      "store": "I will record a personalized self hypnosis mp3 for you"
     },
     {
       "medium": "genetically modified potato",
@@ -357,23 +367,28 @@ var mediumList = {
     },
     {
       "medium": "audio tour",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/kymmypops/record-a-british-female-voice-over",
+      "store": "I will record a British voice over"
     },
     {
-      "medium": "locative media project",
+      "medium": "audio book",
+      "url": "https://www.fiverr.com/ftservices/create-an-awesome-audio-book",
+      "store": "I will create an AWESOME audio book"
+    },
+    {
+      "medium": "locative media performance",
       "url": "",
       "store": ""
     },
     {
       "medium": "manifesto",
-      "url": "",
-      "store": ""
+      "url": "http://anxioustomake.ga/mugruggenerator.html#MANIFESTO%20GOES%20HERE,revolution",
+      "store": "Mug Rug"
     },
     {
       "medium": "script",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/vicky_writes/ghostwrite-and-edit-your-script-and-articles",
+      "store": "I will ghostwrite and edit your script and articles"
     },
     {
       "medium": "performative lecture",
@@ -382,28 +397,28 @@ var mediumList = {
     },
     {
       "medium": "dance",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/laurenmeikle/dance-in-your-video",
+      "store": "I will professionally dance in your video"
     },
     {
       "medium": "choreographed performance",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/jaredhughes121/create-custom-choreography-for-any-style-of-music",
+      "store": "I will create 20 seconds custom choreography for any style of music"
     },
     {
       "medium": "documentary",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/xzevlin/record-narration-for-documentaries-and-audiobooks",
+      "store": "I will record narration for documentaries and audiobooks"
     },
     {
       "medium": "wallpaper",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/emlustration/create-a-print-for-fashion-textile-wallpaper",
+      "store": "I will create a print for Fashion, Textile, Wallpaper etc"
     },
     {
       "medium": "fabric",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/yodazhang/find-a-supplier-in-china-for-the-product-equipment-or-machine-you-want",
+      "store": "I will find a supplier in China for a product you want"
     },
     {
       "medium": "video game",
@@ -412,13 +427,13 @@ var mediumList = {
     },
     {
       "medium": "map",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/housemcnabb/make-your-fantasy-map",
+      "store": "I will make your fantasy map"
     },
     {
       "medium": "comedy skit",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/actorcomic/write-you-some-killer-comedy-material-or-jokes",
+      "store": "I will professional comedy writer stand up, speech, scripts"
     },
     {
       "medium": "meat assemblage",
@@ -427,28 +442,33 @@ var mediumList = {
     },
     {
       "medium": "assemblage",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/yodazhang/find-a-supplier-in-china-for-the-product-equipment-or-machine-you-want",
+      "store": "I will find a supplier in China for a product you want"
     },
     {
       "medium": "contract",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/legaldiva/create-a-simple-one-page-contract",
+      "store": "I will create A Simple One Page Contract or Legal Doc"
     },
     {
       "medium": "patent",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/keralamanywere/consult-you-on-trademark-or-copyright-for-15-mins",
+      "store": "I will consult you on IP, trademarks, copyrights, patents, designs"
     },
     {
       "medium": "karaoke performance",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/sabiansoldier/create-a-professional-karaoke-backing-track",
+      "store": "I will create a professional karaoke backing track"
     },
     {
       "medium": "karaoke powerpoint performance",
       "url": "",
       "store": ""
+    },
+    {
+      "medium": "phone call",
+      "url": "https://www.fiverr.com/trustbutverify/make-one-phone-call-on-your-behalf",
+      "store": "I will make one phone call on your behalf"
     }
   ]
 }

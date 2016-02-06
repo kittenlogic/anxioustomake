@@ -112,8 +112,8 @@ var adjectiveListB = {
     },
     {
       "adj": "realistic",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/wheeat/draw-a-realistic-illustration-for-you-7edda",
+      "store": "I will draw a REALISTIC illustration for you"
     },
     {
       "adj": "unrealistic",
@@ -587,8 +587,8 @@ var adjectiveListB = {
     },
     {
       "adj": "dadaist",
-      "url": "",
-      "store": ""
+      "url": "https://www.fiverr.com/deesajn/design-a-custom-poster-in-a-dada-style",
+      "store": "I will design a poster in DADA shouting style"
     },
     {
       "adj": "disorderly",
@@ -814,6 +814,11 @@ var adjectiveListB = {
       "adj": "volatile",
       "url": "",
       "store": ""
+    },
+    {
+      "adj": "detailed",
+      "url": "https://www.fiverr.com/jasperlim/draw-a-detail-line-art-of-your-product",
+      "store": "I will draw a detail line art of your product"
     }
   ]
 }
