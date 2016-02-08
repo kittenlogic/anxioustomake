@@ -1,824 +1,824 @@
 var adjectiveList = {
   "adjectives": [  
     {
-      "adj": "a soft",
+      "adj": "soft",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a quiet",
+      "adj": "quiet",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a kitschy",
+      "adj": "kitschy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a cute",
+      "adj": "cute",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a blue",
+      "adj": "blue",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a pink",
+      "adj": "pink",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a yellow",
+      "adj": "yellow",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a neon",
+      "adj": "neon",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an irridescent",
+      "adj": "irridescent",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a gold",
+      "adj": "gold",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a shiny",
+      "adj": "shiny",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a mean",
+      "adj": "mean",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an angry",
+      "adj": "angry",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a didactic",
+      "adj": "didactic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an erotic",
+      "adj": "erotic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an oppositional",
+      "adj": "oppositional",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a feminist",
+      "adj": "feminist",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a combative",
+      "adj": "combative",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a kind",
+      "adj": "kind",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an intuitive",
+      "adj": "intuitive",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a futuristic",
+      "adj": "futuristic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a black and white",
+      "adj": "black and white",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a realistic",
+      "adj": "realistic",
       "url": "https://www.fiverr.com/wheeat/draw-a-realistic-illustration-for-you-7edda",
-      "store": "I will draw a REALISTIC illustration for you"
+      "store": "I will draw REALISTIC illustration for you"
     },
     {
-      "adj": "an unrealistic",
+      "adj": "unrealistic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a sloppy",
+      "adj": "sloppy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a remote",
+      "adj": "remote",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a piecemeal",
+      "adj": "piecemeal",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a popular",
+      "adj": "popular",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a handmade",
+      "adj": "handmade",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a cordless",
+      "adj": "cordless",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a transparent",
+      "adj": "transparent",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a gay",
+      "adj": "gay",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a hot",
+      "adj": "hot",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a hard",
+      "adj": "hard",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a dreamlike",
+      "adj": "dreamlike",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a worry-free",
+      "adj": "worry-free",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an anxious",
+      "adj": "anxious",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a furry",
+      "adj": "furry",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a fuzzy",
+      "adj": "fuzzy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a bedazzled",
+      "adj": "bedazzled",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a pixelated",
+      "adj": "pixelated",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a smothering",
+      "adj": "smothering",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an awkward",
+      "adj": "awkward",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a jittery",
+      "adj": "jittery",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an agonizing",
+      "adj": "agonizing",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an overcoded",
+      "adj": "overcoded",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a minimal",
+      "adj": "minimal",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an invisible",
+      "adj": "invisible",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a smooth",
+      "adj": "smooth",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a shifting",
+      "adj": "shifting",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an excitable",
+      "adj": "excitable",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a slippery",
+      "adj": "slippery",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a tyrannical",
+      "adj": "tyrannical",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an immersive",
+      "adj": "immersive",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a flighty",
+      "adj": "flighty",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a spectral",
+      "adj": "spectral",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an artificial",
+      "adj": "artificial",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a natural",
+      "adj": "natural",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an electronic",
+      "adj": "electronic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a moody",
+      "adj": "moody",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a responsive",
+      "adj": "responsive",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an interactive",
+      "adj": "interactive",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a multi-touch",
+      "adj": "multi-touch",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a wearable",
+      "adj": "wearable",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a fleshy",
+      "adj": "fleshy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a logical",
+      "adj": "logical",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an irrational",
+      "adj": "irrational",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a suspended",
+      "adj": "suspended",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a gloppy",
+      "adj": "gloppy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a concrete",
+      "adj": "concrete",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a hissing",
+      "adj": "hissing",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a post-digital",
+      "adj": "post-digital",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a synthetic",
+      "adj": "synthetic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a drippy",
+      "adj": "drippy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a post-apocalyptic",
+      "adj": "post-apocalyptic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a reflective",
+      "adj": "reflective",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an entrepreneurial",
+      "adj": "entrepreneurial",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an ethical",
+      "adj": "ethical",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an abstract",
+      "adj": "abstract",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a modernist",
+      "adj": "modernist",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a theoretical",
+      "adj": "theoretical",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a recursive",
+      "adj": "recursive",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a heavy-handed",
+      "adj": "heavy-handed",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a crass",
+      "adj": "crass",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a delicate",
+      "adj": "delicate",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a slow",
+      "adj": "slow",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a decaying",
+      "adj": "decaying",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a decomposing",
+      "adj": "decomposing",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a fetishized",
+      "adj": "fetishized",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an anachronistic",
+      "adj": "anachronistic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a non-linear",
+      "adj": "non-linear",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an analog",
+      "adj": "analog",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an ironic",
+      "adj": "ironic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a hostile",
+      "adj": "hostile",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a violet",
+      "adj": "violet",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a violent",
+      "adj": "violent",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a utopian",
+      "adj": "utopian",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a dystopian",
+      "adj": "dystopian",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an opaque",
+      "adj": "opaque",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a transluscent",
+      "adj": "transluscent",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a cloudy",
+      "adj": "cloudy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a flashy",
+      "adj": "flashy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a pastel",
+      "adj": "pastel",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a gothic",
+      "adj": "gothic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a baroque",
+      "adj": "baroque",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a rococo",
+      "adj": "rococo",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a trashy",
+      "adj": "trashy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a romantic",
+      "adj": "romantic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a satirical",
+      "adj": "satirical",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a dreamy",
+      "adj": "dreamy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an unhinged",
+      "adj": "unhinged",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a generous",
+      "adj": "generous",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a generative",
+      "adj": "generative",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a normcore",
+      "adj": "normcore",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a vaporwave-like",
+      "adj": "vaporwave-like",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a hardcore",
+      "adj": "hardcore",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a glitchy",
+      "adj": "glitchy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a dadaist",
+      "adj": "dadaist",
       "url": "https://www.fiverr.com/deesajn/design-a-custom-poster-in-a-dada-style",
-      "store": "I will design a poster in DADA shouting style"
+      "store": "I will design poster in DADshouting style"
     },
     {
-      "adj": "a disorderly",
+      "adj": "disorderly",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a beaurocratic",
+      "adj": "beaurocratic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a hazy",
+      "adj": "hazy",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a dusty",
+      "adj": "dusty",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a meta",
+      "adj": "meta",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a microscopic",
+      "adj": "microscopic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a macroscopic",
+      "adj": "macroscopic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a skeptical",
+      "adj": "skeptical",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a blunted",
+      "adj": "blunted",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a devastating",
+      "adj": "devastating",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a luxury",
+      "adj": "luxury",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a ghetto rigged",
+      "adj": "ghetto rigged",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an irreverent",
+      "adj": "irreverent",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an inflated",
+      "adj": "inflated",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a deflated",
+      "adj": "deflated",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a structurally unsound",
+      "adj": "structurally unsound",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a gold",
+      "adj": "gold",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a crystal",
+      "adj": "crystal",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a prismatic",
+      "adj": "prismatic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a participatory",
+      "adj": "participatory",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a solitary",
+      "adj": "solitary",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a dominant",
+      "adj": "dominant",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a submissive",
+      "adj": "submissive",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a modular",
+      "adj": "modular",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a hacked",
+      "adj": "hacked",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a therapeutic",
+      "adj": "therapeutic",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an unpatentable",
+      "adj": "unpatentable",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an evasive",
+      "adj": "evasive",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an invasive",
+      "adj": "invasive",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an obsolete",
+      "adj": "obsolete",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a weak",
+      "adj": "weak",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a strong",
+      "adj": "strong",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a polyamorous",
+      "adj": "polyamorous",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a jealous",
+      "adj": "jealous",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a discrete",
+      "adj": "discrete",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a continuous",
+      "adj": "continuous",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a discreet",
+      "adj": "discreet",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a flexible",
+      "adj": "flexible",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a dying",
+      "adj": "dying",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an accidental",
+      "adj": "accidental",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a just-in-time",
+      "adj": "just-in-time",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a futurist",
+      "adj": "futurist",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a hyperrealist",
+      "adj": "hyperrealist",
       "url": "",
       "store": ""
     },
     {
-      "adj": "an injured",
+      "adj": "injured",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a volatile",
+      "adj": "volatile",
       "url": "",
       "store": ""
     },
     {
-      "adj": "a detailed",
+      "adj": "detailed",
       "url": "https://www.fiverr.com/jasperlim/draw-a-detail-line-art-of-your-product",
-      "store": "I will draw a detail line art of your product"
+      "store": "I will draw detail line art of your product"
     }
   ]
 }

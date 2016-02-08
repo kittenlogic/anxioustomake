@@ -251,11 +251,6 @@ var topicList = {
       "store": ""
     },
     {
-      "topic": "darth vader",
-      "url": "",
-      "store": ""
-    },
-    {
       "topic": "pirate bay",
       "url": "",
       "store": ""
@@ -862,6 +857,56 @@ var topicList = {
     },
     {
       "topic": "Miami",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "hospitality",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "hostility",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "fluctuation",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "uninvited guests",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "Nazi mountain",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "1 night stand",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "a shared and communal future",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "",
       "url": "",
       "store": ""
     }
