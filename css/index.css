@@ -48,7 +48,7 @@ a:hover {color: magenta; }
   position:absolute;
   width: 300px;
   height: 400px;
-  line-height: 20px;
+  line-height: 22px;
   font-size: 20px;
   color: black;
   background-color: #fff;
@@ -114,6 +114,13 @@ a:hover {color: magenta; }
   left:710px;
 }
 
+.popup .mail {
+  width: 80px;
+  display: inline-block;
+}
+.news {
+  overflow-y: auto; 
+}
 .labor {
   background-image: url('https://media.giphy.com/media/IM90SMwLsdJfO/giphy.gif'); 
   background-size: 90%;
@@ -121,6 +128,10 @@ a:hover {color: magenta; }
 .internet-empire {
   background-image: url('../img/empire.gif'); 
   background-position: -100px 0;
+}
+.rituals .img-responsive {
+  max-width: 200px;
+  border: 1px solid #aeaeae;
 }
 .generator{
   background: url('../img/database.jpg') no-repeat;
