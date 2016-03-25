@@ -819,6 +819,71 @@ var adjectiveListB = {
       "adj": "detailed",
       "url": "https://www.fiverr.com/jasperlim/draw-a-detail-line-art-of-your-product",
       "store": "I will draw a detail line art of your product"
+    },
+    {
+      "adj": "overregulated",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "underregulated",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "underrepresented",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "marginalized",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "speculative",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "hysterical",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "mandatory",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "neo-",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "post-",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "effortless",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "radical",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "augmented reality",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adj": "phenomenologically",
+      "url": "",
+      "store": ""
     }
   ]
 }

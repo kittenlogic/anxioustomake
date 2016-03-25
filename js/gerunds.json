@@ -429,6 +429,21 @@ var gerundList = {
       "gerund": "withdrawing from social activity",
       "url": "",
       "store": ""
+    },
+    {
+      "gerund": "speculating",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "using fluorescent colors",
+      "url": "",
+      "store": ""
+    },
+    {
+      "gerund": "using a schizo aesthetic",
+      "url": "",
+      "store": ""
     }
   ]
 }

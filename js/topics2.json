@@ -864,6 +864,376 @@ var topicListB = {
       "topic": "Miami",
       "url": "",
       "store": ""
+    },
+    {
+      "topic": "hospitality",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "hostility",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "fluctuation",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "uninvited guests",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "Nazi mountain",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "1 night stand",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "shared and communal future",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "retroDada",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "psychoanalysis",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "high frequency trading",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "prediction markets",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "super markets",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "Walmart",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "pirates",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "ports",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "luxury cruises",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "access to resources",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "icebergs",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "border patrol",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "international waters",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "networks of power",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "(temporary) freedom",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "artificial intelligence",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "extraterrestrials",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "p2p production",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "airports",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "airport security",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "commons",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "anarchy and autonomy",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "fascism",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "Facebook",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "trauma",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "afrofuturism",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "palm trees",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "cocaine",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "Mexico",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "chongas",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "Homeland Security",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "the cloud",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "ebola",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "the plague",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "pandemic",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "smuggling",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "unattended baggage",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "virus",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "tsunami",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "suicide bombers",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "earthquakes",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "hurricanes",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "flood",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "wildfires",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "riot",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "sustainability",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "smart grids",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "automation",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "future of work",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "planetary-scale computation",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "domestic work",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "perpetual war",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "sleep",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "quantified self",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "factories",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "societies of control",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "sovereignty",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "insecurity",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "known unknowns",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "millennials",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "self care",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "housing crisis",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "hedge funds",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "education",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "dissapointment",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "refusal of work",
+      "url": "",
+      "store": ""
+    },
+    {
+      "topic": "reform or revolution",
+      "url": "",
+      "store": ""
     }
   ]
 }

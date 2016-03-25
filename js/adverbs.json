@@ -324,6 +324,56 @@ var adverbList = {
       "adverb": "shamelessly",
       "url": "",
       "store": ""
+    },
+    {
+      "adverb": "meticulously",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adverb": "like Miley Cyrus",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adverb": "like Britney after her breakdown",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adverb": "like a Kardashian",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adverb": "stubbornly",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adverb": "effortlessly",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adverb": "like herding cats",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adverb": "like a fury",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adverb": "like lovers do",
+      "url": "",
+      "store": ""
+    },
+    {
+      "adverb": "like sands through the hourglass",
+      "url": "",
+      "store": ""
     }
   ]
 }
