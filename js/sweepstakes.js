@@ -122,11 +122,11 @@ window.onresize=winSize;
 
  $('.clickme').on('click', fall);
  
- $('marquee, #makingothers').on('mouseover', function(){
+ $('#anxious-video').on('mouseover', function(){
     $('.clickhere').show();
  });
  
- $('#makingothers, #makingyou').on('mouseleave', function(){
+ $('.anxious-to-intervene').on('mouseleave', function(){
     $('.clickhere').hide();
  });
 

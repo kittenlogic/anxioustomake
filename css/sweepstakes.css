@@ -261,10 +261,15 @@ label:hover {
 .clickhere {
   display: none;
   position: absolute;
-  top: 0;
-  left: -38px;
+  top: 12;
+  left: -26px;
   z-index: 9999;
-  width: 130px;
+  width: 100px;
+}
+
+#makingothers .clickhere {
+  top: 50px;
+  left: -6px;
 }
 
 /*******************************
