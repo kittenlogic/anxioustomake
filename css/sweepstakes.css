@@ -218,6 +218,7 @@ input[type="checkbox"]:checked + label span {
     background-size: 30px 30px;
 }
 
+
 label {
   font-size: 20px;
   color: magenta;

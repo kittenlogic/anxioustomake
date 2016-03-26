@@ -53,10 +53,16 @@
 
 })( jQuery );
 
+var formValidator = document.querySelector("form");
+formValidator.addEventListener("submit", function(event) {
+  event.preventDefault();
+  checkForm();
+  console.log("Form submission cancelled.");
+});
+
 function checkForm(form){
   if(!form.terms.checked) {
     alert("Please indicate that you accept the Terms and Conditions");
-    form.terms.focus();
     return false;
   }
   return true;

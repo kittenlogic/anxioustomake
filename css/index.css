@@ -129,6 +129,13 @@ a:hover {color: magenta; }
   background-image: url('../img/empire.gif'); 
   background-position: -100px 0;
 }
+.commissions img,
+.generators img,
+.sweepstakes img,
+.downloads img {
+  max-width: 70%;
+}
+
 .rituals .img-responsive {
   max-width: 200px;
   border: 1px solid #aeaeae;
