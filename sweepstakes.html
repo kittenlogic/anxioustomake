@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="UTF-8">
     <title>Enter to Win!</title>
@@ -18,7 +18,7 @@
     <meta property="og:image" content="http://anxioustomake.ga/img/sweepstakes-mystery.gif" />
     <meta property="og:description" content="Prizes! Prizes! Prizes! Prizes! Prizes! Prizes! Prizes!" /> 
     <meta property="og:site_name" content="Anxious to Make" />
-    <meta property="fb:admins" content="Facebook numeric ID" />
+    <meta property="fb:admins" content="753667636" />
 
     <!--Twitter Meta-->
     <meta name="twitter:card" content="summary" /> <!--do not edit this line -->
@@ -26,21 +26,20 @@
     <meta name="twitter:title" content="Anxious to Make Sweepstakes!">
     <meta name="twitter:description" content="Prizes! Prizes! Prizes! Prizes! Prizes! Prizes! Prizes!">
     <meta name="twitter:creator" content="@Resonator11">
-    <!-- Twitter Summary card images must be at least 120x120px -->
-    <meta name="twitter:image" content="http://anxioustomake.ga/img/sweepstakes-mystery.gif">
+    <meta name="twitter:image:src" content="http://anxioustomake.ga/img/sweepstakes-mystery.gif">
 
     <link rel="shortcut icon" type="img/ico" href="img/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/sweepstakes.css">
-    
-    <script type="text/javascript" src="js/analytics.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="js/analytics.js"></script>
+    <script src="//api.html5media.info/1.1.8/html5media.min.js"></script>
   </head>
 
   <body>
 
-    <!--
-      https://github.com/dwyl/html-form-send-email-via-google-script-without-server
-    -->
+    <!-- https://github.com/dwyl/html-form-send-email-via-google-script-without-server --> 
 
     <!-- POP UP MAKING YOU -->
     <aside id="you" class="popup">
@@ -145,9 +144,10 @@
           <span id="anxious-close" class="fa fa-ban fa-lg"></span>
         </div>
         <video autoplay id="anxious-video">
-          <source src="media/vopete6.mp4" type="video/mp4" />
-          <source src="media/vopete6.webm" type="video/webm" /> 
-          <source src="media/vopete6.ogv" type="video/ogg" />
+          <source src="media/vopete6.mp4" type="video/mp4" preload />
+          <source src="media/vopete6.webm" type="video/webm" preload /> 
+          <source src="media/vopete6.ogv" type="video/ogg" preload />
+          Your browser is not invited for super fun <code>video</code> time.
         </video>
       </div>
       <div id="anxious-info"><span id="anxious-resume" class="fa fa-bullhorn fa-lg"></span></div>
@@ -158,12 +158,25 @@
       </div>
     </div>
 
+    <div id="#anxious-mobile-video"></div>
+
     <!--JS-->
     <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="js/seeThru.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/sweepstakes.js"></script>
     <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    <script>
+      if (Modernizr.video) {
+        // supported
+      } else {
+        // not-supported
+        videoObj.remove();
+        mediaPlayer.remove();
+        mobileVideo.show();
+      }
+    </script>
+
   </body>
 
 </html>

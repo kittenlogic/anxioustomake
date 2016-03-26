@@ -33,15 +33,57 @@ a:hover {color: magenta; }
 }
 
 .welcome {
-    top: 60px;
-    font-size: 40px;
-    font-weight: bolder;
-    color: magenta;
-    background-color: yellow;
+    top: 50px;
     width: 180px;
     padding-left: 5px;
     display: inline-block;
+    position: fixed;
+    z-index: 9999;
+}
+.new {
     position: absolute;
+    top:2px;
+    right:2px;
+}
+
+.email {
+  display: block;
+}
+.email img {
+    max-width: 100px;
+    display: inline;
+    float: left;
+}
+.email span {
+  padding-left: 15px;
+}
+
+.marquee {
+    position: fixed;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 1.3em;
+    background-color: magenta;
+    color: yellow;
+    font-size: 20px;
+}  
+#info{
+    position: fixed;
+    top: 200px;
+    left:0;
+    height:40px;
+    width:40px;
+    background-color: magenta;
+    text-align: center;
+    z-index: 9999;
+}
+#info img {
+    max-height: 40px;
+    max-width: 40px;
+    overflow: hidden;
 }
 
 .card {
@@ -157,41 +199,6 @@ a:hover {color: magenta; }
   height: 400px;
 }
 
-.new {
-    position: absolute;
-    top:2px;
-    right:2px;
-}
-
-.marquee {
-    position: fixed;
-    margin: 0;
-    padding: 5px;
-    width: 100%;
-    left: 0;
-    top: 0;
-    height: 1.3em;
-    background-color: magenta;
-    color: yellow;
-    font-size: 20px;
-}  
-
-#info{
-    position: fixed;
-    bottom:0;
-    left:0;
-    height:40px;
-    width:40px;
-    background-color: magenta;
-    text-align: center;
-    z-index: 9999;
-}
-#info img {
-    max-height: 40px;
-    max-width: 40px;
-    overflow: hidden;
-}
-
 #love-me {
     top:0;
     left:0;
@@ -300,6 +307,11 @@ a#openPopUp:hover{
     transition: top 0.35s ease;
 }
 
+.popUpContainer .modal-text {
+  max-height: 500px;
+  overflow-y: scroll; 
+}
+
 @media  (max-width: 796px) {
   .popup .popUpContainer{
     width: 90%;
@@ -323,6 +335,15 @@ a#openPopUp:hover{
   .popup h2,
   .popup a.closePopUp{
     font-size: 1em;
+  }
+  .popUpContainer .modal-text {
+    max-height: 300px;
+  }
+  .email img {
+    float: none;
+  }
+  .email span {
+    text-align: center;
   }
 }
     

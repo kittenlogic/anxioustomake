@@ -1,6 +1,4 @@
-(function( $ ) {
-  
-  var playing = false;
+    var playing = false;
   var videoObj = document.querySelector('#anxious-video');
   var playButton = document.querySelector('#anxious-play');
   var pauseButton = document.querySelector('#anxious-pause');
@@ -10,6 +8,7 @@
   var next = $('#anxious-next');
   var controls = $('#anxious-controls');
   var mediaPlayer = $('#anxious-media-player');
+  var mobileVideo = $('#anxious-mobile-video');
   var video = seeThru
   .create('#anxious-video', { start: 'autoplay', end : 'stop'})
   .ready(function(instance, video, canvas){
@@ -28,10 +27,10 @@
     videoObj.pause();
     playing = false;
   });
-  videoObj.addEventListener('click', function() {
-    videoObj[playing ? 'pause' : 'play']();
-    playing = !playing;
-  });
+  // videoObj.addEventListener('click', function() {
+  //   videoObj[playing ? 'pause' : 'play']();
+  //   playing = !playing;
+  // });
   videoObj.addEventListener('mouseover', function(){
     controls.fadeIn();
   });
@@ -50,8 +49,6 @@
     mediaPlayer.fadeIn();
     videoObj.play();
   });
-
-})( jQuery );
 
 var formValidator = document.querySelector("form");
 formValidator.addEventListener("submit", function(event) {

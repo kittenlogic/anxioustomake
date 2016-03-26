@@ -69,6 +69,16 @@ walk-on video
   text-decoration: none;
   color: yellow;
 }
+#anxious-mobile-video {
+  display: none;
+}
+
+.no-video .anxious-to-intervene,
+.no-video .anxious-info,
+.no-video .anxious-next { 
+  display: none; 
+}
+
 
 /*!
  *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -139,7 +149,6 @@ walk-on video
   background-color: yellow;
 }
  
-
 
 /*******************************
 form
@@ -406,6 +415,12 @@ media queries
   .popup h2,
   .popup a.closePopUp{
     font-size: 1em;
+  }
+}
+
+@media only screen and (max-device-width : 480px) {
+  .anxious-to-intervene{
+    display: none;
   }
 }
 
