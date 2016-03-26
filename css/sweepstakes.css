@@ -6,8 +6,18 @@ body{
   background-color: transparent;
   background: url('../img/sweepstakes-mystery.gif') repeat;
 }
-h2{font-weight: normal;}
+h3{font-weight: normal; font-size: 22px;}
 
+a,
+form a {
+  color: magenta;
+  text-decoration: underline;
+}
+a:hover,
+form a:hover {
+  color: #00cc00;
+  text-decoration: underline;
+}
 
 #makingyou img {width: 60px; }
 
@@ -222,17 +232,39 @@ label:hover {
   padding: 10px 20px;
   font-size: 30px; 
   display: block;
-  width: 90%;
+  max-width: 750px;
   margin: 0 auto; 
 }
-
-form a {
-  color: magenta;
+.thanks {
+  display: block;
+  margin: 0 auto;
+}
+.clickme {
+  font-weight: bold;
   text-decoration: underline;
 }
-label a:hover {
-  color: #00cc00;
-  text-decoration: underline;
+.clickme:hover {
+    cursor:pointer !important;
+}
+.line-up{
+  display: inline-block;
+}
+.skull{
+  width: 100px;
+}
+
+.falling-object{
+  position: absolute;
+  top: -1000px;
+  display: block
+}
+.clickhere {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -38px;
+  z-index: 9999;
+  width: 130px;
 }
 
 /*******************************
