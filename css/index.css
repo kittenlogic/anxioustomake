@@ -9,6 +9,7 @@ img {margin: 0 auto; }
 a {color: #adadad; } 
 a:hover {color: magenta; }
 
+
 .clearfix:after{
     content: '';
     display: table;
@@ -31,7 +32,9 @@ a:hover {color: magenta; }
   height: 100%;
   width: 100%;
 }
-
+.video-module {
+  width: 97%;
+}
 .welcome {
     top: 50px;
     width: 180px;
@@ -52,10 +55,13 @@ a:hover {color: magenta; }
 .email img {
     max-width: 100px;
     display: inline;
-    float: left;
+    float: none;
 }
 .email span {
-  padding-left: 15px;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  padding-left: 0;
 }
 
 .marquee {
@@ -65,14 +71,14 @@ a:hover {color: magenta; }
     width: 100%;
     left: 0;
     top: 0;
-    height: 1.3em;
+    height: 40px;
     background-color: magenta;
     color: yellow;
     font-size: 20px;
 }  
 #info{
     position: fixed;
-    top: 200px;
+    top: 0;
     left:0;
     height:40px;
     width:40px;
@@ -342,11 +348,6 @@ a#openPopUp:hover{
   .popUpContainer .modal-text {
     max-height: 300px;
   }
-  .email img {
-    float: none;
-  }
-  .email span {
-    text-align: center;
-  }
+
 }
     

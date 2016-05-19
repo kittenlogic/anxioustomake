@@ -1,0 +1,28 @@
+{
+  "name": "anxious-to-make",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-file-include": "^0.13.7",
+    "gulp-imagemin": "^3.0.1",
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kittenlogic/anxioustomake.git"
+  },
+  "author": "Anxious to Make",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kittenlogic/anxioustomake/issues"
+  },
+  "homepage": "https://github.com/kittenlogic/anxioustomake#readme"
+}
