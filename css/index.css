@@ -173,11 +173,14 @@ a:hover {color: magenta; }
 }
 .commissions img,
 .generators img,
-.sweepstakes img,
 .downloads img {
   max-width: 70%;
 }
 
+.sweepstakes .img-responsive {
+  max-width: 40%;
+  margin-top: -50px;
+}
 .rituals .img-responsive {
   max-width: 200px;
   border: 1px solid #aeaeae;
