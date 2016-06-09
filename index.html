@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Anxious to Make</title>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Cache-control" content="public">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Liat Berdugo and Emily Martinez">
-    <meta name='keywords' content='share, sharing economy, desiring-production, desiring-machine,commissions, authorship, identity, DIY culture, entrepreneurship, artist-as-entrepreneur, sourcing, labor, Industry 4.0, economies of scale, artist-as-curator, artist-as-commissioner, on-demand economy, collaborative consumption, collaborative economy'>
-    <meta name='description' content='Anxious to Make is the collaborative practice of Liat Berdugo and Emily Martinez, two commissioning bodies. Our focus is on the so-called "sharing economy" and the contemporary artists "anxiety to make" in the accelerationist, neoliberal economic landscape. While Anxious to Make’s physical existence takes many shifting forms, it often manifests as series of video commissions, downloads, online generations, workshops, net art interventions, and sweepstakes. Anxious to Make believes in absurdist extremes as way to examine contemporary realities. Our work has appeared recently in in EMMEDIA (Calgary, CA), Transmediale (Berlin, DE), Yerba Buena Center for the Arts (San Francisco), and The Luminary (St. Louis, MO).'>
-
+    <meta name='keywords' content='share, sharing economy, desiring-production, desiring-machine, commissions, authorship, identity, DIY culture, entrepreneurship, artist-as-entrepreneur, sourcing, labor, Industry 4.0, economies of scale, artist-as-curator, artist-as-commissioner, on-demand economy, collaborative consumption, collaborative economy'>
+    <meta name='description' content='Anxious to Make is the collaborative practice of Liat Berdugo and Emily Martinez, two commissioning bodies. Our focus is on the so-called "sharing economy" and the contemporary artists "anxiety to make" in the accelerationist, neoliberal economic landscape. While Anxious to Make’s physical existence takes many shifting forms, it often manifests as series of video commissions, downloads, online generators, workshops, net art interventions, and sweepstakes. Anxious to Make believes in absurdist extremes as way to examine contemporary realities. Our work has appeared recently in in EMMEDIA (Calgary, CA), Transmediale (Berlin, DE), Yerba Buena Center for the Arts (San Francisco), and The Luminary (St. Louis, MO).'>
+    
     <!-- Open Graph data -->
     <meta property="og:title" content="Anxious to Make" />
     <meta property="og:type" content="article" />
@@ -28,10 +28,11 @@
     <meta name="twitter:image:src" content="http://anxioustomake.ga/img/meta-humanbillboard.jpg">
 
     <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/dash.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/dash.css">
+    <link rel="stylesheet" href="css/csshake.min.css">
+    <link rel="stylesheet" href="css/app.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elemdnts and media queries -->
     <!--[if lt IE 9]>
@@ -40,13 +41,27 @@
     <![endif]-->
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="img/ico" href="img/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
     <script type="text/javascript" src="js/analytics.js"></script>
+    
 </head>
-<body>
+<body class="homepage">
 
+<!-- START: FACEBOOK LIKE -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -57,12 +72,13 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="love-me">
-<marquee direction="down" width="100%" height="100%" behavior="alternate">
-  <marquee behavior="alternate">
-    <div class="fb-like" data-href="http://anxioustomake.ga" data-width="50" data-layout="box_count" data-action="like" data-show-faces="false" data-share="true"></div>
+  <marquee direction="down" width="100%" height="100%" behavior="alternate">
+    <marquee behavior="alternate">
+      <div class="fb-like" data-href="http://anxioustomake.ga" data-width="50" data-layout="box_count" data-action="like" data-show-faces="false" data-share="true"></div>
+    </marquee>
   </marquee>
-</marquee>
 </div>
+<!-- END: FACEBOOK LIKE -->
 
 <!--START: CONTACT MODAL-->
 <aside id="contact-modal" class="popup">
@@ -90,11 +106,8 @@
     </header>
     <article class="modal-text">
       <p><strong>Anxious to Make</strong> is the collaborative practice of Liat Berdugo and Emily Martinez, two commissioning bodies. Our focus is on the so-called "sharing economy" and the contemporary artists "anxiety to make" in the accelerationist, neoliberal economic landscape. While Anxious to Make’s physical existence takes many shifting forms, it often manifests as series of video commissions, downloads, online generators, workshops, net art interventions, and sweepstakes. Anxious to Make believes in absurdist extremes as way to examine contemporary realities. Our work has appeared recently in in EMMEDIA (Calgary, CA), Transmediale (Berlin, DE), Yerba Buena Center for the Arts (San Francisco), and The Luminary (St. Louis, MO).</p>
-
       <br/><hr>
-
       <p><strong>Liat Berdugo</strong> is an artist, writer, and curator based in Oakland, CA. Her work strives to create an expanded, thoughtful consideration for digital culture. Berdugo has been exhibited in galleries and festivals internationally, and collaborates widely with individuals and archives. She is an Assistant Professor of Art and Architecture at the University of San Francisco. More at <a href="http://digikits.ch" target="_blank">http://digikits.ch</a> and <a href="http://liatberdugo.com/" target="_blank">http://liatberdugo.com/</a>.</p>
-
       <p><strong>Emily Martinez</strong> is an artist working with digital and networked media. Her recent practice and research interests examine the relationship between media, memory, and catastrophe; post-representational forms of subjectivity, emancipatory practices, and the digital archive. Currently lives and works in Los Angeles, California. More at <a href="http://somethingnothing.me" target="_blank">http://somethingnothing.me</a>.</p>
     </article>
   </div>        
@@ -109,11 +122,9 @@
   <span class="fa fa-bars"></span>
 </button>
 
-<!-- Dash Navbar Left 
-Available versions: dnl-visible, dnl-hidden -->
+<!-- Dash Navbar Left -->
 <div class="dash-navbar-left dnl-hidden">
-  <!-- <img class ="img-responsive anx-icon" src="img/anxious-icon.gif"> -->
-  <img class ="img-responsive anx-logo" src="img/anxious-logo-magenta.png">
+  <a href="/"><img class ="img-responsive anx-logo" src="img/anxious-logo-bubblegum.png"></a>
   <div class="clearfix"></div>
   <p class="dnl-nav-title">Work</p>
   <ul class="dnl-nav">
@@ -185,7 +196,7 @@ Available versions: dnl-visible, dnl-hidden -->
       <ul class="dnl-sub-one collapse" id="collapseCommissions">
         <li>
           <a href="performativeremoval.html">
-            <span class="fa fa-file-o dnl-link-icon"></span>
+            <span class="fa fa-video-camera dnl-link-icon"></span>
             <span class="dnl-link-text">Performative Removal of Creative Block</span>
           </a>
         </li>
@@ -197,37 +208,37 @@ Available versions: dnl-visible, dnl-hidden -->
         </li>
         <li>
           <a href="unfamiliarmaterials.html">
-            <span class="fa fa-file-o dnl-link-icon"></span>
+            <span class="fa fa-video-camera dnl-link-icon"></span>
             <span class="dnl-link-text">Performative Validation for Working with Unfamiliar Materials</span>
           </a>
         </li>
         <li>
           <a href="forecasting.html">
-            <span class="fa fa-file-o dnl-link-icon"></span>
+            <span class="fa fa-volume-down dnl-link-icon"></span>
             <span class="dnl-link-text">Psychic Reading to Future Proof Your Career</span>
           </a>
         </li>
         <li>
           <a href="externalizedistrust.html">
-            <span class="fa fa-file-o dnl-link-icon"></span>
+            <span class="fa fa-video-camera dnl-link-icon"></span>
             <span class="dnl-link-text">Performance to Externalize Distrust</span>
           </a>
         </li>
         <li>
           <a href="hypnosis.html">
-            <span class="fa fa-file-o dnl-link-icon"></span>
+            <span class="fa fa-volume-down dnl-link-icon"></span>
             <span class="dnl-link-text">Hypnosis to Engender Trust</span>
           </a>
         </li>
         <li>
           <a href="twins.html">
-            <span class="fa fa-file-o dnl-link-icon"></span>
+            <span class="fa fa-video-camera dnl-link-icon"></span>
             <span class="dnl-link-text">Performance of Roles or Personas Outside of Comfort Zone</span>
           </a>
         </li>
         <li>
           <a href="timemanagement.html">
-            <span class="fa fa-file-o dnl-link-icon"></span>
+            <span class="fa fa-volume-down dnl-link-icon"></span>
             <span class="dnl-link-text">Custom Audio Track for Motivation</span>
           </a>
         </li>
@@ -323,30 +334,160 @@ Available versions: dnl-visible, dnl-hidden -->
   </ul>      
 </div><!-- /.dash-navbar-left -->
 <!--END: NAVIGATION-->
+<!--START: HELLO -->
+<a href="/"><div id="info"><img src="img/anxious-icon.gif"/></div></a>
+<!--END: HELLO -->
 
-<a href="#hello" id="openpopup"><div id="info"><img src="img/info.gif"/></div></a>
+<!-- START: MARQUEE -->
+<div class="anxious-marquee">
+  <marquee>
+  Are you stressed? Overwhelmed by unfulfilled desires? Wishing you had just a little more "me time"? 
+  Well, now is your opportunity. Learn how you can harness the power of the sharing economy to make yourself in just five easy steps. 
+  Don't know what you need for you? Don't worry, we've got you covered. Our algorithm will generate solutions for over one hundred common anxieties about yourself, such as: 
+  How to make yourself auto tuned.
+  How to make yourself better.
+  How to make yourself bleed.
+  How to make yourself blind.  
+  How to make yourself a better singer.
+  How to make yourself a brand.
+  How to make yourself cry.
+  How to make yourself come.
+  How to make yourself a corporation.
+  How to make yourself a celebrity.
+  How to make yourself a demon.
+  How to make yourself a Disney princess.
+  How to make yourself dream.
+  How to make yourself dizzy.
+  How to make yourself disappear.
+  How to make yourself depressed.
+  How to make yourself eat more.
+  How to make yourself eat less.
+  How to make yourself emotionally strong.
+  How to make yourself emotionless.
+  How to make yourself fall asleep.
+  How to make yourself feel better.
+  How to make yourself faint.
+  How to make yourself float in air.
+  How to make yourself feel full.
+  How to make yourself go into labor.
+  How to make yourself grow.
+  How to make yourself go to sleep.
+  How to make yourself a genius.
+  How to make yourself a ghost.
+  How to make yourself get hard.
+  How to make yourself get in the mood.
+  How to make yourself get more energy.
+  How to make yourself get nightmares.
+  How to make yourself get over a guy.
+  How to make yourself get out of bed to workout.
+  How to make yourself get rid of stuff.
+  How to make yourself a heavier sleeper.
+  How to make yourself happy.
+  How to make yourself hungry.
+  How to make yourself have a fever.
+  How to make yourself have visions.
+  How to make yourself happy again.
+  How to make yourself invisible.
+  How to make yourself infertile.
+  How to make yourself in MindCraft.
+  How to make yourself interesting.
+  How to make yourself jump higher for volleyball.
+  How to make yourself judgement proof.
+  How to make yourself keep running.
+  How to make yourself known on Instagram.
+  How to make yourself known as an artist.
+  How to make yourself known on the Internet.
+  How to make yourself known as a babysitter.
+  How to make yourself a lighter sleeper.
+  How to make yourself a lighter skin tone.
+  How to make yourself love.
+  How to make yourself look older.
+  How to make yourself look sick. 
+  How to make yourself look skinny.
+  How to make yourself look taller.
+  How to make yourself look airbrushed.
+  How to make yourself last longer.
+  How to make yourself moan.
+  How to make yourself more awake.
+  How to make yourself more flexible.
+  How to make yourself more fertile.
+  How to make yourself more sick.
+  How to make yourself a morning person.
+  How to make yourself a model.
+  How to make yourself a new person.
+  How to make yourself a nickname.
+  How to make yourself a network administrator.
+  How to make yourself not tired.
+  How to make yourself not hungry.
+  How to make yourself not eat.
+  How to make yourself not throw up.
+  How to make yourself not cry.
+  How to make yourself not get your period.
+  How to make yourself over.
+  How to make yourself offline on Facebook.
+  How to make yourself organism.
+  How to make yourself orgasm.
+  How to make yourself organized.
+  How to make yourself pass out.
+  How to make yourself pee.
+  How to make yourself puke.
+  How to make yourself prettier.
+  How to make yourself a priority.
+  How to make yourself a public figure on Facebook.
+  How to make yourself a private user on Instagram.
+  How to make yourself quicker.
+  How to make yourself quiet.
+  How to make yourself quit smoking.
+  How to make yourself quit coughing.
+  How to make yourself a real mermaid.
+  How to make yourself really wet.
+  How to make yourself really tired.
+  How to make yourself really sick.
+  How to make yourself relax.
+  How to make yourself a robot.
+  How to make yourself run a fever.
+  How to make yourself sleepy.
+  How to make yourself sick.
+  How to make yourself smarter.
+  How to make yourself stop crying.
+  How to make yourself see auras.
+  How to make yourself sound Australian.
+  How to make yourself a super hero.
+  How to make yourself a sudoer.
+  How to make yourself tired.
+  How to make yourself taller.
+  How to make yourself tighter.
+  How to make yourself a twin.
+  How to make yourself a tumblr girl.
+  How to make yourself a twin in a video.
+  How to make yourself unsearchable on Facebook.
+  How to make yourself unsearchable on Facebook 2015.
+  How to make yourself ugly.
+  How to make yourself vomit.
+  How to make yourself vulnerable.
+  How to make yourself visible on Airdrop.
+  How to make yourself a vampire.
+  How to make yourself a virgin again.
+  How to make yourself a witch.
+  How to make yourself a weapon.
+  How to make yourself a Wikipedia page.
+  How to make yourself wet.
+  How to make yourself wake up.
+  How to make yourself younger.
+  How to make yourself Youtube famous.
+  How to make yourself a zombie. 
+  How to make yourself zone out.
+  Find out how to make yourself these things and more on our website.
+  </marquee>
+</div>
+<!-- END: MARQUEE -->
 
-<div class="anxiouscontainer">
+
+<div class="anxious-container">
  
-  <div class="welcome"><img class="img-responsive "src="img/anxious-logo-www.png"></div>
+  <div class="brand"><img class="img-responsive shake-little shake-constant shake-constant--hover logo" src="img/anxious-logo-www.png"></div>
 
-<!--   <div id="card2" class="card draggable center critical-texts">
-    Texts<br/><br/>
-    <small>critical art practice and the sharing economy<br/><br/>
-    mala onda: a guide for surviving the next five years (or the next 5 minutes) of accelerated change in post-capitalism's black magic vortex<br/><br/>
-    radical practices in the network economy<br/><br/>
-    tactics, movements, and forms of resistance for temporary, precarious laborers, knowledge workers, and cultural producers working today</small>
-  </div>   -->
-
-<!--   <div id="card2" class="card draggable center internet-empire">
-    <em>How to Make Yourself an Internet Empire</em><br/><br/>a case study
-  </div>
-
-  <div id="card3" class="card draggable center labor">
-    <em>How to Make Yourself a Documentary about Labor Conditions in the Capital "A" Art World</em><br/><br/>a case study
-  </div> -->
-
-
+  <!-- START: CARDS ROW 1 -->
   <div id="card1" class="card draggable center">
     <em>How to Make Yourself into a Commissioning Body<br/>in 5 Easy Steps</em><br/><br/><img class="img-responsive" src="img/us.jpg"><br/><br/><small>performative lecture and workshop<br/><a href="http://2016.transmediale.de/content/how-to-turn-yourself-into-a-commissioning-body-in-five-easy-steps" target="_blank">transmediale / conversationpiece</a><br/><br/>download the <a href="http://anxioustomake.ga/media/HowToMakeYourselfIntoACommissioningBodyWorkbook.pdf" target="_blank">workbook</a> + <a href="http://anxioustomake.ga/media/scantron.pdf" target="_blank">scantron</a> </small>
   </div>
@@ -364,7 +505,7 @@ Available versions: dnl-visible, dnl-hidden -->
   </div>
 
   <div id="card4" class="card draggable center rituals">
-    <em>Rituals for Removing</em><br/>Creative Blocks<br/><br/>
+    <em>Rituals for Removing<br/>Creative Blocks</em><br/>
     <a href="media/RitualsForRemovingCreativeBlocks.pdf"><img class="img-responsive" src="img/download-rituals.jpg"></a>
   </div>
 
@@ -387,8 +528,9 @@ Available versions: dnl-visible, dnl-hidden -->
     <iframe src="https://player.vimeo.com/video/163223022?title=0&byline=0&portrait=0" width="275" height="155" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/><br/>
     <small>Video, testimonials</small>
   </div>
-  
+  <!-- END: CARDS ROW 1 -->
 
+  <!-- START: CARDS ROW 2 -->
   <div id="card14" class="card draggable center">
     Quizzes &amp; Surveys<br/><br/>
     <a href="quizzes.html"><img class="img-responsive" src="img/quiz.jpg"></a>
@@ -446,152 +588,27 @@ Available versions: dnl-visible, dnl-hidden -->
     <a href="store.html" target="_blank"><img class="img-responsive" src="img/store-pillow.jpg"></a><br/>
     <small></small>
   </div>
-  
+  <!-- END: CARDS ROW 2 -->
 
-  <div class="marquee">
-      <marquee>
-        Are you stressed? Overwhelmed by unfulfilled desires? Wishing you had just a little more "me time"? 
-        Well, now is your opportunity. Learn how you can harness the power of the sharing economy to make yourself in just five easy steps. 
-        Don't know what you need for you? Don't worry, we've got you covered. Our algorithm will generate solutions for over one hundred common anxieties about yourself, such as: 
-        How to make yourself auto tuned.
-        How to make yourself better.
-        How to make yourself bleed.
-        How to make yourself blind.  
-        How to make yourself a better singer.
-        How to make yourself a brand.
-        How to make yourself cry.
-        How to make yourself come.
-        How to make yourself a corporation.
-        How to make yourself a celebrity.
-        How to make yourself a demon.
-        How to make yourself a Disney princess.
-        How to make yourself dream.
-        How to make yourself dizzy.
-        How to make yourself disappear.
-        How to make yourself depressed.
-        How to make yourself eat more.
-        How to make yourself eat less.
-        How to make yourself emotionally strong.
-        How to make yourself emotionless.
-        How to make yourself fall asleep.
-        How to make yourself feel better.
-        How to make yourself faint.
-        How to make yourself float in air.
-        How to make yourself feel full.
-        How to make yourself go into labor.
-        How to make yourself grow.
-        How to make yourself go to sleep.
-        How to make yourself a genius.
-        How to make yourself a ghost.
-        How to make yourself get hard.
-        How to make yourself get in the mood.
-        How to make yourself get more energy.
-        How to make yourself get nightmares.
-        How to make yourself get over a guy.
-        How to make yourself get out of bed to workout.
-        How to make yourself get rid of stuff.
-        How to make yourself a heavier sleeper.
-        How to make yourself happy.
-        How to make yourself hungry.
-        How to make yourself have a fever.
-        How to make yourself have visions.
-        How to make yourself happy again.
-        How to make yourself invisible.
-        How to make yourself infertile.
-        How to make yourself in MindCraft.
-        How to make yourself interesting.
-        How to make yourself jump higher for volleyball.
-        How to make yourself judgement proof.
-        How to make yourself keep running.
-        How to make yourself known on Instagram.
-        How to make yourself known as an artist.
-        How to make yourself known on the Internet.
-        How to make yourself known as a babysitter.
-        How to make yourself a lighter sleeper.
-        How to make yourself a lighter skin tone.
-        How to make yourself love.
-        How to make yourself look older.
-        How to make yourself look sick. 
-        How to make yourself look skinny.
-        How to make yourself look taller.
-        How to make yourself look airbrushed.
-        How to make yourself last longer.
-        How to make yourself moan.
-        How to make yourself more awake.
-        How to make yourself more flexible.
-        How to make yourself more fertile.
-        How to make yourself more sick.
-        How to make yourself a morning person.
-        How to make yourself a model.
-        How to make yourself a new person.
-        How to make yourself a nickname.
-        How to make yourself a network administrator.
-        How to make yourself not tired.
-        How to make yourself not hungry.
-        How to make yourself not eat.
-        How to make yourself not throw up.
-        How to make yourself not cry.
-        How to make yourself not get your period.
-        How to make yourself over.
-        How to make yourself offline on Facebook.
-        How to make yourself organism.
-        How to make yourself orgasm.
-        How to make yourself organized.
-        How to make yourself pass out.
-        How to make yourself pee.
-        How to make yourself puke.
-        How to make yourself prettier.
-        How to make yourself a priority.
-        How to make yourself a public figure on Facebook.
-        How to make yourself a private user on Instagram.
-        How to make yourself quicker.
-        How to make yourself quiet.
-        How to make yourself quit smoking.
-        How to make yourself quit coughing.
-        How to make yourself a real mermaid.
-        How to make yourself really wet.
-        How to make yourself really tired.
-        How to make yourself really sick.
-        How to make yourself relax.
-        How to make yourself a robot.
-        How to make yourself run a fever.
-        How to make yourself sleepy.
-        How to make yourself sick.
-        How to make yourself smarter.
-        How to make yourself stop crying.
-        How to make yourself see auras.
-        How to make yourself sound Australian.
-        How to make yourself a super hero.
-        How to make yourself a sudoer.
-        How to make yourself tired.
-        How to make yourself taller.
-        How to make yourself tighter.
-        How to make yourself a twin.
-        How to make yourself a tumblr girl.
-        How to make yourself a twin in a video.
-        How to make yourself unsearchable on Facebook.
-        How to make yourself unsearchable on Facebook 2015.
-        How to make yourself ugly.
-        How to make yourself vomit.
-        How to make yourself vulnerable.
-        How to make yourself visible on Airdrop.
-        How to make yourself a vampire.
-        How to make yourself a virgin again.
-        How to make yourself a witch.
-        How to make yourself a weapon.
-        How to make yourself a Wikipedia page.
-        How to make yourself wet.
-        How to make yourself wake up.
-        How to make yourself younger.
-        How to make yourself Youtube famous.
-        How to make yourself a zombie. 
-        How to make yourself zone out.
-        Find out how to make yourself these things and more on our website.
-      </marquee>
+  <!--   <div id="card17" class="card draggable center critical-texts">
+    Texts<br/><br/>
+    <small>critical art practice and the sharing economy<br/><br/>
+    mala onda: a guide for surviving the next five years (or the next 5 minutes) of accelerated change in post-capitalism's black magic vortex<br/><br/>
+    radical practices in the network economy<br/><br/>
+    tactics, movements, and forms of resistance for temporary, precarious laborers, knowledge workers, and cultural producers working today</small>
+  </div> 
+
+  <div id="card16" class="card draggable center internet-empire">
+    <em>How to Make Yourself an Internet Empire</em><br/><br/>a case study
   </div>
+
+  <div id="card15" class="card draggable center labor">
+    <em>How to Make Yourself a Documentary about Labor Conditions in the Capital "A" Art World</em><br/><br/>a case study
+  </div> -->
 
 </div><!-- end container-->
 
+<!-- Javascript -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.5/TweenMax.min.js"></script>

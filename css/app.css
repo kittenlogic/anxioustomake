@@ -1,0 +1,881 @@
+/**
+ *
+ * WWW.ANXIOUSTOMAKE.GA
+ * ==============================
+ * Table of Contents
+ * ==============================
+ * # base
+ * # helper
+ * # global
+ * # home
+ * # pages
+ * ## vip
+ * ## 404 
+ * ## downloads
+ * ## quizzes
+ * # commissions
+ * # generators    
+ * # modules
+ * ## email
+ * # popup
+ * # media queries
+ *
+ *
+ */
+
+
+/*===============================
+=           base                =
+===============================*/
+body {
+    font-family: sans-serif; 
+    background-color: transparent;
+    font-weight: 300;
+}
+
+img {margin: 0 auto; }
+a {color: #adadad; } 
+a:hover {color: #FF0179; }
+
+
+/*==============================
+=            helper            =
+==============================*/
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.img-responsive {
+    max-width: 100%;
+}
+.center {
+    text-align:center;
+}
+.block {
+    display: block;
+}
+
+
+/*==============================
+=            global            =
+==============================*/
+.anxious-container {
+  position:relative;
+  height: 100%;
+  width: 100%;
+}
+.main-content {
+  padding-top: 60px;
+}
+.brand {
+    bottom: 0;
+    right: 0;
+    width: 180px;
+    padding-left: 5px;
+    display: inline-block;
+    position: fixed;
+    z-index: 999;
+}
+#info{
+    position: fixed;
+    top: 0;
+    left:0;
+    height:40px;
+    width:40px;
+    background-color: yellow;
+    text-align: center;
+    z-index: 9999;
+}
+#info img {
+    max-height: 40px;
+    max-width: 40px;
+    overflow: hidden;
+}
+.highlight {
+  border: 2px solid black;
+  width: 300px;
+  height: 400px;
+} 
+.anxious-marquee {
+    position: fixed;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 500;
+    height: 40px;
+    background-color: yellow;
+    color: #FF0179;
+    font-size: 20px;
+}
+
+/*============================
+=            home            =
+============================*/
+.homepage {
+  background-image: url('../img/makeyourself-k.png');
+}
+.homepage .new {
+    position: absolute;
+    top:2px;
+    right:2px;
+}
+.homepage .video-module {
+  width: 97%;
+}
+.homepage .card {
+  position:absolute;
+  width: 300px;
+  height: 400px;
+  line-height: 22px;
+  font-size: 20px;
+  color: black;
+  background-color: #fff;
+  border-radius:0;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.homepage #card1{
+  top: 60px;
+  left: 30px;  
+}
+.homepage #card2{
+  top: 90px;
+  left: 60px;   
+}
+.homepage #card3 {   
+  top: 120px;
+  left: 90px;
+}
+.homepage #card4 {
+  top: 150px;
+  left: 120px;
+}
+.homepage #card5 {
+  top: 180px;
+  left: 150px;  
+}
+.homepage #card6 {
+  top:210px;
+  left: 180px;
+}
+.homepage #card7 {   
+  top: 240px;
+  left: 210px;
+}
+.homepage #card8 {
+  top: 240px;
+  left: 710px;
+}
+.homepage #card9 {
+  top:210px;
+  left: 680px;
+}
+.homepage #card10 {
+  top:180px;
+  left: 650px;
+}
+.homepage #card11 {
+  top: 150px;
+  left: 620px;
+}
+.homepage #card12 {
+  top: 120px;
+  left: 590px;
+}
+.homepage #card13{
+  top: 90px;
+  left:560px;
+}
+.homepage #card14{
+  top:60px;
+  left:530px;
+}
+.homepage .news {
+  overflow-y: auto; 
+}
+.homepage .labor {
+  background-image: url('https://media.giphy.com/media/IM90SMwLsdJfO/giphy.gif'); 
+  background-size: 90%;
+}
+.homepage .internet-empire {
+  background-image: url('../img/empire.gif'); 
+  background-position: -100px 0;
+}
+.homepage .commissions img,
+.homepage .generators img,
+.homepage .downloads img {
+  max-width: 70%;
+}
+.homepage .sweepstakes .img-responsive {
+  max-width: 40%;
+  margin-top: -50px;
+}
+.homepage .rituals .img-responsive {
+  max-width: 200px;
+  border: 1px solid #aeaeae;
+}
+.homepage .generator{
+  background: url('../img/database.jpg') no-repeat;
+  background-color: #fff;
+  background-size: 60%;
+  background-position: 66px 120px;
+} 
+/* .homepage .anxious-marquee {
+  background-color: magenta;
+  color: yellow;
+}
+.homepage #info {
+  background-color: magenta;
+} */
+
+#love-me {
+    top:0;
+    left:0;
+    position:fixed;
+    z-index:-9999;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+/*=============================
+=            pages            =
+=============================*/
+
+.vip {
+    background: url('../img/velvet2.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+.four-oh-four .bounce {
+  top:0;
+  left:0;
+  position:fixed;
+  z-index:-9999;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+.four-oh-four .title {
+  display: block;
+  text-align: center;
+  font-size: 4em;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #FF0179;
+}
+.four-oh-four p{
+  text-align: center;
+  font-weight: bold;
+}
+
+/*=================================
+=            downloads            =
+=================================*/
+.downloads .header {
+  margin-bottom: 20px;
+}
+.downloads .title {
+  text-align: center;
+  font-size: 1.7em;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0;
+}
+.downloads .document {
+  margin-bottom: 10px;
+}  
+.downloads .document span{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}  
+.downloads .document a,
+.downloads .document a:visited {
+  color: black;
+  text-decoration: none;
+}
+.downloads .document a:hover {
+  color: #FF0179;
+  text-decoration: none;
+}
+.downloads .document img {
+  border: 2px solid #000;
+}
+.downloads .document img:hover {
+  border: 2px solid #FF0179;
+}
+
+/*===============================
+=            quizzes            =
+===============================*/
+
+.quiz {
+  background-color: transparent;
+  color: #222;
+  font-family: sans-serif;
+  margin: 0;
+}
+.quiz h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.quiz p{
+  font-size: 1.2em;
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+.quiz a{
+  color: #FF0179;
+  text-decoration: none;
+}
+.quiz a:hover{
+  color: yellow;
+  background-color: #FF0179;
+}
+.quiz iframe{
+  margin: 20px 0;
+}
+.quiz {
+  background: #fff;
+  padding: -10px 30px 10px 30px; }
+
+.quiz .ci-slide {
+  display: none;
+  text-align: center; 
+}
+.quiz .ci-nav {
+  background: yellow;
+  border: none;
+  color: #FF0179;
+  cursor: pointer;
+  font-size: 1.2em;
+  width: 90%;
+  padding: 10px 15px;
+  margin-bottom: 5px; 
+}
+.quiz .ci-nav:hover {
+  background: #FF0179;
+  color: yellow;
+}
+.quiz .left {
+  float: left; 
+}
+.quiz .right {
+  float: right; 
+}
+.quiz .clear {
+  clear: both; 
+}
+.quiz .prev {
+  color: yellow;
+  background-color: #FF0179; 
+  margin-top: 10px;
+}  
+.quiz .prev::after {
+  content: "How did I get here?";
+}
+.quiz .prev:hover {
+  color: #FF0179;
+  background-color: yellow;
+}
+.quiz .ci-nav.smallbutton {
+  max-width: 40%;
+}
+.quiz .push {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+.quiz button {
+    outline: 0;
+}
+/*===================================
+=            commissions            =
+===================================*/
+
+.commission a,
+.commission a:visited {
+  color: black;
+  text-decoration: none;
+}
+.commission .main-content a:hover {
+  color: #FF0179;
+  background-color: yellow;
+  text-decoration: none;
+}
+.commission .row div {
+    margin-bottom: 10px;
+}
+
+.commission .pageheading {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 50px;
+    color: #000;
+    line-height: 1.2;
+}
+.commission .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    text-transform: uppercase;
+    color: #000;
+}
+.commission .script {
+    font-family: monospace;
+}
+.commission .credit{
+    font-size: .9em;
+    font-weight: bold;
+}
+.commission .recommendation{
+    text-transform: uppercase;
+    font-weight: bold;
+}  
+.commission .loud {
+    font-size: 2em;
+    margin: 0 0 20px 0;
+    padding: 10px 5px;
+    line-height: 1;
+    color: #FF0179;
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.commission .clipvertical {
+    max-height: 400px;
+    overflow-y: auto; 
+}
+
+/*==================================
+=            generators            =
+==================================*/
+
+.generator-container {
+  margin-top: 120px;
+}
+.generator a, 
+.generator a:visited, 
+.generator a:focus {color: #FF0179; text-decoration: none;}
+.generator a:hover {color: #FF0179; text-decoration: underline;}
+.generator a:focus {outline: 0;} 
+
+.generator .makeart {
+  width: 80%;
+  height: 100px;
+  background-color: yellow;
+  color:#FF0179;
+  display: block;
+  margin: 50px auto;
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+.generator .makeart:hover,
+.generator .makeart:focus {
+  background-color: #FF0179;
+  color:yellow;
+}
+.generator .newproject {
+  display: block;
+  font-size: 3em;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 10%;
+}
+.generator button {
+  border: 0;
+}
+.generator button:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.generator sup {
+  top: -0.8em;
+  left: 2px;
+  font-size: 40%;
+  color: #FF0179;
+}
+.generator input[type=text] {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin-bottom:20px;
+  font-size: 1.3em;
+  line-height: 1.5;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  background-image: none;
+  border: 2px solid #FF0179;
+  border-radius: 4px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.generator ::-webkit-input-placeholder { color:#FF0179; text-transform: uppercase; }
+.generator ::-moz-placeholder { color:#FF0179; text-transform: uppercase;} /* firefox 19+ */
+.generator :-ms-input-placeholder { color:#FF0179; text-transform: uppercase;} /* ie */
+.generator input:-moz-placeholder { color:#FF0179; text-transform: uppercase;}
+
+.whatdoyoucareabout {
+  margin: 50px auto;
+  width: 80%;
+}
+.whatdoyoucareabout h1{font-size: 3em; color: #FF0179;}
+.whatdoyoucareabout h2 {font-size: 2em;}
+
+/*TOOLTIP*/
+.generator .wrapper {
+  cursor: help;
+  position: relative;
+  display: inline;
+  text-align: center;
+  -webkit-transform: translateZ(0); /* webkit flicker fix */
+  -webkit-font-smoothing: antialiased; /* webkit text rendering fix */
+}
+.generator .wrapper .tooltip {
+  background: yellow;
+  bottom: 100%;
+  color: #000;
+  display: block;
+  left: -108px;
+  margin-bottom: 15px;
+  opacity: 0;
+  padding: 20px;
+  pointer-events: none;
+  position: absolute;
+  width: 250px;
+  -webkit-transform: translateY(10px);
+     -moz-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+       -o-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: all .25s ease-out;
+     -moz-transition: all .25s ease-out;
+      -ms-transition: all .25s ease-out;
+       -o-transition: all .25s ease-out;
+          transition: all .25s ease-out;  
+}
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+.generator .wrapper .tooltip:before {
+  bottom: -20px;
+  content: " ";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}  
+/* CSS Triangles - see Trevor's post */
+.generator .wrapper .tooltip:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid yellow 10px;
+  bottom: -10px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+}  
+.generator .wrapper:hover .tooltip {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0px);
+     -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+       -o-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.brand-generator .models{
+    bottom:0;
+    left:0;
+    position: fixed;
+    background: url(../img/product-models.png) no-repeat center bottom fixed;
+    width: 100%;
+    height: 100%;
+}
+.brand-generator .clickme {
+    position: relative;
+    top: 30px;
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+    margin-top: 50px;
+}
+.brand-generator .clickme img:hover {
+    cursor:pointer !important;
+}
+.brand-generator .clickme img {
+    max-height:300px;
+}
+.brand-generator .clickme .button{
+    margin-left: -140px;
+    margin-top: 150px;
+    display: inline-block;
+    z-index: 2;
+}
+
+.newid ul{
+  margin: 0;
+  padding: 0;
+}
+.newid li {
+  list-style: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+.newid a,
+.newid a:visited,
+.newid a:active,
+.newid a:focus {
+  color: black;
+  text-decoration: none;
+}
+.newid a:hover {
+  color: #FF0179;
+  background-color: yellow;
+  text-decoration: none;
+}
+.newid .id-container {margin-top: 140px;}
+.newid .item {font-size: 1em; font-weight: bold; color: #FF0179;}
+.newid .links{margin-bottom: 20px;}
+.newid .database {margin-bottom: 10px; }
+.newid .database span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 40%;
+    left: 15%; 
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+}  
+.newid .id-marquee {
+    position: absolute;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    left: 0;
+    top: 40px;
+    height: 2em;
+    background-color: white;
+    letter-spacing: 2px;
+    color: #FF0179;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.5;
+} 
+
+/*===============================
+=            modules            =
+===============================*/
+
+.email {
+  display: block;
+}
+.email img {
+    max-width: 100px;
+    display: inline;
+    float: none;
+}
+.email span {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+
+/*=============================
+=            popup            =
+=============================*/
+
+a#openPopUp:hover{
+  cursor: pointer;
+}
+
+.popup{
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  z-index: 9999999;
+  background: rgba(0,0,0, 0.45);
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+
+    -webkit-transition: opacity  0.35s ease;
+    -moz-transition: opacity 0.35s ease;
+    -o-transition: opacity 0.35s ease;
+    transition: opacity 0.35s ease;
+}
+.popup .popUpContainer{
+  max-width: 100%;
+  width: 500px;
+  position: fixed; /* To avoid scroll to target */
+  left: 50%;
+  top: -100vh;
+    -webkit-transition: top  0.35s ease;
+    -moz-transition: top 0.35s ease;
+    -o-transition: top 0.35s ease;
+    transition: top 0.35s ease;
+
+  /* Trick to properly center the element by using negative 
+  1/2 length of element as margin left and top */
+  margin-left: -250px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  border-radius: 2px;
+  z-index: 9999999; 
+}
+.popUpContainer a {
+  color: #FF0179;
+}
+
+.popup h2{
+  padding: 0.5em;
+  text-align: center;
+  color: #FF0179;
+  margin: 0;
+  background-color: yellow;
+  font-weight: lighter;
+}
+.popup img{
+  width: 100%;
+  display: block;
+}
+.popup article{  
+  background-color: #fff;
+  padding: 30px;
+}
+/* The cancel button on popup dialog */
+.popup a.closePopUp{
+  font-family: verdana;
+  color: #FF0179;
+  position: absolute;
+  top: 0.2em;
+  right: 0.375em;
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+/* The cancel button on popup dialog */
+.popup a:hover{
+  color: #FF0179;
+}
+/* When popup is targeted, by clicking on link with #popup in HTML */
+.popup:target{
+  opacity: 1;
+  top: 0;
+}
+.popup .closePopUpOutSide{
+  position: absolute;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999991; 
+}
+.popup:target .popUpContainer{
+  top: 50px;
+    -webkit-transition: top  0.35s ease;
+    -moz-transition: top 0.35s ease;
+    -o-transition: top 0.35s ease;
+    transition: top 0.35s ease;
+}
+
+.popUpContainer .modal-text {
+  max-height: 500px;
+  overflow-y: auto; 
+  padding: 10px;
+}
+
+
+/*=====================================
+=            media queries            =
+=====================================*/
+
+@media screen and (max-width: 796px) {
+  .popup .popUpContainer{
+    width: 90%;
+    max-width: none;
+    left: 5%;
+    margin-left: 0;
+  }
+  .popup ul{
+    padding: 0 1em 0 1em;
+  }
+  .popup:target .popUpContainer{
+    top: 25px;
+    -webkit-transition: top  0.35s ease;
+    -moz-transition: top 0.35s ease;
+    -o-transition: top 0.35s ease;
+    transition: top 0.35s ease;
+  }
+  .popup article{
+    font-size: 0.9em;
+  }
+  .popup h2,
+  .popup a.closePopUp{
+    font-size: 1em;
+  }
+  .popUpContainer .modal-text {
+    max-height: 300px;
+  }
+
+  .commission .pageheading{font-size: 2em;}
+  .commission .logo { width: 80%;}
+
+  .generator .makeart{
+    font-size: 1.2em;
+  }
+  .generator .newproject{
+    font-size: 2em;
+  }
+  .downloads .title {
+    font-size: 1.5em;
+  }
+  .downloads .logo { width: 80%;}
+  .whatdoyoucareabout h1 {
+    font-size: 2em;
+  }
+  .generator input[type=text] {
+    font-size: 1em;
+  }
+  .newid .title {
+    font-size: 2.5em;
+   }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .commission .pageheading{font-size: 2.7em;}
+}   

@@ -1,29 +1,49 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-body{
+.sweepstakes {
   font-family: sans-serif; 
   font-weight: 400;
   background-color: transparent;
   background: url('../img/sweepstakes-mystery.gif') repeat;
 }
-h3{font-weight: normal; font-size: 22px;}
-
-a,
-form a {
+.sweepstakes-container {
+  margin-top: 40px;
+}
+.sweepstakes-container h3{
+  font-weight: normal; 
+  font-size: 22px;
+}
+.sweepstakes-container a,
+.sweepstakes-container form a {
   color: magenta;
   text-decoration: underline;
 }
-a:hover,
-form a:hover {
-  color: #00cc00;
+.sweepstakes-container .terms a {
+  color: #FF0179;
+}
+.sweepstakes-container form a:hover {
+  background: url("../img/glitter07.gif") repeat;
   text-decoration: underline;
 }
-
+.sweepstakes-container .fa{
+  color: yellow;
+  background-color: magenta;
+  cursor: pointer;
+  padding: 7px 5px;
+}
+.sweepstakes-container .fa:hover{
+  color: magenta;
+  background-color: yellow;
+}
 #makingyou img {width: 60px; }
 
 #makingothers img {width: 100px; }
 
-.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video {top:-1px;}
+.embed-responsive .embed-responsive-item, 
+.embed-responsive iframe, 
+.embed-responsive embed, 
+.embed-responsive object, 
+.embed-responsive video {top:-1px;}
 
 /*******************************
 walk-on video
@@ -77,76 +97,6 @@ walk-on video
 .no-video .anxious-info,
 .no-video .anxious-next { 
   display: none; 
-}
-
-
-/*!
- *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-/* FONT PATH
- * -------------------------- */
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.fa-lg {
-  font-size: 1.33333333em;
-  line-height: 0.75em;
-  vertical-align: -15%;
-}
-.fa-2x {
-  font-size: 2em;
-}
-.fa-3x {
-  font-size: 3em;
-}
-.fa-4x {
-  font-size: 4em;
-}
-.fa-5x {
-  font-size: 5em;
-}
-.fa-hand-o-right:before {
-  content: "\f0a4";
-}
-.fa-bullhorn:before {
-  content: "\f0a1";
-}
-.fa-ban:before {
-  content: "\f05e";
-}
-.fa-play:before {
-  content: "\f04b";
-}
-.fa-pause:before {
-  content: "\f04c";
-}
-.fa-trophy:before {
-  content: "\f091";
-}
-
-/* fa custom styles */
-.fa{
-  color: yellow;
-  background-color: magenta;
-  cursor: pointer;
-  padding: 7px 5px;
-}
-.fa:hover{
-  color: magenta;
-  background-color: yellow;
 }
  
 
@@ -266,7 +216,7 @@ label:hover {
 .falling-object{
   position: absolute;
   top: -1000px;
-  display: block
+  display: block;
 }
 .clickhere {
   display: none;
@@ -282,111 +232,7 @@ label:hover {
   left: -6px;
 }
 
-/*******************************
-popup
-********************************/
 
-a#openPopUp:hover{
-  cursor: pointer;
-}
-
-.popup{
-  position: fixed;
-  top: -100vh;
-  left: 0;
-  z-index: 9999999;
-  background: rgba(0,0,0, 0.45);
-  width: 100vw;
-  height: 100vh;
-  opacity: 0;
-
-    -webkit-transition: opacity  0.35s ease;
-    -moz-transition: opacity 0.35s ease;
-    -o-transition: opacity 0.35s ease;
-    transition: opacity 0.35s ease;
-}
-.popup .popUpContainer{
-  width: 100%;
-  max-width: 800px;
-  position: fixed; /* To avoid scroll to target */
-  left: 50%;
-  top: -100vh;
-    -webkit-transition: top  0.35s ease;
-    -moz-transition: top 0.35s ease;
-    -o-transition: top 0.35s ease;
-    transition: top 0.35s ease;
-
-  /* Trick to properly center the element by using negative 
-  1/2 length of element as margin left and top */
-  margin-left: -400px;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-  border-radius: 2px;
-  z-index: 9999999; 
-}
-.popup h2{
-  padding: 0.5em;
-  text-align: center;
-  color: magenta;
-  margin: 0;
-  background-color: yellow;
-  font-weight: lighter;
-}
-.popup img{
-  width: 100%;
-  display: block;
-}
-.popup article{  
-  background-color: #fff;
-  padding: 30px;
-}
-/* The cancel button on popup dialog */
-.popup a.closePopUp{
-  font-family: verdana;
-  color: magenta;
-  position: absolute;
-  top: 0.2em;
-  right: 0.375em;
-  margin: 0;
-  padding: 5px;
-  font-weight: bold;
-  font-size: 1.5em;
-  text-decoration: none;
-}
-/* The cancel button on popup dialog */
-.popup a:hover{
-  color: magenta;
-}
-/* When popup is targeted, by clicking on link with #popup in HTML */
-.popup:target{
-  opacity: 1;
-  top: 0;
-}
-.popup .closePopUpOutSide{
-  position: absolute;
-  left:0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999991; 
-}
-.popup:target .popUpContainer{
-  top: 50px;
-    -webkit-transition: top  0.35s ease;
-    -moz-transition: top 0.35s ease;
-    -o-transition: top 0.35s ease;
-    transition: top 0.35s ease;
-}
-
-.popUpContainer.terms .modal-text {
-  max-height: 350px;
-  padding: 10px;
-  overflow-y: scroll; 
-}
-.popUpContainer.terms {
-  max-height: 400px;
-}
 
 /*******************************
 media queries

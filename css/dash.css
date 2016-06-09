@@ -46,7 +46,7 @@ button.dnl-btn-toggle {
   outline: none;
 }
 .dnl-btn-toggle .fa {
-  color: magenta;
+  color: #FF0179;
   font-size: 1.5em;
 }
 .dash-navbar-left .anx-logo {
@@ -312,8 +312,8 @@ button.dnl-btn-toggle {
 }
 .dash-navbar-left .dnl-nav-title {
   text-transform: uppercase;
-  color: magenta;
-  border-bottom: 1px solid magenta;
+  color: #FF0179;
+  border-bottom: 1px solid #FF0179;
   padding: 10px 25px;
   font-size: 11px;
   letter-spacing: 1px;
@@ -334,15 +334,15 @@ button.dnl-btn-toggle {
   outline: 0;
   padding: 8px 25px 7px;
   font-size: 13px;
-  color: magenta;
+  color: #FF0179;
 }
 .dash-navbar-left .dnl-nav li a:hover,
 .dash-navbar-left .dnl-nav li a:focus {
-  color: magenta;
+  color: #FF0179;
   text-decoration: none;
   background-color: yellow;
-  -webkit-box-shadow: inset 3px 0 0 magenta;
-  box-shadow: inset 3px 0 0 magenta;
+  -webkit-box-shadow: inset 3px 0 0 #FF0179;
+  box-shadow: inset 3px 0 0 #FF0179;
 }
 .dash-navbar-left .dnl-nav li a:hover .badge,
 .dash-navbar-left .dnl-nav li a:focus .badge {
@@ -373,14 +373,14 @@ button.dnl-btn-toggle {
 }
 .dash-navbar-left .dnl-nav li.active > a {
   background-color: yellow;
-  -webkit-box-shadow: inset 3px 0 0 magenta;
-  box-shadow: inset 3px 0 0 magenta;
+  -webkit-box-shadow: inset 3px 0 0 #FF0179;
+  box-shadow: inset 3px 0 0 #FF0179;
 }
 .dash-navbar-left .dnl-nav li .dnl-sub-one {
-  background-color: magenta;
+  background-color: #FF0179;
 }
 .dash-navbar-left .dnl-nav li .dnl-sub-one li {
-  border-top: 1px solid magenta;
+  border-top: 1px solid #FF0179;
 }
 .dash-navbar-left .dnl-nav li .dnl-sub-one li:first-child {
   border-top: 0px solid yellow;
@@ -391,7 +391,7 @@ button.dnl-btn-toggle {
 }
 .dash-navbar-left .dnl-nav li .dnl-sub-one li a:hover,
 .dash-navbar-left .dnl-nav li .dnl-sub-one li a:focus {
-  color: magenta;
+  color: #FF0179;
   background-color: yellow;
   -webkit-box-shadow: inset 3px 0 0 yellow;
   box-shadow: inset 3px 0 0 yellow;

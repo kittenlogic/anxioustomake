@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>More Important Art Generator</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Liat Berdugo and Emily Martinez">
+    <meta name='description' content='More Important Art Generator'>
+    <meta name='keywords' content='share, sharing economy, desiring-production, desiring-machine, commissions, authorship, identity, DIY culture, entrepreneurship, artist as entrepreneur, sourcing, labor, Industry 4.0, economies of scale, artist as curator, artist as commissioner, on-demand economy, collaborative consumption, collaborative economy, gig-economy'>
+
+@@include('../partials/_social.html')
+@@include('../partials/_css.html')
+</head>
+
+<body class="generator">
+@@include('../partials/_contact.html')
+@@include('../partials/_about.html')
+@@include('../partials/_nav.html')
+@@include('../partials/_header.html')
+
+    <!--START: MAIN CONTENT-->
+    <div class="whatdoyoucareabout">
+      <h1>What is most important to you?</h1> 
+      <h2>Choose one:</h2>
+      <form id="importantThings">
+        <input type="radio" name="important" class="thing" value="family" /> family 
+        <input type="radio" name="important" class="thing" value="love" /> love 
+        <input type="radio" name="important" class="thing" value="travel" /> travel 
+        <input type="radio" name="important" class="thing" value="new feelings" /> new feelings 
+        <input type="radio" name="important" class="thing" value="new thoughts" /> new thoughts 
+        <input type="radio" name="important" class="thing" value="power" /> power 
+        <input type="radio" name="important" class="thing" value="fame" /> fame 
+        <input type="radio" name="important" class="thing" value="money" /> money 
+        <input type="radio" name="important" class="thing" value="friendship" /> friendship 
+        <input type="radio" name="important" class="thing" value="beauty" /> beauty 
+        <input type="radio" name="important" class="thing" value="making babies" /> making babies 
+        <input type="radio" name="important" class="thing" value="getting by" /> getting by 
+        <input type="radio" name="important" class="thing" value="not dying" /> not dying 
+        <input type="radio" name="important" class="thing" value="meeting my idols" /> meeting my idols 
+        <input type="radio" name="important" class="thing" value="feeling interesting" /> feeling interesting 
+        <input type="radio" name="important" class="thing" value="feeling worthy" /> feeling worthy 
+        <input type="radio" name="important" class="thing" value="dogs" /> dogs 
+        <input type="radio" name="important" class="thing" value="gold" /> gold 
+      </form>
+      <h2>Or choose your own:</h2>
+      <form id="anythingyouwant">
+        <input type="text" placeholder="important thing goes here" name="important" />
+      </form>
+    </div>
+
+    <div class="newproject"></div>
+    <button class="makeart">GENERATE A NEW PROJECT</button>   
+    <!--END: MAIN CONTENT-->
+
+@@include('../partials/_js.html')
+<script type="text/javascript" src="js/mediums.json"></script>
+<script type="text/javascript" src="js/topics.json"></script>
+<script type="text/javascript" src="js/topics2.json"></script>
+<script type="text/javascript" src="js/adjectives.json"></script>
+<script type="text/javascript" src="js/adjectives2.json"></script>
+<script type="text/javascript" src="js/adverbs.json"></script>
+<script type="text/javascript" src="js/gerunds.json"></script>
+<script type="text/javascript" src="js/moreimportantartgenerator.js"></script>
+
+</body>
+</html>

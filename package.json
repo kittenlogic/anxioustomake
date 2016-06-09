@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {
     "browser-sync": "^2.11.1",
+    "csshake": "^1.5.0",
     "gulp": "^3.9.0"
   },
   "devDependencies": {
