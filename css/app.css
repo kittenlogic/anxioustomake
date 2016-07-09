@@ -242,6 +242,93 @@ a:hover {color: #FF0179; }
     background-color: transparent;
 }
 
+/*==================================
+=            subcategoy            =
+==================================*/
+
+.subcategory .title {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 50px 0;
+    color: #FF0179;
+}
+.subcategory .download,
+.subcategory .document,
+.subcategory .database {
+    margin-bottom: 10px;
+}   
+.subcategory .download a,
+.subcategory .download a:visited,
+.subcategory .document a,
+.subcategory .document a:visited,
+.subcategory .database a,
+.subcategory .database a:visited {
+  color: #000;
+  text-decoration: none;
+ }
+.subcategory .download a:hover,
+.subcategory .document a:hover,
+.subcategory .download a:focus,
+.subcategory .document a:focus,
+.subcategory .database a:hover,
+.subcategory .database a:focus {
+  color: #FF0179;
+  text-decoration: none;
+}
+.subcategory .download span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+} 
+.subcategory .download img {
+  border: 2px solid #000;
+  margin-bottom: 5px;
+}
+.subcategory .download img:hover {
+  border: 2px solid #FF0179;
+}
+.subcategory .document span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: .9em;
+    margin-top: -40%;
+    left: 15%; 
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+    padding-right: 30px;
+}  
+.subcategory .question span{
+    margin-top: 0%;
+}  
+.subcategory .database span{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: -40%;
+    left: 15%; 
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+} 
+
+@media screen and (max-width: 768px) {
+   .subcategory .title {
+    font-size: 2.5em;
+   }
+   .subcategory .database span{
+    font-size: 1.2em;
+   } 
+}
+
+
 /*=============================
 =            pages            =
 =============================*/
@@ -457,9 +544,22 @@ a:hover {color: #FF0179; }
     background-color: transparent;
     text-transform: uppercase;
 }
+.commission .clipvertical-wrapper {
+    overflow: hidden;
+    position: relative;
+    height: 400px; 
+    margin-left: -17px;   
+}
 .commission .clipvertical {
-    max-height: 400px;
-    overflow-y: auto; 
+    width: 100%;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 17px; 
+    padding-right: 17px;
+    
 }
 
 /*==================================
@@ -467,7 +567,7 @@ a:hover {color: #FF0179; }
 ==================================*/
 
 .generator-container {
-  margin-top: 120px;
+  margin-top: 130px;
 }
 .generator a, 
 .generator a:visited, 
@@ -817,7 +917,9 @@ a#openPopUp:hover{
   overflow-y: auto; 
   padding: 10px;
 }
-
+.popup .fa {
+  color: #FF0179;
+}
 
 /*=====================================
 =            media queries            =

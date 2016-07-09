@@ -10,99 +10,538 @@
     <meta name="author" content="Liat Berdugo and Emily Martinez">
     <meta name='description' content='Our Commissions'>
     <meta name='keywords' content='share, sharing economy, desiring-production, desiring-machine, commissions, authorship, identity, DIY culture, entrepreneurship, artist as entrepreneur, sourcing, labor, Industry 4.0, economies of scale, artist as curator, artist as commissioner, on-demand economy, collaborative consumption, collaborative economy, gig-economy'>
-    
-    <link rel="shortcut icon" type="img/ico" href="img/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <style>
-        .title {
-            display: block;
-            text-align: center;
-            font-size: 4em;
-            font-family: sans-serif;
-            font-weight: bold;
-            padding: 0;
-            margin-bottom: 50px;
-            color: #FF0179;
-          }
-        .document {
-            margin-bottom: 10px;
-        }  
-        .document span{
-            font-family: sans-serif;
-            font-weight: bold;
-            font-size: .9em;
-            margin-top: -40%;
-            left: 15%; 
-            display: inline-block;
-            position: absolute;
-            z-index: 999;
-            padding-right: 30px;
-        }  
-        .document a,
-        .document a:visited {
-          color: black;
-          text-decoration: none;
-        }
-        .document a:hover {
-          color: #FF0179;
-          text-decoration: none;
-        }
-        @media screen and (max-width: 768px) {
-           .title {
-            font-size: 2.5em;
-           }
-        }
-    </style>
-    
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Anxious to Make" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.anxioustomake.ga/" />
+    <meta property="og:image" content="http://anxioustomake.ga/img/meta-humanbillboard.jpg" />
+    <meta property="og:description" content='Anxious to Make is the collaborative practice of Liat Berdugo and Emily Martinez, two commissioning bodies. Our focus is on the so-called "sharing economy" and the contemporary artists "anxiety to make" in the accelerationist, neoliberal economic landscape.' /> 
+    <meta property="og:site_name" content="Anxious to Make" />
+    <meta property="fb:admins" content="753667636" />
+
+    <!--Twitter Meta-->
+    <meta name="twitter:card" content="summary" /> <!--do not edit this line -->
+    <meta name="twitter:site" content="@Resonator11" />
+    <meta name="twitter:title" content="Anxious to Make">
+    <meta name="twitter:description" content='Anxious to Make is the collaborative practice of Liat Berdugo and Emily Martinez, two commissioning bodies. Our focus is on the so-called "sharing economy" and the contemporary artists "anxiety to make" in the accelerationist, neoliberal economic landscape.'>
+    <meta name="twitter:creator" content="@Resonator11">
+    <meta name="twitter:image:src" content="http://anxioustomake.ga/img/meta-humanbillboard.jpg">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/dash.css">
+    <link rel="stylesheet" href="css/csshake.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
     <script type="text/javascript" src="js/analytics.js"></script>
+       
   </head>
 
-  <body>
+  <body class="subcategory">
+<!--START: CONTACT MODAL-->
+<aside id="contact-modal" class="popup">
+  <div class="popUpContainer">
+    <header>
+      <a href="#!" class="closePopUp">X</a>
+      <h2>Contact Us</h2>
+    </header>
+    <article class="modal-text">
+      <p class="email"><img src="img/mail.gif"><span><a href="mailto:anxioustomake@gmail.com?subject=Anxious to communicate"> anxioustomake@gmail.com</a><br/>
+      <i class="fa fa-twitter"></i><a href="https://twitter.com/anxioustomake" target="_blank"> @anxioustomake</a> | <i class="fa fa-vimeo"></i><a href="https://vimeo.com/anxioustomake" target="_blank"> Vimeo</a></span></p>
+    </article>
+  </div>        
+  <a href="#!" class="closePopUpOutSide"></a>    
+</aside>
+<!--END: CONTACT MODAL-->
 
+<!--START: ABOUT MODAL-->
+<aside id="hello" class="popup">
+  <div class="popUpContainer">
+    <header>
+      <a href="#!" class="closePopUp">X</a>
+      <h2>We are two commissioning bodies</h2>
+    </header>
+    <article class="modal-text">
+      <p><strong>Anxious to Make</strong> is the collaborative practice of Liat Berdugo and Emily Martinez, two commissioning bodies. Our focus is on the so-called "sharing economy" and the contemporary artists "anxiety to make" in the accelerationist, neoliberal economic landscape. While Anxious to Make’s physical existence takes many shifting forms, it often manifests as series of video commissions, downloads, online generators, workshops, net art interventions, and sweepstakes. Anxious to Make believes in absurdist extremes as way to examine contemporary realities. Our work has appeared recently in in EMMEDIA (Calgary, CA), Transmediale (Berlin, DE), Yerba Buena Center for the Arts (San Francisco), and The Luminary (St. Louis, MO).</p>
+      <br/><hr>
+      <p><strong>Liat Berdugo</strong> is an artist, writer, and curator based in Oakland, CA. Her work strives to create an expanded, thoughtful consideration for digital culture. Berdugo has been exhibited in galleries and festivals internationally, and collaborates widely with individuals and archives. She is an Assistant Professor of Art and Architecture at the University of San Francisco. More at <a href="http://digikits.ch" target="_blank">http://digikits.ch</a> and <a href="http://liatberdugo.com/" target="_blank">http://liatberdugo.com/</a>.</p>
+      <p><strong>Emily Martinez</strong> is an artist working with digital and networked media. Her recent practice and research interests examine the relationship between media, memory, and catastrophe; post-representational forms of subjectivity, emancipatory practices, and the digital archive. Currently lives and works in Los Angeles, California. More at <a href="http://somethingnothing.me" target="_blank">http://somethingnothing.me</a>.</p>
+    </article>
+  </div>        
+  <a href="#!" class="closePopUpOutSide"></a>    
+</aside>
+<!--END: ABOUT MODAL-->
+
+<!-- START: NAVIGATION -->
+
+<!-- Dash Navbar Button -->
+<button class="dnl-btn-toggle">
+  <span class="fa fa-bars"></span>
+</button>
+
+<!-- Dash Navbar Left -->
+<div class="dash-navbar-left dnl-hidden">
+  <a href="/"><img class ="img-responsive anx-logo" src="img/anxious-logo-bubblegum.png"></a>
+  <div class="clearfix"></div>
+  <p class="dnl-nav-title">Work</p>
+  <ul class="dnl-nav">
+    <li>
+      <a class="collapsed" data-toggle="collapse" href="#collapseStatistics" aria-expanded="false" aria-controls="collapseStatistics">
+        <span class="fa fa-database dnl-link-icon"></span>
+        <span class="dnl-link-text">Generators</span>
+        <span class="fa fa-angle-up dnl-btn-sub-collapse"></span>
+      </a>
+      <!-- Dropdown level one -->
+      <ul class="dnl-sub-one collapse" id="collapseStatistics">
+        <li>
+          <a href="projectgenerator.html">
+            <span class="fa fa-database dnl-link-icon"></span>
+            <span class="dnl-link-text">Project Generator</span>
+          </a>
+        </li>
+        <li>
+          <a href="brandgenerator.html">
+            <span class="fa fa-database dnl-link-icon"></span>
+            <span class="dnl-link-text">Brand Generator</span>
+          </a>
+        </li>
+        <li>
+          <a href="newidgenerator.html">
+            <span class="fa fa-database dnl-link-icon"></span>
+            <span class="dnl-link-text">New ID Generator</span>
+          </a>
+        </li>
+        <li>
+          <a href="publicitygenerator.html">
+            <span class="fa fa-database dnl-link-icon"></span>
+            <span class="dnl-link-text">Publicity Generator</span>
+          </a>
+        </li>
+        <li>
+          <a href="toughlovegenerator.html">
+            <span class="fa fa-database dnl-link-icon"></span>
+            <span class="dnl-link-text">Tough Love Generator</span>
+          </a>
+        </li>
+        <li>
+          <a href="confidencegenerator.html">
+            <span class="fa fa-database dnl-link-icon"></span>
+            <span class="dnl-link-text">Confidence Generator</span>
+          </a>
+        </li>
+        <li>
+          <a href="mugruggenerator.html">
+            <span class="fa fa-database dnl-link-icon"></span>
+            <span class="dnl-link-text">Mug/Rug Generator</span>
+          </a>
+        </li>
+        <li>
+          <a href="importantthings.html">
+            <span class="fa fa-database dnl-link-icon"></span>
+            <span class="dnl-link-text">More Important Art Generator</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a class="collapsed" data-toggle="collapse" href="#collapseCommissions" aria-expanded="false" aria-controls="collapseCommissions">
+        <span class="fa fa-file-o dnl-link-icon"></span>
+        <span class="dnl-link-text">Commissions</span>
+        <span class="fa fa-angle-up dnl-btn-sub-collapse"></span>
+      </a>
+      <!-- Dropdown level one -->
+      <ul class="dnl-sub-one collapse" id="collapseCommissions">
+        <li>
+          <a href="futureofwork.html">
+            <span class="fa fa-video-camera dnl-link-icon"></span>
+            <span class="dnl-link-text">The Future of Work, Testimonials (Pt.1)</span>
+          </a>
+        </li>
+        <li>
+          <a href="temporaryartreview.html">
+            <span class="fa fa-video-camera dnl-link-icon"></span>
+            <span class="dnl-link-text">They Paid Me to Give you a Tour of the Internet</span>
+          </a>
+        </li>
+        <li>
+          <a href="makingyoumakingothers.html">
+            <span class="fa fa-video-camera dnl-link-icon"></span>
+            <span class="dnl-link-text">Making You, Making Others</span>
+          </a>
+        </li>
+        <li>
+          <a href="twins.html">
+            <span class="fa fa-video-camera dnl-link-icon"></span>
+            <span class="dnl-link-text">Performance of Roles or Personas Outside of Comfort Zone</span>
+          </a>
+        </li>
+        <li>
+          <a href="performativeremoval.html">
+            <span class="fa fa-video-camera dnl-link-icon"></span>
+            <span class="dnl-link-text">Performative Removal of Creative Block</span>
+          </a>
+        </li>
+        <li>
+          <a href="nevertalkaboutyourworkagain.html">
+            <span class="fa fa-file-o dnl-link-icon"></span>
+            <span class="dnl-link-text">Human Billboard to Talk About Your Work</span>
+          </a>
+        </li>
+        <li>
+          <a href="unfamiliarmaterials.html">
+            <span class="fa fa-video-camera dnl-link-icon"></span>
+            <span class="dnl-link-text">Performative Validation for Working with Unfamiliar Materials</span>
+          </a>
+        </li>
+        <li>
+          <a href="forecasting.html">
+            <span class="fa fa-volume-down dnl-link-icon"></span>
+            <span class="dnl-link-text">Psychic Reading to Future Proof Your Career</span>
+          </a>
+        </li>
+        <li>
+          <a href="externalizedistrust.html">
+            <span class="fa fa-video-camera dnl-link-icon"></span>
+            <span class="dnl-link-text">Performance to Externalize Distrust</span>
+          </a>
+        </li>
+        <li>
+          <a href="hypnosis.html">
+            <span class="fa fa-volume-down dnl-link-icon"></span>
+            <span class="dnl-link-text">Hypnosis to Engender Trust</span>
+          </a>
+        </li>
+        <li>
+          <a href="timemanagement.html">
+            <span class="fa fa-volume-down dnl-link-icon"></span>
+            <span class="dnl-link-text">Custom Audio Track for Motivation</span>
+          </a>
+        </li>
+        <li>
+          <a href="fucklabor.html">
+            <span class="fa fa-file-o dnl-link-icon"></span>
+            <span class="dnl-link-text">Fuck Labor. Write Scripts, Commission Animals</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+    <a class="collapsed" data-toggle="collapse" href="#collapseDownloads" aria-expanded="false" aria-controls="collapseDownloads">
+        <span class="fa fa-download dnl-link-icon"></span>
+        <span class="dnl-link-text">Downloads</span>
+        <span class="fa fa-angle-up dnl-btn-sub-collapse"></span>
+      </a>
+      <!-- Dropdown level one -->
+      <ul class="dnl-sub-one collapse" id="collapseDownloads">
+        <li>
+          <a href="5easysteps.html">
+            <span class="fa fa-file-pdf-o dnl-link-icon"></span>
+            <span class="dnl-link-text">How to Make Yourself Into A Commissioning Body in 5 Easy Steps Workbook</span>
+          </a>
+        </li>
+        <li>
+          <a href="media/RitualsForRemovingCreativeBlocks.pdf">
+            <span class="fa fa-file-pdf-o dnl-link-icon"></span>
+            <span class="dnl-link-text">Rituals for Removing Creative Blocks</span>
+          </a>
+        </li>
+        <li>
+          <a href="media/ContractForAudienceOfOne.pdf">
+            <span class="fa fa-file-pdf-o dnl-link-icon"></span>
+            <span class="dnl-link-text">Contract for Audience of One</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+    <a class="collapsed" data-toggle="collapse" href="#collapseQuizzes" aria-expanded="false" aria-controls="collapseQuizzes">
+        <span class="fa fa-question dnl-link-icon"></span>
+        <span class="dnl-link-text">Quizzes &amp; Surveys</span>
+        <span class="fa fa-angle-up dnl-btn-sub-collapse"></span>
+      </a>
+      <!-- Dropdown level one -->
+      <ul class="dnl-sub-one collapse" id="collapseQuizzes">
+        <li>
+          <a href="moneyquiz.html">
+            <span class="fa fa-question dnl-link-icon"></span>
+            <span class="dnl-link-text">Would Money Be All I Really Need to Succeed?</span>
+          </a>
+        </li>
+        <li>
+          <a href="makingyou.html">
+            <span class="fa fa-question dnl-link-icon"></span>
+            <span class="dnl-link-text">Important Research: <em>Making You</em> Survey</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="sweepstakes.html">
+        <span class="fa fa-trophy dnl-link-icon"></span>
+        <span class="dnl-link-text">Sweepstakes</span>
+      </a>
+    </li>
+    <li>
+      <a href="store.html">
+        <span class="fa fa-shopping-cart dnl-link-icon"></span>
+        <span class="dnl-link-text">Store</span>
+      </a>
+    </li> 
+    <p class="dnl-nav-title">Info</p>
+    <li>
+      <a href="#contact-modal">
+        <span class="fa fa-envelope-o dnl-link-icon"></span>
+        <span class="dnl-link-text">Contact</span>
+      </a>
+    </li>
+    <li>
+      <a href="#hello" id="openpopup">
+        <span class="fa fa-info-circle dnl-link-icon"></span>
+        <span class="dnl-link-text">About</span>
+      </a>
+    </li>
+    <li>
+      <a href="index.html">
+        <span class="fa fa-home dnl-link-icon"></span>
+        <span class="dnl-link-text">Home</span>
+      </a>
+    </li>       
+  </ul>      
+</div><!-- /.dash-navbar-left -->
+<!--END: NAVIGATION-->
+<!--START: HELLO -->
+<a href="/"><div id="info"><img src="img/anxious-icon.gif"/></div></a>
+<!--END: HELLO -->
+
+<!-- START: MARQUEE -->
+<div class="anxious-marquee">
+  <marquee>
+  Are you stressed? Overwhelmed by unfulfilled desires? Wishing you had just a little more "me time"? 
+  Well, now is your opportunity. Learn how you can harness the power of the sharing economy to make yourself in just five easy steps. 
+  Don't know what you need for you? Don't worry, we've got you covered. Our algorithm will generate solutions for over one hundred common anxieties about yourself, such as: 
+  How to make yourself auto tuned.
+  How to make yourself better.
+  How to make yourself bleed.
+  How to make yourself blind.  
+  How to make yourself a better singer.
+  How to make yourself a brand.
+  How to make yourself cry.
+  How to make yourself come.
+  How to make yourself a corporation.
+  How to make yourself a celebrity.
+  How to make yourself a demon.
+  How to make yourself a Disney princess.
+  How to make yourself dream.
+  How to make yourself dizzy.
+  How to make yourself disappear.
+  How to make yourself depressed.
+  How to make yourself eat more.
+  How to make yourself eat less.
+  How to make yourself emotionally strong.
+  How to make yourself emotionless.
+  How to make yourself fall asleep.
+  How to make yourself feel better.
+  How to make yourself faint.
+  How to make yourself float in air.
+  How to make yourself feel full.
+  How to make yourself go into labor.
+  How to make yourself grow.
+  How to make yourself go to sleep.
+  How to make yourself a genius.
+  How to make yourself a ghost.
+  How to make yourself get hard.
+  How to make yourself get in the mood.
+  How to make yourself get more energy.
+  How to make yourself get nightmares.
+  How to make yourself get over a guy.
+  How to make yourself get out of bed to workout.
+  How to make yourself get rid of stuff.
+  How to make yourself a heavier sleeper.
+  How to make yourself happy.
+  How to make yourself hungry.
+  How to make yourself have a fever.
+  How to make yourself have visions.
+  How to make yourself happy again.
+  How to make yourself invisible.
+  How to make yourself infertile.
+  How to make yourself in MindCraft.
+  How to make yourself interesting.
+  How to make yourself jump higher for volleyball.
+  How to make yourself judgement proof.
+  How to make yourself keep running.
+  How to make yourself known on Instagram.
+  How to make yourself known as an artist.
+  How to make yourself known on the Internet.
+  How to make yourself known as a babysitter.
+  How to make yourself a lighter sleeper.
+  How to make yourself a lighter skin tone.
+  How to make yourself love.
+  How to make yourself look older.
+  How to make yourself look sick. 
+  How to make yourself look skinny.
+  How to make yourself look taller.
+  How to make yourself look airbrushed.
+  How to make yourself last longer.
+  How to make yourself moan.
+  How to make yourself more awake.
+  How to make yourself more flexible.
+  How to make yourself more fertile.
+  How to make yourself more sick.
+  How to make yourself a morning person.
+  How to make yourself a model.
+  How to make yourself a new person.
+  How to make yourself a nickname.
+  How to make yourself a network administrator.
+  How to make yourself not tired.
+  How to make yourself not hungry.
+  How to make yourself not eat.
+  How to make yourself not throw up.
+  How to make yourself not cry.
+  How to make yourself not get your period.
+  How to make yourself over.
+  How to make yourself offline on Facebook.
+  How to make yourself organism.
+  How to make yourself orgasm.
+  How to make yourself organized.
+  How to make yourself pass out.
+  How to make yourself pee.
+  How to make yourself puke.
+  How to make yourself prettier.
+  How to make yourself a priority.
+  How to make yourself a public figure on Facebook.
+  How to make yourself a private user on Instagram.
+  How to make yourself quicker.
+  How to make yourself quiet.
+  How to make yourself quit smoking.
+  How to make yourself quit coughing.
+  How to make yourself a real mermaid.
+  How to make yourself really wet.
+  How to make yourself really tired.
+  How to make yourself really sick.
+  How to make yourself relax.
+  How to make yourself a robot.
+  How to make yourself run a fever.
+  How to make yourself sleepy.
+  How to make yourself sick.
+  How to make yourself smarter.
+  How to make yourself stop crying.
+  How to make yourself see auras.
+  How to make yourself sound Australian.
+  How to make yourself a super hero.
+  How to make yourself a sudoer.
+  How to make yourself tired.
+  How to make yourself taller.
+  How to make yourself tighter.
+  How to make yourself a twin.
+  How to make yourself a tumblr girl.
+  How to make yourself a twin in a video.
+  How to make yourself unsearchable on Facebook.
+  How to make yourself unsearchable on Facebook 2015.
+  How to make yourself ugly.
+  How to make yourself vomit.
+  How to make yourself vulnerable.
+  How to make yourself visible on Airdrop.
+  How to make yourself a vampire.
+  How to make yourself a virgin again.
+  How to make yourself a witch.
+  How to make yourself a weapon.
+  How to make yourself a Wikipedia page.
+  How to make yourself wet.
+  How to make yourself wake up.
+  How to make yourself younger.
+  How to make yourself Youtube famous.
+  How to make yourself a zombie. 
+  How to make yourself zone out.
+  Find out how to make yourself these things and more on our website.
+  </marquee>
+</div>
+<!-- END: MARQUEE -->
+
+
+    <!--START: MAIN CONTENT-->
     <div class="container">
         <div class="row">
           <h1 class="title">Our Commissions</h1>
           <div class="col-xs-6 col-sm-4 col-md-3 document">
-            <a href="performativeremoval.html">
-            <img src="img/document.jpg" class="img-responsive" alt="Project Generator"><span>Performative Removal of Creative Block</span></a>
+            <a href="futureofwork.html">
+            <img src="img/document.jpg" class="img-responsive" alt="Future of Work, Testimonials (Pt.1)"><span>The Future of Work, Testimonials (Pt.1)</span></a>
           </div>
           <div class="col-xs-6 col-sm-4 col-md-3 document">
-            <a href="nevertalkaboutyourworkagain.html">
-            <img src="img/document.jpg" class="img-responsive" alt="Brand Generator"><span>Human Billboard to Talk About Your Work</span></a>
+            <a href="temporaryartreview.html">
+            <img src="img/document.jpg" class="img-responsive" alt="They Paid Me to Give you a Tour of the Internet"><span>They Paid Me to Give you a Tour of the Internet</span></a>
           </div>
           <div class="col-xs-6 col-sm-4 col-md-3 document">
-            <a href="unfamiliarmaterials.html">
-            <img src="img/document.jpg" class="img-responsive" alt="New ID Generator"><span>Performative Validation for Working with Unfamiliar Materials</span></a>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-3 document">
-            <a href="forecasting.html">
-            <img src="img/document.jpg" class="img-responsive" alt="Publicity Generator"><span>Psychic Reading to Future Proof Your Career</span></a>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-3 document">
-            <a href="externalizedistrust.html">
-            <img src="img/document.jpg" class="img-responsive" alt="Tough Love Generator"><span>Performance to Externalize Distrust</span></a>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-3 document">
-            <a href="hypnosis.html">
-            <img src="img/document.jpg" class="img-responsive" alt="Confidence Generator"><span>Hypnosis to Engender Trust</span></a>
+            <a href="makingyoumakingothers.html">
+            <img src="img/document.jpg" class="img-responsive" alt="Making You, Making Others"><span>Making You, Making Others</span></a>
           </div>
           <div class="col-xs-6 col-sm-4 col-md-3 document">
             <a href="twins.html">
-            <img src="img/document.jpg" class="img-responsive" alt="Mug/Rug Generator"><span>Performance of Roles or Personas Outside of Comfort Zone</span></a>
+            <img src="img/document.jpg" class="img-responsive" alt="Performance of Roles or Personas Outside of Comfort Zone"><span>Performance of Roles or Personas Outside of Comfort Zone</span></a>
           </div> 
           <div class="col-xs-6 col-sm-4 col-md-3 document">
+            <a href="performativeremoval.html">
+            <img src="img/document.jpg" class="img-responsive" alt="Performative Removal of Creative Block"><span>Performative Removal of Creative Block</span></a>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 document">
+            <a href="nevertalkaboutyourworkagain.html">
+            <img src="img/document.jpg" class="img-responsive" alt="Human Billboard to Talk About Your Work"><span>Human Billboard to Talk About Your Work</span></a>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 document">
+            <a href="unfamiliarmaterials.html">
+            <img src="img/document.jpg" class="img-responsive" alt="Performative Validation for Working with Unfamiliar Materials"><span>Performative Validation for Working with Unfamiliar Materials</span></a>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 document">
+            <a href="forecasting.html">
+            <img src="img/document.jpg" class="img-responsive" alt="Psychic Reading to Future Proof Your Career"><span>Psychic Reading to Future Proof Your Career</span></a>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 document">
+            <a href="externalizedistrust.html">
+            <img src="img/document.jpg" class="img-responsive" alt="Performance to Externalize Distrust"><span>Performance to Externalize Distrust</span></a>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 document">
+            <a href="hypnosis.html">
+            <img src="img/document.jpg" class="img-responsive" alt="Hypnosis to Engender Trust"><span>Hypnosis to Engender Trust</span></a>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 document">
             <a href="timemanagement.html">
-            <img src="img/document.jpg" class="img-responsive" alt="Intern Generator"><span>Custom Audio Track for Motivation</span></a>
+            <img src="img/document.jpg" class="img-responsive" alt="Custom Audio Track for Motivation"><span>Custom Audio Track for Motivation</span></a>
           </div>
           <div class="col-xs-6 col-sm-4 col-md-3 document">
             <a href="fucklabor.html">
-            <img src="img/document.jpg" class="img-responsive" alt="Money Making Generator"><span>Fuck Labor. Write Scripts, Commission Animals</span></a>
+            <img src="img/document.jpg" class="img-responsive" alt="Fuck Labor. Write Scripts, Commission Animals"><span>Fuck Labor. Write Scripts, Commission Animals</span></a>
           </div>   
         </div>
     </div>
+    <!--END: MAIN CONTENT-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- Javascript -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/dash.js"></script>
   </body>
 
 </html>

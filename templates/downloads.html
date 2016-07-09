@@ -10,59 +10,18 @@
     <meta name="author" content="Liat Berdugo and Emily Martinez">
     <meta name='description' content='Our Downloads'>
     <meta name='keywords' content='share, sharing economy, desiring-production, desiring-machine, commissions, authorship, identity, DIY culture, entrepreneurship, artist as entrepreneur, sourcing, labor, Industry 4.0, economies of scale, artist as curator, artist as commissioner, on-demand economy, collaborative consumption, collaborative economy, gig-economy'>
-    
-    <link rel="shortcut icon" type="img/ico" href="img/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <style>
-        .title {
-            display: block;
-            text-align: center;
-            font-size: 4em;
-            font-family: sans-serif;
-            font-weight: bold;
-            padding: 0;
-            margin-bottom: 50px;
-            color: #FF0179;
-        }
-        .download {
-            margin-bottom: 10px;
-        }  
-        .download span{
-            font-family: sans-serif;
-            font-weight: bold;
-            font-size: 1em;
-            text-transform: uppercase;
-            text-align: center;
-            display: block;
-        }  
-        .download a,
-        .download a:visited {
-          color: black;
-          text-decoration: none;
-        }
-        .download a:hover {
-          color: #FF0179;
-          text-decoration: none;
-        }
-        .download img {
-          border: 2px solid #000;
-        }
-        .download img:hover {
-          border: 2px solid #FF0179;
-        }
-        @media screen and (max-width: 768px) {
-           .title {
-            font-size: 2.5em;
-           }
-        }
+@@include('../partials/_social.html')
+@@include('../partials/_css.html')    
 
-    </style>
-    
-    <script type="text/javascript" src="js/analytics.js"></script>
   </head>
 
-  <body>
+  <body class="subcategory">
+@@include('../partials/_contact.html')
+@@include('../partials/_about.html')
+@@include('../partials/_nav.html')
+@@include('../partials/_header.html')
 
+    <!--START: MAIN CONTENT-->
     <div class="container">
         <div class="row">
           <h1 class="title">Our Downloads</h1>
@@ -83,9 +42,9 @@
           </div>  
         </div>
     </div>
+    <!--END: MAIN CONTENT-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+@@include('../partials/_js.html')
   </body>
 
 </html>
