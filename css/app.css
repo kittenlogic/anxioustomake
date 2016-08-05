@@ -496,6 +496,10 @@ a:hover {color: #FF0179; }
   color: black;
   text-decoration: none;
 }
+.commission .popUpContainer a,
+.commission .popUpContainer a:visited {
+  color:  #FF0179;
+}
 .commission .main-content a:hover {
   color: #FF0179;
   background-color: yellow;
@@ -857,6 +861,10 @@ a#openPopUp:hover{
 }
 .popUpContainer a {
   color: #FF0179;
+}
+.popUpContainer a:focus,
+.popUpContainer a:hover{
+  background-color: yellow;
 }
 
 .popup h2{
