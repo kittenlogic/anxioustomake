@@ -928,7 +928,10 @@ a#openPopUp:hover{
 .popup .fa {
   color: #FF0179;
 }
-
+.popup .bio {
+  width: 200px;
+  padding:  20px 0;
+}
 /*=====================================
 =            media queries            =
 =====================================*/
