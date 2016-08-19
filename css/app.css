@@ -10,7 +10,8 @@
  * # home
  * # pages
  * ## vip
- * ## 404 
+ * ## 404
+ * ## TAR 
  * ## downloads
  * ## quizzes
  * # commissions
@@ -361,6 +362,13 @@ a:hover {color: #FF0179; }
 .four-oh-four p{
   text-align: center;
   font-weight: bold;
+}
+.about-tar {
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
 }
 
 /*=================================
@@ -965,7 +973,9 @@ a#openPopUp:hover{
   }
 
   .commission .pageheading{font-size: 2em;}
-  .commission .logo { width: 80%;}
+
+  .commission .logo,
+  .downloads .logo { display: none;}
 
   .generator .makeart{
     font-size: 1.2em;
@@ -976,7 +986,7 @@ a#openPopUp:hover{
   .downloads .title {
     font-size: 1.5em;
   }
-  .downloads .logo { width: 80%;}
+ 
   .whatdoyoucareabout h1 {
     font-size: 2em;
   }
