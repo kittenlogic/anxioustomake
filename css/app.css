@@ -211,6 +211,9 @@ a:hover {color: #FF0179; }
 .homepage .downloads img {
   max-width: 70%;
 }
+.homepage .cse img{
+  max-width:  90%;
+}
 .homepage .sweepstakes .img-responsive {
   max-width: 40%;
   margin-top: -50px;
