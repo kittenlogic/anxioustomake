@@ -11,7 +11,8 @@
  * # pages
  * ## vip
  * ## 404
- * ## TAR 
+ * ## TAR
+ # ## CSE
  * ## downloads
  * ## quizzes
  * # commissions
@@ -366,12 +367,82 @@ a:hover {color: #FF0179; }
   text-align: center;
   font-weight: bold;
 }
+
 .about-tar {
   position: fixed;
   z-index: 9999;
   bottom: 0;
   left: 0;
   cursor: pointer;
+}
+
+/*=================================
+=               CSE               =
+=================================*/
+
+.cse {
+  margin-top: 40px;
+}
+.cse h1{
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 30px;
+  font-weight: 400;
+  background-color: #FF0179;
+  color: #fff;
+  display: inline-block;
+}
+.cse h2{
+  color: #FF0179;
+  font-size: 30px;
+  font-weight: 100;
+}
+.cse a{
+  color: #FF0179;
+}
+.cse .pitch{
+  background-color: #FF0179;
+  color: #fff;
+  width: 100%;
+  padding: 40px 20px;
+  font-size: 1.5em;
+}
+.cse .intro{
+  background-color: #ffff00;
+  padding: 40px 20px;
+}
+.cse .contact{
+  padding: 40px 20px;
+  background-color: #fff;
+}
+.cse .donate{
+  background: url('../img/cse-ad-5.png') repeat;
+}
+.cse .donate .row {
+  padding-top: 40px;
+}
+.cse .credit{
+  background-color: #ff0179;
+  color: #fff;
+}
+.cse .credit a {
+  color: #fff;
+}
+.cse .logo{
+  max-width: 20%;
+  display: block;
+  margin-left: 0;
+}
+@media screen and (max-width: 562px) {
+  .cse h1 {
+    font-size: 18px;
+  }
+  .cse .logo{
+    max-width: 50%;
+  }
+  .cse .contact h2{
+    font-size: 20px;
+  }
 }
 
 /*=================================
