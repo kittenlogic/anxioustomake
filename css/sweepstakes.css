@@ -6,24 +6,33 @@
   background-color: transparent;
   background: url('../img/sweepstakes-mystery.gif') repeat;
 }
-.sweepstakes-container {
+.sweepstakes-container{
   margin-top: 40px;
 }
-.sweepstakes-container h3{
+.dolphin-container {
+  margin-top: 60px;
+}
+.dolphin-container h1{
+  color: #FF0179;
+}
+.sweepstakes-container h3,
+.dolphin-container h3{
   font-weight: normal; 
   font-size: 22px;
+}
+.sweepstakes-container form a:hover,
+.dolphin-container form a:hover {
+  background: url("../img/glitter07.gif") repeat;
+  text-decoration: underline;
 }
 .sweepstakes-container a,
 .sweepstakes-container form a {
   color: magenta;
   text-decoration: underline;
 }
+.sweepstakes-container .terms a,
 .sweepstakes-container .terms a {
-  color: #FF0179;
-}
-.sweepstakes-container form a:hover {
-  background: url("../img/glitter07.gif") repeat;
-  text-decoration: underline;
+  color: magenta;
 }
 .sweepstakes-container .fa{
   color: yellow;
@@ -33,6 +42,25 @@
 }
 .sweepstakes-container .fa:hover{
   color: magenta;
+  background-color: yellow;
+}
+.dolphin-container a,
+.dolphin-container form a {
+  color: #FF0179;
+  text-decoration: underline;
+}
+.dolphin-container .terms a,
+.dolphin-container .terms a {
+  color: #FF0179;
+}
+.dolphin-container .fa{
+  color: yellow;
+  background-color: #FF0179;
+  cursor: pointer;
+  padding: 7px 5px;
+}
+.dolphin-container .fa:hover{
+  color: #FF0179;
   background-color: yellow;
 }
 #makingyou img {width: 60px; }
@@ -101,7 +129,109 @@ walk-on video
  
 
 /*******************************
-form
+form dolphin
+********************************/
+.dolphin-container {
+  margin-bottom:  60px;
+}
+
+.dolphin-container form { max-width:100%; margin:50px auto; }
+
+.dolphin-container .feedback-input {
+  color:#FF0179;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 30px;
+  border-radius: 0px;
+  line-height: 42px;
+  background-color: #fff;
+  border:2px solid #FF0179;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.dolphin-container .feedback-input:focus { 
+  border:2px solid #FF0179; 
+  background: url("../img/glitter14.gif") repeat;
+  color: #FFFF00; 
+}
+
+.dolphin-container textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+.dolphin-container [type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#FF0179;
+  border-radius:0px;
+  border:0;
+  cursor:pointer;
+  color:yellow;
+  font-size:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:30px;
+  font-weight:700;
+}
+.dolphin-container [type="submit"]:hover { background:yellow; color:#FF0179; }
+
+.dolphin-container ::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color:#FF0179; }
+.dolphin-container ::-moz-placeholder { /* Firefox 19+ */ color: #FF0179; }
+.dolphin-container :-ms-input-placeholder { /* IE 10+ */ color: #FF0179; }
+.dolphin-container :-moz-placeholder { /* Firefox 18- */ color: #FF0179; }
+
+.dolphin-container input[type="checkbox"] {
+    display: none;
+}
+
+.dolphin-container input[type="checkbox"] + label span {
+    display:inline-block;
+    width:34px;
+    height:34px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:#fff;
+    border: 2px solid #FF0179;
+    cursor:pointer;
+}
+.dolphin-container input[type="checkbox"]:checked + label span {
+    background:url("../img/dot1.gif") 0 0 no-repeat;
+    background-size: 30px 30px;
+}
+
+.dolphin-container label {
+  font-size: 20px;
+  color: #FF0179;
+}
+
+.dolphin-container #thankyou_message {
+  background: #ffff00;
+  color: #FF0179;
+  margin-top: 50px;
+  padding: 10px 20px;
+  font-size: 30px; 
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  text-align: center; 
+}
+.dolphin-container .thanks {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/*******************************
+form sweepstakes
 ********************************/
 
 
@@ -161,7 +291,6 @@ textarea {
 input[type="checkbox"] {
     display: none;
 }
-
 input[type="checkbox"] + label span {
     display:inline-block;
     width:34px;
@@ -182,7 +311,7 @@ label {
   font-size: 20px;
   color: magenta;
 }
-label:hover {
+.sweepstakes label:hover {
   font-size: 4em;
 }
 

@@ -380,7 +380,7 @@ a:hover {color: #FF0179; }
 =               CSE               =
 =================================*/
 
-.cse {
+body.cse {
   margin-top: 40px;
 }
 .cse h1{
