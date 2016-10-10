@@ -44,15 +44,14 @@
   color: magenta;
   background-color: yellow;
 }
-.dolphin-container a,
+.dolphin-container a {
+  color: #FF0179;
+}
 .dolphin-container form a {
   color: #FF0179;
   text-decoration: underline;
 }
-.dolphin-container .terms a,
-.dolphin-container .terms a {
-  color: #FF0179;
-}
+
 .dolphin-container .fa{
   color: yellow;
   background-color: #FF0179;
@@ -63,6 +62,10 @@
   color: #FF0179;
   background-color: yellow;
 }
+.dolphin-container .credit-footer{
+  margin-top:  40px;
+}
+
 #makingyou img {width: 60px; }
 
 #makingothers img {width: 100px; }
