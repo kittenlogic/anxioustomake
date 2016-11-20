@@ -135,7 +135,13 @@
 <script src="js/jquery.touchSwipe.min.js"></script>
 <script src="js/dash.js"></script>
    
-    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+<script>
+$('#gform').on("submit", function() { 
+  setTimeout(function () { window.location.reload(); }, 5000);
+});
+</script>
 
 </body>
 </html>
