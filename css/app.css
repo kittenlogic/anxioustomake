@@ -1018,6 +1018,46 @@ a#openPopUp:hover{
 =            media queries            =
 =====================================*/
 
+@media screen and (max-width: 480px) {
+  .homepage #card1{
+    top: 60px;
+    left: 10px;  
+  }
+  .homepage #card2{
+    top: 90px;
+    left: 10px;   
+  }
+  .homepage #card3 {   
+    top: 120px;
+    left: 10px;
+  }
+  .homepage #card4 {
+    top: 150px;
+    left: 10px;
+  }
+  .homepage #card5 {
+    top: 180px;
+    left: 10px;  
+  }
+  .homepage #card6 {
+    top:210px;
+    left: 10px;
+  }
+  .homepage #card7 {   
+  top: 240px;
+  left: 210px;
+  }
+  .homepage #card8,
+  .homepage #card9,
+  .homepage #card10,
+  .homepage #card11,
+  .homepage #card12,
+  .homepage #card13,
+  .homepage #card14 {
+    display: none;
+  }  
+}
+
 @media screen and (max-width: 796px) {
   .popup .popUpContainer{
     width: 90%;
