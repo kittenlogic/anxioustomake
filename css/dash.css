@@ -284,7 +284,7 @@ button.dnl-btn-toggle {
 /* Dash Navbar Left = dnl
 / -------------------------------------------------- */
 .dash-navbar-left {
-  position: absolute;
+  position: fixed;
   background-color: yellow;
   width: 250px;
   top: 0;
