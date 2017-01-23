@@ -209,7 +209,8 @@ a:hover {color: #FF0179; }
 }
 .homepage .commissions img,
 .homepage .generators img,
-.homepage .downloads img {
+.homepage .downloads img,
+.homepage .futureofworkbook img {
   max-width: 70%;
 }
 .homepage .cse img{
