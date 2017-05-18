@@ -1117,3 +1117,32 @@ a#openPopUp:hover{
 @media screen and (min-width: 1200px) {
   .commission .pageheading{font-size: 2.7em;}
 }   
+
+
+/* 
+sharing buttons
+*/
+
+.sharing-container {
+  width: 8%;
+  position: fixed;
+  opacity: 0.9;
+  bottom: 20%;
+  right: 0;
+  z-index: 999;
+}
+
+.sharing-container ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.sharing-container li {
+  background: rgba(255, 0, 0, 0.66);
+  margin-bottom: 2px;
+  list-style: none
+}
+
+.sharing-container svg {
+  fill: white;
+}
