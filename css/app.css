@@ -113,6 +113,32 @@ a:hover {color: #FF0179; }
     font-size: 20px;
 }
 
+.news5 {
+  display: inline-block;
+  font-size: inherit;
+  width: 55px;
+  height: 16px;
+  margin-top: -24px;
+  background: url('../img/new5.gif') 50% 50% no-repeat;
+  background-size: 44px;
+}
+.news6 {
+  display: inline-block;
+  font-size: inherit;
+  width: 32px;
+  height: 20px;
+  margin-top: -3px;
+  background: url('../img/new6.gif') 50% 50% no-repeat;
+}
+.news7 {
+  display: inline-block;
+  font-size: inherit;
+  width: 32px;
+  height: 20px;
+  margin-top: -3px;
+  background: url('../img/new7.gif');
+}
+
 /*============================
 =            home            =
 ============================*/
@@ -1124,25 +1150,25 @@ sharing buttons
 */
 
 .sharing-container {
-  width: 8%;
+  width: 7%;
   position: fixed;
   opacity: 0.9;
   bottom: 20%;
   right: 0;
   z-index: 999;
 }
-
 .sharing-container ul {
     margin-left: 0px;
     padding-left: 0px;
 }
-
 .sharing-container li {
-  background: rgba(255, 0, 0, 0.66);
-  margin-bottom: 2px;
+  background: rgba(255, 1, 121, 0.66);
+  margin-bottom: 3px;
   list-style: none
 }
-
+.sharing-container li:hover{
+  background: rgba(255, 1, 121, 1.00);
+}
 .sharing-container svg {
   fill: white;
 }
