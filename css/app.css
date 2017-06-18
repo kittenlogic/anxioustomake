@@ -688,7 +688,8 @@ body.cse {
 .generator a:hover {color: #FF0179; text-decoration: underline;}
 .generator a:focus {outline: 0;} 
 
-.generator .makeart {
+.generator .makeart,
+.generator .makefuture {
   width: 80%;
   height: 100px;
   background-color: yellow;
@@ -700,9 +701,10 @@ body.cse {
   font-weight: bold;
 }
 .generator .makeart:hover,
-.generator .makeart:focus {
+.generator .makefuture:hover {
   background-color: #FF0179;
   color:yellow;
+  cursor: pointer;
 }
 .generator .newproject {
   display: block;
@@ -711,6 +713,23 @@ body.cse {
   font-weight: bold;
   padding: 0;
   margin: 10%;
+}
+.generator .design {
+  display: block;
+  font-size: 3em;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 2% 10% 4% 10%;
+}
+.generator .scenario {
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 10%;
 }
 .generator button {
   border: 0;
@@ -1118,11 +1137,23 @@ a#openPopUp:hover{
   .commission .logo,
   .downloads .logo { display: none;}
 
+  .generator-container {
+    margin-top: 80px;
+  }
   .generator .makeart{
     font-size: 1.2em;
   }
-  .generator .newproject{
+  .generator .newproject,
+  .generator .design{
     font-size: 2em;
+  }
+  .generator .scenario{
+    margin: 0 10%;
+    font-size: 16px;
+  }
+  .generator .makefuture{
+    font-size: 1.2em;
+    height: 60px;
   }
   .downloads .title {
     font-size: 1.5em;
@@ -1171,4 +1202,7 @@ sharing buttons
 }
 .sharing-container svg {
   fill: white;
+}
+.generator .sharing-container {
+  display: none;
 }
