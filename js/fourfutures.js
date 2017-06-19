@@ -6,7 +6,7 @@ function getFuture() {
     'an Airbnb-like platform', 
     'a ridesharing platform', 
     'a TaskRabbit-like service', 
-    'a subscription service', 
+    'a subscription box service', 
     'a crowdsourcing platform',
     'a crowdfunding platform',
     'a crowdfunding platform that collectively buys stock to faciliate shareholder activism',
@@ -192,18 +192,21 @@ function getFuture() {
     'flood prevention',
     'the colonization of virtual worlds',
     'clean energy coops',
-    'ethical hackers'
+    'ethical hackers',
+    'meditation',
+    'conflict negotiators',
+    'health care professionals',
+    'recovering Capitalists'
     ];
 
   var xfactor = xfactors[Math.floor(Math.random() * xfactors.length)];
     
   $(".future").append('<span class="scenario">Scenario: ' + future +'</span><br/><span class="design">Design '+ bizmodel + ' for ' + xfactor + '</span>');
-  console.log(future);
+  console.log(bizmodel + ' ' +  xfactor);
 }
 
 
 $(".makefuture").on('click', function(){
   $(".future").empty();
-  getFuture();
-  console.log(Math.random()); 
+  getFuture(); 
 });
