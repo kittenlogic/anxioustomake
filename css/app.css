@@ -1101,6 +1101,16 @@ a#openPopUp:hover{
   .homepage #card13,
   .homepage #card14 {
     display: none;
+  }
+  .generator .newproject,
+  .generator .design{
+    font-size: 20px;
+  }
+  .generator .makefuture{
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    position: fixed;
   }  
 }
 
@@ -1140,25 +1150,23 @@ a#openPopUp:hover{
   .generator-container {
     margin-top: 80px;
   }
-  .generator .makeart{
-    font-size: 1.2em;
-  }
-  .generator .newproject,
-  .generator .design{
-    font-size: 2em;
-  }
   .generator .scenario{
     margin: 0 10%;
     font-size: 16px;
   }
-  .generator .makefuture{
+  .generator .makefuture,
+  .generator .makeart{
     font-size: 1.2em;
     height: 60px;
   }
+  .generator .design,
+  .generator .scenario{
+    margin: 0 4%;
+  }
+
   .downloads .title {
     font-size: 1.5em;
   }
- 
   .whatdoyoucareabout h1 {
     font-size: 2em;
   }
@@ -1168,9 +1176,29 @@ a#openPopUp:hover{
   .newid .title {
     font-size: 2.5em;
    }
-
 }
 
+@media screen and (min-width: 481px) and (max-width: 796px){
+  .generator .newproject,
+  .generator .design{
+    font-size: 2em;
+  }
+  .generator .design,
+  .generator .scenario{
+    margin: 0 4%;
+  }
+  .generator .makefuture,
+  .generator .makeart{
+    width: 92%;
+  }
+}
+
+@media screen and (min-width: 797px) {
+  .generator .newproject,
+  .generator .design{
+    font-size: 3em;
+  }
+}
 @media screen and (min-width: 1200px) {
   .commission .pageheading{font-size: 2.7em;}
 }   
