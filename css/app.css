@@ -395,12 +395,16 @@ a:hover {color: #FF0179; }
   font-weight: bold;
 }
 
-.about-tar {
+.more-info-bottom-left {
   position: fixed;
   z-index: 9999;
   bottom: 0;
   left: 0;
   cursor: pointer;
+}
+
+#afterwork-modal * {
+  text-align: center;
 }
 
 /*=================================
