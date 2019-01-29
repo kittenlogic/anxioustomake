@@ -143,7 +143,7 @@ a:hover {color: #FF0179; }
 =            home            =
 ============================*/
 .homepage {
-  background-image: url('../img/makeyourself-k.png');
+  background: url('../img/makeyourself-k.png');
 }
 .homepage .new {
     position: absolute;
@@ -1076,6 +1076,7 @@ a#openPopUp:hover{
   bottom: 20%;
   right: 0;
   z-index: 999;
+  display: none;
 }
 .sharing-container ul {
     margin-left: 0px;
@@ -1148,8 +1149,55 @@ a#openPopUp:hover{
     bottom: 0;
     position: fixed;
   }  
-}
+  .homepage .card,
+  .homepage .brand,
+  .homepage #love-me  { 
+    display: none;
+  }
+  .homepage {
+    background: #fff;
+  }
+  .homepage .mobile{ 
+    display: block;
+    margin: 10px;
+    border: 2px #000 solid;
+    padding: 10px;
+    max-height: 500px;
+  }
+  .homepage .mobile-title {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 3px;
+    background: #000;
+    text-transform: uppercase;
 
+  }
+  .homepage .mobile.logo {
+    border: none;
+    padding: 0 60px;
+    margin-top: 60px;
+  }
+  .homepage #featured {
+    margin-top: 0;
+  }
+  .homepage #news {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .homepage .mobile .fa,
+    .homepage .mobile a {
+    color: #FF0179;
+  }
+  .homepage .closing {
+    text-transform: uppercase;
+  }
+
+
+}
+@media screen and (min-width: 481px){
+  .homepage .mobile {display: none;}
+}
 @media screen and (max-width: 796px) {
   .popup .popUpContainer{
     width: 90%;
@@ -1211,7 +1259,7 @@ a#openPopUp:hover{
   }
   .newid .title {
     font-size: 2.5em;
-   }
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 796px){
@@ -1234,6 +1282,8 @@ a#openPopUp:hover{
   .generator .design{
     font-size: 3em;
   }
+  .mobile{ display: none; }
+
 }
 @media screen and (min-width: 1200px) {
   .commission .pageheading{font-size: 2.7em;}
