@@ -36,9 +36,14 @@ body {
 }
 
 img {margin: 0 auto; }
-a {color: #adadad; } 
+a {color: #FF0179; } 
 a:hover {color: #FF0179; }
 
+
+html,
+body {
+  height: 100%;
+}
 
 /*==============================
 =            helper            =
@@ -112,7 +117,7 @@ a:hover {color: #FF0179; }
     color: #FF0179;
     font-size: 20px;
 }
-
+.logo { width: 250px; }
 .news5 {
   display: inline-block;
   font-size: inherit;
@@ -145,6 +150,34 @@ a:hover {color: #FF0179; }
 .homepage {
   background: url('../img/makeyourself-k.png');
 }
+
+/* .homepage {
+  width: 100%;
+  height: 100%;
+  animation: pulse 30s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: yellow;
+  }
+    20% {
+    background-color: magenta;
+  }
+    40% {
+    background-color: cyan;
+  }
+    60% {
+    background-color: purple;
+  }
+
+  80% {
+    background-color: magenta;
+  }
+  100% {
+    background-color: yellow;
+  }
+} */
 .homepage .new {
     position: absolute;
     top:2px;
@@ -623,15 +656,18 @@ body.cse {
 }
 
 .commission .pageheading {
-    display: block;
+    display: inline-block;
     text-align: center;
     font-size: 2em;
     font-family: sans-serif;
     font-weight: bold;
     padding: 0;
     margin-bottom: 50px;
-    color: #000;
+    color: #fff;
     line-height: 1.2;
+    background: #000;
+    padding: 0 6px;
+    text-transform: uppercase;
 }
 .commission .title {
     font-size: 20px;
@@ -1102,43 +1138,6 @@ a#openPopUp:hover{
 =====================================*/
 
 @media screen and (max-width: 480px) {
-  .homepage #card1{
-    top: 60px;
-    left: 10px;  
-  }
-  .homepage #card2{
-    top: 90px;
-    left: 10px;   
-  }
-  .homepage #card3 {   
-    top: 120px;
-    left: 10px;
-  }
-  .homepage #card4 {
-    top: 150px;
-    left: 10px;
-  }
-  .homepage #card5 {
-    top: 180px;
-    left: 10px;  
-  }
-  .homepage #card6 {
-    top:210px;
-    left: 10px;
-  }
-  .homepage #card7 {   
-  top: 240px;
-  left: 210px;
-  }
-  .homepage #card8,
-  .homepage #card9,
-  .homepage #card10,
-  .homepage #card11,
-  .homepage #card12,
-  .homepage #card13,
-  .homepage #card14 {
-    display: none;
-  }
   .generator .newproject,
   .generator .design{
     font-size: 20px;
@@ -1156,6 +1155,7 @@ a#openPopUp:hover{
   }
   .homepage {
     background: #fff;
+    animation: none;
   }
   .homepage .mobile{ 
     display: block;
@@ -1163,6 +1163,7 @@ a#openPopUp:hover{
     border: 2px #000 solid;
     padding: 10px;
     max-height: 500px;
+    background: #fff;
   }
   .homepage .mobile-title {
     font-weight: 400;
@@ -1171,12 +1172,12 @@ a#openPopUp:hover{
     padding: 0 3px;
     background: #000;
     text-transform: uppercase;
-
   }
   .homepage .mobile.logo {
     border: none;
-    padding: 0 60px;
+    padding: 0 40px;
     margin-top: 60px;
+    width: 90%;
   }
   .homepage #featured {
     margin-top: 0;
@@ -1192,7 +1193,6 @@ a#openPopUp:hover{
   .homepage .closing {
     text-transform: uppercase;
   }
-
 
 }
 @media screen and (min-width: 481px){
@@ -1259,6 +1259,10 @@ a#openPopUp:hover{
   }
   .newid .title {
     font-size: 2.5em;
+  }
+  .commission .pageheading {
+    font-size: 1.7em;
+
   }
 }
 
