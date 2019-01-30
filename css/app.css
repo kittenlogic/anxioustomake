@@ -148,19 +148,19 @@ body {
 =            home            =
 ============================*/
 .homepage {
-  background: url('../img/howtomake.jpg') repeat-y;
+  background: url('../img/howtomake.jpg') repeat;
   background-size: contain;
   background-position-y: 60px;
 }
 
-.homepage {
+/* .homepage {
   width: 100%;
   height: 100%;
   animation: pulse 30s infinite;
-}
+} */
 
 /* @keyframes pulse {
-  0% {
+    0% {
     background-color: #ff71b2;
   }
     20% {
@@ -172,25 +172,14 @@ body {
     60% {
     background-color: #f8e8d8;
   }
-
-  80% {
+    80% {
     background-color: #facbd0;
   }
-  100% {
+    100% {
     background-color: #f493a6;
   }
 } */
-/* @keyframes pulse {
-  0% {
-    background-color: #ffd5d5;
-  }
-  50% {
-    background-color: #f8e8d8;
-  }
-  100% {
-    background-color: #facbd0;
-  }
-} */
+
 .homepage .new {
     position: absolute;
     top:2px;
@@ -244,37 +233,45 @@ body {
   top:210px;
   left: 180px;
 }
-.homepage #card7 {   
-  top: 240px;
-  left: 210px;
-}
-.homepage #card8 {
-  top: 240px;
-  left: 710px;
-}
-.homepage #card9 {
-  top:210px;
-  left: 680px;
-}
-.homepage #card10 {
+.homepage #contact {
   top: 630px;
   left: 180px;
 }
-.homepage #card11 {
-  top: 1470px;
+.homepage #eternal{
+  top: 630px;
   left: 500px;
 }
-.homepage #card12 {
-  top: 630px;
-  left: 820px;
+.homepage #wwwork {
+  top: 1050px;
+  left: 180px;
+  background-image: url('../img/glitter07.gif');
 }
-.homepage #card13{
+.homepage #futureofwork {
   top: 1050px;
   left:500px;
 }
-.homepage #card14{
-  top: 630px;
+.homepage #quitting{
+  top: 1470px;
   left: 500px;
+  background-image: url('../img/makeyourself-k.png');
+  background-size: contain;
+}
+.homepage #afterwork {
+  top:1470px;
+  left: 820px;
+  background-image: url('../img/glitter14.gif');
+}
+.homepage #malaonda {   
+  top: 1890px;
+  left: 820px;
+  background-image: url('../img/ocean2.gif');
+}
+.homepage #dolphinaccelerator {
+  top: 1890px;
+  left: 1140px;
+  background-image: url('../img/hoverboard2.gif');
+  background-size: 400px 100%;
+  background-position: top center;
 }
 .homepage .news {
   overflow-y: auto; 
@@ -321,8 +318,14 @@ body {
 }
 .email a,
 .email .fa {
-    font-size: 14px;
-  }
+  font-size: 14px;
+}
+.homepage .closing {
+  text-transform: uppercase;
+}
+.homepage .smaller {
+  font-size: 14px;
+}
 /* .homepage .anxious-marquee {
   background-color: magenta;
   color: yellow;
@@ -1226,9 +1229,6 @@ a#openPopUp:hover{
   }
   .homepage .mobile small{
     font-size: 100%;
-  }
-  .homepage .closing {
-    text-transform: uppercase;
   }
 
 }
