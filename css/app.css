@@ -76,13 +76,13 @@ body {
   padding-top: 60px;
 }
 .brand {
+    left: 0;
     bottom: 0;
-    right: 0;
     width: 180px;
     padding-left: 5px;
     display: inline-block;
     position: fixed;
-    z-index: 999;
+    z-index: 0;
 }
 #info{
     position: fixed;
@@ -148,34 +148,47 @@ body {
 =            home            =
 ============================*/
 .homepage {
-  background: url('../img/makeyourself-k.png');
+  background: url('../img/howtomake.jpg') repeat-y;
+  background-size: contain;
+  background-position-y: 60px;
 }
 
-/* .homepage {
+.homepage {
   width: 100%;
   height: 100%;
   animation: pulse 30s infinite;
 }
 
-@keyframes pulse {
+/* @keyframes pulse {
   0% {
-    background-color: yellow;
+    background-color: #ff71b2;
   }
     20% {
-    background-color: magenta;
+    background-color: #ffa0ad;
   }
     40% {
-    background-color: cyan;
+    background-color: #ffd5d5;
   }
     60% {
-    background-color: purple;
+    background-color: #f8e8d8;
   }
 
   80% {
-    background-color: magenta;
+    background-color: #facbd0;
   }
   100% {
-    background-color: yellow;
+    background-color: #f493a6;
+  }
+} */
+/* @keyframes pulse {
+  0% {
+    background-color: #ffd5d5;
+  }
+  50% {
+    background-color: #f8e8d8;
+  }
+  100% {
+    background-color: #facbd0;
   }
 } */
 .homepage .new {
@@ -199,6 +212,14 @@ body {
   padding: 10px;
 }
 
+.homepage .title {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 3px;
+  background: #000;
+  text-transform: uppercase;
+}
 .homepage #card1{
   top: 60px;
   left: 30px;  
@@ -236,24 +257,24 @@ body {
   left: 680px;
 }
 .homepage #card10 {
-  top:180px;
-  left: 650px;
+  top: 630px;
+  left: 180px;
 }
 .homepage #card11 {
-  top: 150px;
-  left: 620px;
+  top: 1470px;
+  left: 500px;
 }
 .homepage #card12 {
-  top: 120px;
-  left: 590px;
+  top: 630px;
+  left: 820px;
 }
 .homepage #card13{
-  top: 90px;
-  left:560px;
+  top: 1050px;
+  left:500px;
 }
 .homepage #card14{
-  top:60px;
-  left:530px;
+  top: 630px;
+  left: 500px;
 }
 .homepage .news {
   overflow-y: auto; 
@@ -288,7 +309,20 @@ body {
   background-color: #fff;
   background-size: 60%;
   background-position: 66px 120px;
+}
+.homepage .downloads .title {
+  font-size: 18px;
+  font-weight: 400;
 } 
+
+.homepage a,
+.homepage .fa, {
+  color: #FF0179;
+}
+.email a,
+.email .fa {
+    font-size: 14px;
+  }
 /* .homepage .anxious-marquee {
   background-color: magenta;
   color: yellow;
@@ -1189,6 +1223,9 @@ a#openPopUp:hover{
   .homepage .mobile .fa,
     .homepage .mobile a {
     color: #FF0179;
+  }
+  .homepage .mobile small{
+    font-size: 100%;
   }
   .homepage .closing {
     text-transform: uppercase;
