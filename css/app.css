@@ -42,9 +42,37 @@ a:hover {color: #FF0179; }
 
 html,
 body {
+  margin:0;
+  padding:0;
   height: 100%;
 }
 
+footer {
+  position:absolute;
+  bottom:0;
+  left: 2%;
+  width:94%;
+  height:40px;
+  background-color: white;
+  color: #000;
+  border-top: 2px solid #000;
+  font-weight: 600;
+}
+footer a,
+.commission footer a {
+  color: #000;
+}
+footer .copyright {
+  text-transform: uppercase;
+}
+footer p {
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
 /*==============================
 =            helper            =
 ==============================*/
@@ -59,11 +87,30 @@ body {
 .center {
     text-align:center;
 }
+.align-right {
+    text-align:right;
+}
+.align-left {
+    text-align:left;
+}
 .block {
     display: block;
 }
-
-
+.dotted {
+  border: 1px dotted #000;
+  padding: 1em;
+}
+.tiny {
+  width: 20px;
+  margin-top: -4px;
+}
+.negative {
+  background-color: #000;
+}
+.fat-bottom {
+  padding-bottom: 60px;
+}
+.baby-dollar { width: 50%; }
 /*==============================
 =            global            =
 ==============================*/
@@ -73,7 +120,14 @@ body {
   width: 100%;
 }
 .main-content {
-  padding-top: 60px;
+  padding-top: 20px;
+  min-height:97%;
+  position:relative;
+}
+.special-container {
+  padding-top: 20px;
+  min-height:97%;
+  position:relative;
 }
 .brand {
     left: 0;
@@ -117,7 +171,10 @@ body {
     color: #FF0179;
     font-size: 20px;
 }
-.logo { width: 250px; }
+.logo { 
+  width: 250px; 
+  padding-top: 30px;}
+
 .news5 {
   display: inline-block;
   font-size: inherit;
@@ -241,10 +298,18 @@ body {
   top: 630px;
   left: 500px;
 }
+.homepage #money{
+  top: 1470px;
+  left: 180px;
+}
+.homepage #twins{
+  top: 1890px;
+  left: 500px;
+}
 .homepage #wwwork {
   top: 1050px;
   left: 180px;
-  background-image: url('../img/glitter07.gif');
+  /* background-image: url('../img/glitter07.gif'); */
 }
 .homepage #futureofwork {
   top: 1050px;
@@ -259,7 +324,7 @@ body {
 .homepage #afterwork {
   top:1470px;
   left: 820px;
-  background-image: url('../img/glitter14.gif');
+  background-image: url('../img/glitter07.gif');
 }
 .homepage #malaonda {   
   top: 1890px;
@@ -269,7 +334,7 @@ body {
 .homepage #dolphinaccelerator {
   top: 1890px;
   left: 1140px;
-  background-image: url('../img/hoverboard2.gif');
+  /* background-image: url('../img/hoverboard2.gif'); */
   background-size: 400px 100%;
   background-position: top center;
 }
@@ -351,12 +416,13 @@ body {
 .subcategory .title {
     display: block;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     font-family: sans-serif;
     font-weight: bold;
     padding: 0;
     margin: 50px 0;
-    color: #FF0179;
+    color: #fff;
+    text-transform: uppercase;
 }
 .subcategory .download,
 .subcategory .document,
@@ -404,8 +470,9 @@ body {
     left: 15%; 
     display: inline-block;
     position: absolute;
-    z-index: 999;
+    z-index: 99;
     padding-right: 30px;
+
 }  
 .subcategory .question span{
     margin-top: 0%;
@@ -418,12 +485,13 @@ body {
     left: 15%; 
     display: inline-block;
     position: absolute;
-    z-index: 999;
+    z-index: 99;
+    word-break: break-word;
 } 
 
 @media screen and (max-width: 768px) {
    .subcategory .title {
-    font-size: 2.5em;
+    font-size: 1.5em;
    }
    .subcategory .database span{
     font-size: 1.2em;
@@ -674,10 +742,11 @@ body.cse {
 =            commissions            =
 ===================================*/
 
-.commission a,
-.commission a:visited {
+.commission .main-content a,
+.commission .main-content a:visited {
   color: black;
   text-decoration: none;
+  border-bottom: 1px dotted #000;
 }
 .commission .popUpContainer a,
 .commission .popUpContainer a:visited {
@@ -692,14 +761,14 @@ body.cse {
     margin-bottom: 10px;
 }
 
-.commission .pageheading {
+.pageheading {
     display: inline-block;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.1em;
     font-family: sans-serif;
     font-weight: bold;
     padding: 0;
-    margin-bottom: 50px;
+    margin: 40px 0;
     color: #fff;
     line-height: 1.2;
     background: #000;
@@ -707,14 +776,16 @@ body.cse {
     text-transform: uppercase;
 }
 .commission .title {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 0;
     text-transform: uppercase;
-    color: #000;
+    color: #FF0179;
 }
 .commission .script {
     font-family: monospace;
+    background: #f5f5f5;
+    padding: 5px;
 }
 .commission .credit{
     font-size: .9em;
@@ -738,7 +809,7 @@ body.cse {
     overflow: hidden;
     position: relative;
     height: 400px; 
-    margin-left: -17px;   
+    margin-left: -17px;
 }
 .commission .clipvertical {
     width: 100%;
@@ -970,7 +1041,12 @@ body.cse {
   background-color: yellow;
   text-decoration: none;
 }
-.newid .id-container {margin-top: 140px;}
+.newid .id-container {
+  min-height:97%;
+  position:relative;
+  margin-top: 140px;
+}
+
 .newid .item {font-size: 1em; font-weight: bold; color: #FF0179;}
 .newid .links{margin-bottom: 20px;}
 .newid .database {margin-bottom: 10px; }
@@ -1017,6 +1093,7 @@ body.cse {
   display: block;
   margin-top: 10px;
   padding-left: 0;
+  color: #ff3d76;;
 }
 
 
@@ -1180,9 +1257,10 @@ a#openPopUp:hover{
     font-size: 20px;
   }
   .generator .makefuture{
-    width: 100%;
+    width: 90%;
     margin: 0;
-    bottom: 0;
+    left: 5%;
+    bottom: 60px;
     position: fixed;
   }  
   .homepage .card,
@@ -1263,7 +1341,7 @@ a#openPopUp:hover{
     max-height: 300px;
   }
 
-  .commission .pageheading{font-size: 2em;}
+  .pageheading{font-size: 1.2em;}
 
   .commission .logo,
   .downloads .logo { display: none;}
@@ -1297,10 +1375,6 @@ a#openPopUp:hover{
   .newid .title {
     font-size: 2.5em;
   }
-  .commission .pageheading {
-    font-size: 1.7em;
-
-  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 796px){
@@ -1327,7 +1401,7 @@ a#openPopUp:hover{
 
 }
 @media screen and (min-width: 1200px) {
-  .commission .pageheading{font-size: 2.7em;}
+  .pageheading{font-size: 1.6em;}
 }   
 
 /*=====================================

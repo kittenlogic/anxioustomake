@@ -1,8 +1,9 @@
+html,
 body {
-  background: url("../img/clouds.gif") no-repeat;
-  background-size: cover;
-  height: 3700px;
-  width: 3000px;
+  background: url("../img/glitter07.gif") repeat;
+  /* background-size: cover; */
+/*   height: 3000px; */
+  width: 100%;
 }
 
 /* mugs */
