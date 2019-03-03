@@ -174,6 +174,11 @@ p {
 .logo { 
   width: 250px; 
   padding-top: 30px;}
+.donate{
+    width: 160px;
+    margin: 20px auto;
+    display: block;
+}
 
 .news5 {
   display: inline-block;
@@ -298,15 +303,13 @@ p {
   top: 630px;
   left: 500px;
 }
-.homepage #money{
-  top: 1470px;
-  left: 180px;
-}
 .homepage #twins{
-  top: 1890px;
-  left: 500px;
+  top: 2310px;
+  left: 1140px;
+  background-image: url('../img/makeyourself-k.png');
+  background-size: contain;
 }
-.homepage #wwwork {
+.homepage #money {
   top: 1050px;
   left: 180px;
   /* background-image: url('../img/glitter07.gif'); */
@@ -315,11 +318,15 @@ p {
   top: 1050px;
   left:500px;
 }
+.homepage #wwwork{
+  top: 1470px;
+  left: 180px;
+  background-image: url('../img/glitter07.gif');
+}
 .homepage #quitting{
   top: 1470px;
   left: 500px;
-  background-image: url('../img/makeyourself-k.png');
-  background-size: contain;
+  background-image: url('../img/glitter07.gif');
 }
 .homepage #afterwork {
   top:1470px;
@@ -334,9 +341,10 @@ p {
 .homepage #dolphinaccelerator {
   top: 1890px;
   left: 1140px;
-  /* background-image: url('../img/hoverboard2.gif'); */
+  background-image: url('../img/ocean2.gif');
+  /* background-image: url('../img/hoverboard2.gif');
   background-size: 400px 100%;
-  background-position: top center;
+  background-position: top center; */
 }
 .homepage .news {
   overflow-y: auto; 
